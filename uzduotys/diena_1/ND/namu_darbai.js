@@ -22,3 +22,11 @@ uzpirldyti
 6) sukurti menu punktus naudojant html5 elementus:
 nav ul li ==============================
 HOME about gallery contacts
+
+
+
+
+
+=================GIT========
+pasikartoti GIT:
+https://try.github.io/levels/1/challenges/1
