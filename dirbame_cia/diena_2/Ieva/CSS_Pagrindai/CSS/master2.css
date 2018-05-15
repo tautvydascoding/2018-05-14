@@ -1,0 +1,41 @@
+ h1 {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 0px;
+}
+
+.balta {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+}
+
+.raudona {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    padding: -10px;
+}
+
+.melyna {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.zalia {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+
+.geltona {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
