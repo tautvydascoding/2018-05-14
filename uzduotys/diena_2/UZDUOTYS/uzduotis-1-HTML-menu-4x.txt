@@ -30,8 +30,9 @@ UŽDAVINYS
 1. Pridėti antraštę “Hello world”
 2. Pridėti paragrafą teksto, kurio viduje vienas žodis būtų ‘italic’
 3. Sukurti forma "<form .." Pridėti įvedimo laukelį email adreso įvedimui
-4. Pridėti mygtuką, kuris siųstų formą
-5. Pridėti   name=‘q’   ant sio ivedimo lauko
+3.2 Sukurti ivedimo lauka type='text'
+4. Pridėti atributa name='q'   ant sio ivedimo lauko
+5. Pridėti mygtuką, kuris siųstų formą
 6. Nurodyti formos siuntimą per GET metodą į ‘http:// www.google.com/search'
 
 
