@@ -16,6 +16,7 @@ jQuery-snippets
 jquery
 atom-bootstrap4
 v-bootstrap4
+Packages -> autosave -> settings -> varnele uzdeti
 
 =========short-cuts=============:
 p, a, button, header, footer, section … - HTML 5 auto elementu kurimas
