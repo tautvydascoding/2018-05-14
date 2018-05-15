@@ -5,7 +5,7 @@
 UŽDAVINYS
 
 
-0.  nueiti i kataloga dribame-cia diena_1,
+0.  nueiti i kataloga dribame-cia diena_2,
 1. Susikurti kataloga su savo vardu "Tadas"
 2. Susikurti failą - ‘Tadas.txt’
 3. Įrašyti  į šį failą “pvz” labas
@@ -20,7 +20,7 @@ UŽDAVINYS
  UŽDAVINYS 1
 1. Sukurti ‘index.html’ bei ‘contacts.html’ failus, kuriuose būtų antraštė bei paragrafas teksto
 2. ‘index.html’ faile ant teksto uzdeti nuorodą "<a ..." , kuri nurodytų į šį puslapį ‘contacts.html’.
-3. ‘contacts.html’ faile ideti paveikliuka <"<img ..."
+3. ‘contacts.html’ faile ideti paveikliuka "<img ..."
 4. ant paveikliuko uzdeti nuorodą "<a ..." , kuri nurodytų į šį puslapį ‘index.html’.
 
 
@@ -39,6 +39,6 @@ UŽDAVINYS
 UŽDAVINYS 3
 1. Sukurti 4 skirtingus HTML puslapius    ‘index.html’, ‘gallery.html’,‘about.html’,‘contacts.html’
 2. Pridėti po paragrafą teksto kieviename
-3. Sukuriame navigacijos/menu sąrašą/punktus su nuorodomis į kitus puslapius
+3. Sukuriame menu punktus su nuorodomis į kitus puslapius (‘index.html’, ‘gallery.html’,‘about.html’,‘contacts.html’)
 4. i kontaktu puslapi ideti: google maps
-5. i galerijos puslapi ideti 8 nuotraukas (vienodas) su atributais: width=’20%’ heigth=‘auto’
+5. i galerijos puslapi ideti 8 nuotraukas (vienodas) su atributais: width='20%' heigth='auto'
