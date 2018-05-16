@@ -1,9 +1,18 @@
+ h1 {
+    color: orange;
+}
+
 div {
     height: 100px;
 }
-
 .plotis-30 {
     width: 30%;
+}
+.plotis-45 {
+    width: 45%;
+}
+.plotis-90 {
+    width: 90%;
 }
 .fonas-green {
     background-color: green;
@@ -14,28 +23,6 @@ div {
 .fonas-pink {
     background-color: pink;
 }
-
 .eiluteje {
     display: inline-block;
-}
-
-
-div {
-    height: 100px;
-}
-
-.plotis-90 {
-    width: 90.5%;
-}
-
-.fonas-indigo {
-    background-color: indigo;
-}
-
-div {
-    height: 100px;
-}
-
-.plotis-45 {
-    width: 45.12%;
 }

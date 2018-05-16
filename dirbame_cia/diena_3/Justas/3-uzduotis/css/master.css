@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.fonas-green {
+    background-color: green;
+}
+.fonas-grey {
+    background-color: grey;
+}
+.fonas-yellow {
+    background-color: yellow;
+}
+
+.eiluteje {
+    display: inline-block;
+}
+
+div {
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plotis-30 {
+    width: 30%;
+}
+
+.plotis-45 {
+    width: 45%;
+}
+
+.plotis-100 {
+    width: 92%;
+
+.pozicija {
+    float: left;
+}
