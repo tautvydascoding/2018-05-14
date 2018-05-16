@@ -1,0 +1,50 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    box-sizing: border-box;
+    /* remeliai butu iskaiciuoti i vidu */
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    float: left;
+    border: 3px solid black;
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: grey;
+    padding: 20px;
+    position: relative;
+
+}
+
+.ijungiu-float {
+    clear: both;
+}
+
+.pavStilius {
+    border: 3px solid black;
+    margin: -1%;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 0;
+    top: 0;
+
+
+
+
+
+
+
+.tekstas {
+    padding-left: 10px;
+    padding-right: 5px;
+
+}
+
+
+.paskutinis {
+    margin-right: 2.5%;
+}
