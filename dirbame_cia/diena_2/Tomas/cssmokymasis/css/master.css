@@ -1,0 +1,22 @@
+body h1{color: red;
+    background-color: black;
+}
+#Pirmas{color: blue;
+}
+.didelis-teksta{
+    font-size: 50px;
+}
+h1,
+h2,
+h3 {font-weight: 100;
+color: pink;
+ }
+div h4{background-color: green;
+
+}
+h4.didelis-teksta{
+    background-color: pink;
+}
+h4  .didelis-teksta{
+    background-color: orange;
+}

@@ -1,0 +1,47 @@
+
+body {height: 50%;}
+
+.balta {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.raudona {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid grey;
+    }
+
+.melyna {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.zalia {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.geltona {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid grey;
+}

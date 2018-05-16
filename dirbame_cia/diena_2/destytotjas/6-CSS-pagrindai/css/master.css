@@ -1,0 +1,37 @@
+html  body   h1 {
+    color:    red;
+    background-color: black;
+}
+body  h1,
+h2,
+h3 {
+    font-weight: 100;
+    color:pink;
+}
+
+
+#pirmas {
+    color: blue;
+}
+.didelis-tekstas {
+    font-size: 50px;
+}
+h4.didelis-tekstas {
+    background-color: pink;
+}
+h4   .didelis-tekstas {
+    background-color: orange;
+}
+
+
+div h4 {
+    background-color: green;
+}
+
+
+.raudonas {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
