@@ -1,0 +1,46 @@
+div {
+    height: 200px;
+    float: none;
+    display: inline-block;
+}
+
+.kubas1 {
+    background-color: aqua;
+    border: solid 2px blueviolet;
+    width: 30%;
+
+}
+
+.kubas2 {
+    background-color: blueviolet;
+    border: solid 2px blue;
+    width: 30%;
+
+}
+
+.kubas3 {
+    background-color: green;
+    border: solid 2px yellow;
+    width: 30%;
+}
+
+.kubas4 {
+    background-color: yellow;
+    border: solid 2px blue;
+    width: 100%;
+}
+
+.kubas5 {
+    background-color: blueviolet;
+    border: solid 2px blue;
+    width: 45%;
+
+}
+
+.kubas6 {
+    background-color: aqua;
+    border: solid 2px blueviolet;
+    width: 45%;
+}
+
+/* IDEA:  */
