@@ -1,3 +1,52 @@
- h1 {
-    color: orange;
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+/*elemento padejimas i kampa  */
+    position: absolute;
+    right: 0;
+    top: 0x;
+    /*teciui/proteviui uzdeti position:relative  */
+}
+
+article {}
+
+article {
+    border: solid 2px #a1a1a1;
+    background-color: grey;
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    position: relative;
+}
+
+.isjungiu-float {
+    clear: both;
+}
+
+.fonas-indigo {
+    background-color: indigo;
+}
+.fonas-pink {
+    background-color: pink;
+}
+.fonas-yellow {
+    background-color: yellow;
+}
+
+.plotis-30 {
+    width: 30%;
+}
+
+.lygiavimas {
+    text-align: center;
+}
+
+.desine {
+    text-align: right;
+}
+
+.paskutinis {
+    margin-right: 2.5%;
 }
