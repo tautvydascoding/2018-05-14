@@ -1,12 +1,12 @@
- 
+
 =========================HTML + CSS===========================
- UŽDAVINYS 
+ UŽDAVINYS
 
 sukurti 10 skritingu straipsniu, pvz:
 
 <article> 
-    <h2> Sninga 1 </h2>
-    <p>  Lorem Lorem Lorem  ... </p>
+    <h2>   Sninga 1 </h2>
+    <p>    Lorem Lorem Lorem  ... </p>
 </article>
 
 Uzduotis2:
