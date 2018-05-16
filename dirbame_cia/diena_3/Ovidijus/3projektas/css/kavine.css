@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: Blue;
+}
+h2{
+  position: absolute;
+  /* kryptys veikia tik su position:absoliute/ realitive */
+  right: 0%;
+  top: 0%;
+  /* proteviui/teciui uzdeti position/realitive */
+}
+article{
+  border: solid 2px #a1a1a1;
+  background: grey;
+  padding-top: : 50px;
+
+
+  width: 30%;
+
+  float: left;
+
+  margin-left: 2.5%;
+
+  position:relative;
+}
+.isjungti-float{
+ clear: both;
+}
+.paskutinis{
+  margin-right: 2.5%;
+}
+/* p{
+  margin-top: 30px;
+} */
