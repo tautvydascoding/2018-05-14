@@ -1,0 +1,35 @@
+.plotis-30 {
+  width: 30%;
+}
+
+.fonas-green {
+  background-color: green;
+}
+
+.fonas-blue {
+  background-color: blue;
+}
+
+.fonas-pink {
+   background-color: pink;
+}
+
+.eiluteje {
+  display: inline-block;
+}
+
+.plotis-45 {
+  width: 45%;
+}
+
+.fonas-yellow {
+  background-color: yellow;
+}
+
+.plotis-100{
+  width: 100%;
+}
+
+div {
+  height: 100px;
+}
