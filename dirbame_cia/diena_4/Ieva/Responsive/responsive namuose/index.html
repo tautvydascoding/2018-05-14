@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pilkai ružava svetainė</title>
+         <!--  kad ant ivairiu irenginiu media veiktu   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/master.css">
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+
+
+<!--
+    KAIP SURASTI, KODEL failas neveikia?
+    1. blogas kelias/pavadinimas iki CSS failo:
+    Patikrinimas:  puslapyje->Inspect -> Console
+    2. ar i "<link" ideta      rel="stylesheet"
+
+    2. issivalyti "Cash" F5 arba F5 + Fn   ARBA ctrl + shift + Del
+    3. ar egzistuoja elementas, kuri bandai pakeisti  pvz: h1
+    3.1 ar CSS faile parasei gera selectoriu ?
+    pvz: section h1 { color: red; }
+    Patikrinimas:  puslapyje->Inspect -> Elements  ziurime i stulpeli
+    A) pazymeti html elmenta
+    b) pasiziureti (desineje Styles) ar elementas turi suprogramuotus spakeitimus
+
+    4. ar FAILAI ISSAUGOTI?
+    5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
+    patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
+-->
+
+    </head>
+    <body>
+
+        <h1>Header</h1>
+<!-- ======================================================= -->
+<header>
+<nav class="float">
+  <ul>
+    <li>Home</li>
+    <li>Our team</li>
+    <li>Contact</li>
+    <li>Projects</li>
+      </ul>
+</nav>
+<!-- =====SEARCH mygtukas======= -->
+<div id="search" class="float">
+        <form action="http://www.google.com">
+        <input type="text" placeholder="Search query..." name="search">
+        <button type="Submit">Go!</button>
+        </form>
+
+
+</div>
+
+<div class="isjungiu-float">
+</div>
+
+</header>
+<!--========================================================= -->
+<div class="wrapper">
+  <main class="float">
+    <h2>Article heading</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3>Subsection</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+        <h3>Another subsection</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </main>
+
+  <aside class="float">
+    <h2>Related</h2>
+        <ul>
+           <a href="http://google.com" target="_blank"><li>Oh I do like to be beside the sea</li></a>
+           <a href="http://pinterest.com" target="_blank"><li>Oh I do like to be beside the sea</li></a>
+           <a href="www.meteo.lt" target="_blank"><li>Oh I do like to be beside the sea</li></a>
+           <a href="www.yahoo.com" target="_blank"><li>It never stops raining</li></a>
+           <a href="www.maps.com" target="_blank"><li>Oh well...</li></a>
+       </ul>
+
+  </aside>
+
+</div>
+  <!--======================================================== -->
+
+<footer class="isjungiu-float">
+<p> &#169 Copyright by nobody. All rigths reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
