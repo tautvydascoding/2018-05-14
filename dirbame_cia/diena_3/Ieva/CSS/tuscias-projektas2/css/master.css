@@ -70,3 +70,22 @@ article {
 .paskutinis {
   margin-right: 2.5%;
 }
+
+/*  ======FOR TABLET=====
+==== nuo 0 iki 768 px====*/
+@media (max-width: 768px)
+{
+    article {width: 46%;}
+
+    .paskutinis {width:95%;
+                margin-top: 2.5%;
+                }
+}
+
+/* =====FOR MOBILE=====
+=======nuo 0iki 425=====*/
+
+@media (max-width: 426px) {
+    article {width: 94%;
+              margin-top: 10px;}
+}
