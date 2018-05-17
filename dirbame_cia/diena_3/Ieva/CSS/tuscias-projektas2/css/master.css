@@ -4,6 +4,7 @@
 
  h1 {
     color: black;
+    text-align: center;
   }
 /*elemento padėjimas į kampą* rigth, lext, top, bottom- veikia tik su absolute/relative, protėviui uždėti position:relative*/
 
@@ -12,12 +13,15 @@ h2 {
   right: 0;
   top: 0;
   margin: 0;
+  padding: 5px 10px 10px 76px;
+
 
   }
 
 p {
   margin-top: 55px;
   padding: 10px 10px 10px 10px;
+  text-align: justify;
 }
 
 .fonas-grey {
