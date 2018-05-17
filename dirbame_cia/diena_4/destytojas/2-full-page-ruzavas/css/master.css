@@ -1,40 +1,35 @@
-html {
-    background-color: #f1f1f1;
+* {
+    box-sizing: border-box;
 }
-
+/* ====================== */
+html {
+    background-color: #e1e1e1;
+}
+body {
+    width: 1200px;
+    /* elemento centravimas */
+    margin-left: auto;
+    margin-right: auto;
+}
  h1 {
     color: orange;
 }
 header {
     background-color: #FF80FF;
     height: 80px;
-
     margin-bottom: 10px;
 }
-
 main {
     background-color: white;
     height: 500px;
     width: 78%;
-
+    margin-right: 2%;
 }
-
-body {
-    width: 1200px;
-    /* elemento centravimas teve. */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 aside {
     background-color: #FF80FF;
     height: 500px;
     width: 20%;
-
-    margin-left: 2%;
 }
-
 footer {
     background-color: white;
     height: 100px;
@@ -42,50 +37,46 @@ footer {
 
     margin-top: 10px;
 }
-/* MENU */
-
+/* ------meniu--------- */
 nav {
-    background-color: yellow;
     width: 60%;
+    margin-top: 8px;
 }
-
 li {
     display: inline-block;
     text-transform: uppercase;
     width: 24.5%;
-
     text-align: center;
     font-size: 30px;
-    margin-top: 8px;
 }
-
 ul {
     padding-left: 0;
 }
-
-
-/* END MENU */
-
+/* -----END meniu----- */
 input {
     width: 70%;
     border: none;
-    background-color: rgb(237, 228, 238);
+    background-color: #fefefe;
     height: 30px;
     padding-left: 15px;
 }
 
-.#Search {
-    background-color: orange
+#apieska {
+    margin-top: 27px;
+    background-color: orange;
     width: 40%;
-    margin: 10px;
 }
 
-
-.float {
+.uzdedu-float {
     float: left;
-    /* nepamirsti isjungti float */
+    /* !!! nepamirsti isjungti  */
 }
-
+/* .clear  .clear-both .fix-float */
 .isjungiu-float {
     clear: both;
 }
+
+
+
+
+/*  */
