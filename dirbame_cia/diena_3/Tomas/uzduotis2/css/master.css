@@ -1,0 +1,30 @@
+
+div{height: 100px;
+}
+
+.plotis-30{
+    width: 30%;
+}
+.plotis-45{
+    width: 45.15%;
+}
+.plotis-100{
+    width: 90.5%;
+}
+
+.fonas-green{
+    background-color: green;
+}
+
+.fonas-pink{
+    background-color: pink;}
+
+.fonas-blue{
+    background-color: blue;
+}
+.eilute{display: inline-block;}
+
+.border-pink{border: solid 1px pink;}
+
+.border-blue{border: solid 1px blue;}
+.border-yellow{border: solid 1px yellow;}

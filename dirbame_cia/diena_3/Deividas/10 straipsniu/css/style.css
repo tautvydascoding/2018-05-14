@@ -1,0 +1,56 @@
+article {
+  border: solid;
+
+}
+
+article.fonas1 {
+  background-color: yellow;
+}
+article.fonas2 {
+  background-color: green;
+}
+article.fonas3 {
+  background-color: red;
+}
+
+
+
+
+.first p {
+  color: yellow;
+}
+
+.second p {
+  color: blue;
+}
+
+.third p {
+  color: green;
+}
+
+.fourth p {
+  color: red;
+}
+
+.fifth p {
+  color: grey;
+}
+
+.sixth p {
+  color: pink;
+}
+
+.seventh p {
+  color: orange;
+}
+.eighth p {
+  color: black;
+}
+
+.ninth p {
+  color: yellow;
+}
+
+.tenth p {
+  color: green;
+}

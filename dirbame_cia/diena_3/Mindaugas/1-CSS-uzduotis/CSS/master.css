@@ -1,0 +1,67 @@
+h2 {
+    color: red;
+}
+article {
+    border: solid 2px #333;
+}
+.aa {
+    background-color: blue;
+}
+.ab {
+    background-color: pink;
+}
+.ac {
+    background-color: green;
+}
+.ad {
+    background-color: #abcd33
+}
+.ae {
+    background-color: #abcd35;
+}
+.af {
+    background-color: #abcd37;
+}
+.ag {
+    background-color: #DEB887;
+}
+.ah {
+    background-color: green;
+}
+.ai {
+    background-color: brown;
+}
+.aj {
+    background-color: beige;
+}
+
+.aa h2{
+    background-color: pink;
+}
+.ab h2{
+    background-color: black;
+}
+.ac h2{
+    background-color: grey;
+}
+.ad h2{
+    background-color: #abcd53
+}
+.ae h2{
+    background-color: #abcd75;
+}
+.af h2{
+    background-color: #abcd17;
+}
+.ag h2{
+    background-color: #DEB867;
+}
+.ah h2{
+    background-color: blue;
+}
+.ai h2{
+    background-color: yellow;
+}
+.aj h2{
+    background-color: brown;
+}
