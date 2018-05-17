@@ -10,7 +10,11 @@ h2 {
     /*teciui/proteviui uzdeti position:relative  */
 }
 
-article {}
+h2 {margin-top: 0
+    margin: 0;
+    padding: 0;}
+
+article {margin-top: 50px;}
 
 article {
     border: solid 2px #a1a1a1;
