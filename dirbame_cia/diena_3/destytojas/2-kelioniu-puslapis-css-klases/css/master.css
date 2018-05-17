@@ -1,0 +1,28 @@
+ h1 {
+    color: orange;
+}
+
+div {
+    height: 100px;
+}
+.plotis-30 {
+    width: 30%;
+}
+.plotis-45 {
+    width: 45%;
+}
+.plotis-90 {
+    width: 90%;
+}
+.fonas-green {
+    background-color: green;
+}
+.fonas-blue {
+    background-color: blue;
+}
+.fonas-pink {
+    background-color: pink;
+}
+.eiluteje {
+    display: inline-block;
+}

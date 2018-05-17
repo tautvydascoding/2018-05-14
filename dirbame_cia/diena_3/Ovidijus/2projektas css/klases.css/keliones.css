@@ -1,0 +1,31 @@
+.plotis-30 {
+  width: 33%;
+}
+.fonas-green {
+  background-color: green;
+}
+.fonas-blue {
+    background-color: blue;
+}
+.fonas-pink {
+      background-color: pink;
+}
+h1{
+  color: red;
+}
+.eilute{
+  display:
+  inline-block;
+}
+.plotis-90{
+  wight: 1336.5px;
+}
+.plotis-45{
+  width: 49.5%;
+}
+.aukstis{
+  height: 100px;
+}
+.remeliai{
+  display: border;
+}

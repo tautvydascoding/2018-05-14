@@ -1,0 +1,18 @@
+article {border: solid 2px #333}
+
+.fonas-red {
+    color: black;
+    background-color: red;}
+.fonas-blue {
+    color: white;
+    background-color: blue;}
+.fonas-yellow {
+    color: indigo;
+    background-color: yellow;}
+.fonas-black {
+    color: yellow;
+    background-color: black;}
+.fonas-indigo {
+    color: white;
+    background-color: indigo;
+}
