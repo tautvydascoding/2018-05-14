@@ -49,4 +49,21 @@ article {
     margin-right: 2.5%;
 }
 
+/* =========for tablet============== */
+/* ==========nuo 0 iki 768px======== */
+@media (max-width: 768px) {
+    article {
+        width: 46%;
+    }
+    .paskutinis {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+/* nepamirsti uzdaryti "}" skliausto */
+}
+
+
+
+
+
 /*  */
