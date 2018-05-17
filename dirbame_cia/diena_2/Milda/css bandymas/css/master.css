@@ -1,0 +1,31 @@
+body h1 {
+
+  color: red;
+  background-color: black;
+}
+body h1,
+h2,
+h3{
+  font-weight: 500;
+  color: pink;
+}
+h4.didelis tekstas{
+  font-size: 50px;
+}
+{
+color: blue;
+}
+.didelis-tekstas {
+  font-size: 50px;
+}
+
+
+  h1 {
+color: red;
+
+    font-weight: 500;
+    color: pink;
+  }
+div h4 {
+  background-color: green;
+}

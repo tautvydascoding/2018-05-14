@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: Blue;
+  text-align: center;
+}
+h2{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 0;
+  margin: 0;
+
+  border-bottom: solid 2px #a1a1a1;
+  border-left: solid 2px #a1a1a1;
+
+  position: absolute;
+  /* kryptys veikia tik su position:absoliute/ realitive */
+  right: 0%;
+  top: 0%;
+  /* proteviui/teciui uzdeti position/realitive */
+
+}
+article{
+  border: solid 2px #a1a1a1;
+  background: grey;
+  padding: 35px 10px 20px 10px;
+
+  text-align: justify;
+
+  width: 30%;
+
+  float: left;
+
+  margin-left: 2.5%;
+
+  position:relative;
+}
+.isjungti-float{
+ clear: both;
+}
+.paskutinis{
+  margin-right: 2.5%;
+}
+p{
+  margin-top: 30px;
+}
+/* ====================for tablet 0-768px================= */
+
+@media (max-width: 768px) {
+  article{
+    width: 45%;
+  }
+.paskutinis {
+    width:92.5%;
+    margin-top: 2.5%;
+  }
+}
+
+/* ====================for mobile 0-425px================== */
+
+@media (max-width: 425px) {
+  /* ====lengvas variantas==== */
+article{
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%
+}
+/* ===== sunkus variantas ======
+.pirmas {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+.antras {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+.paskutinis {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  } */
+}

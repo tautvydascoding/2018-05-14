@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  heigth: 100%;
+}
+
+html {
+    background-color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+
+h1, h2 {text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+
+}
+
+form {
+    margin-left: 1000px;
+    padding-top: 20px;
+}
+
+input {width: 200px;
+        }
+
+button {background-color: black;
+        color: white;
+}
+
+.copyrigth {
+    background-color: ivory;
+    margin-left: 105px;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-size: 12px;
+
+
+   }
+
+
+.sidebar {background-color:palevioletred;
+            width: 18%;
+            margin-left: 18px;
+            margin-right: 40px;
+            line-height: 2;
+            font-size: 10px;
+
+
+
+}
+
+.menu {background-color: palevioletred;
+        width: 80%;
+        margin-left: 105px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 7px;
+        height: 60px;
+
+}
+
+    nav ul {
+            list-style-type: none;
+}
+
+    nav li {
+            display: inline;
+            margin-right: 80px;
+}
+
+
+
+.main {background-color: ivory;
+        width: 60%;
+        margin-left: 105px;
+        margin-bottom: 20px;
+        padding-left: 18px;
+        padding-right: 20px;
+
+
+
+}
+
+.eilute {
+    float: left;
+    position: relative;
+}
+
+.isjungiu-float {
+    clear: both;
+}

@@ -1,0 +1,106 @@
+* {
+    /*   remeli iskaiciuoja i ploti   */
+    box-sizing: border-box;
+}
+/* ====================  */
+h1 {
+    color: orange;
+    text-align: center;
+}
+h2 {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 0;
+    margin: 0;
+    border-bottom: solid 2px #a1a1a1;
+    border-left: solid 2px #a1a1a1;
+    /* elemento padejimas i kampa */
+    position: absolute;
+    /*     right, left, bottom, top
+    !!!! VEIKIA TIK SU  position: absolute/ reletive */
+    right: 0;
+    top:   0;
+    /*   !!! proteviui/teciui uzdeti position: reletive */
+}
+/* p {
+    margin-top: 50px;
+} */
+article {
+    padding: 50px 15px 10px 15px;
+    text-align: justify;
+}
+article {
+    border: solid 2px #a1a1a1;
+    background-color: grey;
+    width: 30%;
+    float: left;
+    /* !!! nepamirsti isjungti float */
+
+    margin-left: 2.5%;
+    position: relative;
+}
+.isjungiu-float {
+    clear: both;
+}
+.paskutinis {
+    margin-right: 2.5%;
+}
+
+/* =========for tablet============== */
+/* ==========nuo 0 iki 768px======== */
+@media (max-width: 768px) {
+    article {
+        width: 46%;
+    }
+    .paskutinis {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+/* nepamirsti uzdaryti "}" skliausto */
+}
+/* ===============Mobile=================  */
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+    /* first-of-type  - pirmaji 'article' elementa  */
+    /*       artikle     - suveiks */
+    /*       artikle  - NEsuveiks */
+    /*       artikle  - NEsuveiks */
+    article:first-of-type {
+        margin-bottom: 3%;
+    }
+    /*  2n - kas antra; +1 pradedant nuo pirmo (neprivaloma) */
+    article:nth-of-type(2n +1){
+        background-color: red;
+    }
+    /*  !!! pakeitimai suveiks TIK jeigu sis elementas bus pats pirmasis vaikas */
+    /*  pvz1:    body ->  artikle     - suveiks */
+    /*  pvz2:    body ->  h1  artikle  - NEsuveiks */
+    article:first-child {
+        background-color: green;
+    }
+
+/* nepamirsti uzdaryti "}" skliausto */
+}
+
+/* Jeigu neveikia MEDIA */
+/*
+    1. sumazinti narsykles langa
+    2. cash - perkrauti puslapi be cash arba atidaryti su kita narsykle
+    3. sintakses klaidos?
+        Inspect-> pasizymeti elmenta kuri keitei -> ziurime desineje  Styles
+        ar atsirado @media(...) tavo komanda
+    4. ar tie failai atidaryti?
+      A) ATOM'e uzdaryti failus ir atidaryti per nauja,
+      B) narsykleje pasiliesti puslapi per nauja
+*/
+
+
+
+
+
+/*  */

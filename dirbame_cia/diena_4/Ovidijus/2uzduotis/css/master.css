@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+/* ================================ */
+
+html {
+  background-color: #a9a9a9;
+}
+ h1 {
+    color: orange;
+    text-align: center;
+}
+nav li{
+  display:inline-block;
+  text-transform: uppercase;
+  padding: 1.8%;
+  width: 24.5%;
+  font-size: 20px;
+}
+
+}
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-color: #FF80FF;
+  height: 80px;
+  margin-bottom: 15px;
+}
+main {
+  background-color: white;
+  height: 500px;
+  width: 78%;
+  margin-right: 2%;
+}
+aside {
+  background-color: #FF80FF;
+  height: 500px;
+  width: 20%;
+}
+footer{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  margin-top: 15px;
+}
+/* meniu */
+nav{
+  width: 70%;
+  height: 80px;
+}
+.paieska{
+  width: 30%;
+  height: 80px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: rgb(226, 230, 224);
+    padding-left: 15px;
+  }
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 15%;
+    margin-top: 28px;
+    border: none;
+}
+/* END meniu */
+.uzdedu-float{
+  float: left;
+}
+.isjungiu-float{
+  clear: both;
+}

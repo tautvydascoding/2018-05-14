@@ -3,19 +3,34 @@
 }
 h1{
   color: Blue;
+  text-align: center;
 }
 h2{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 0;
+  margin: 0;
+
+  border-bottom: solid 2px #a1a1a1;
+  border-left: solid 2px #a1a1a1;
+
+
   position: absolute;
   /* kryptys veikia tik su position:absoliute/ realitive */
   right: 0%;
   top: 0%;
   /* proteviui/teciui uzdeti position/realitive */
+
 }
 article{
   border: solid 2px #a1a1a1;
   background: grey;
-  padding-top: : 50px;
+  padding: 35px 10px 20px 10px;
 
+  text-align: justify;
 
   width: 30%;
 
@@ -31,6 +46,6 @@ article{
 .paskutinis{
   margin-right: 2.5%;
 }
-/* p{
+p{
   margin-top: 30px;
-} */
+}

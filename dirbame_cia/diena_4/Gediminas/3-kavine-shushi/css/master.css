@@ -1,0 +1,48 @@
+* {
+    /*   remeli iskaiciuoja i ploti   */
+    box-sizing: border-box;
+}
+/* ====================  */
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 2px #a1a1a1;
+    border-left: solid 2px #a1a1a1;
+    /* elemento padejimas i kampa */
+    position: absolute;
+    /*     right, left, bottom, top
+    !!!! VEIKIA TIK SU  position: absolute/ reletive */
+    right: 0;
+    top:   0;
+    /*   !!! proteviui/teciui uzdeti position: reletive */
+}
+/* p {
+    margin-top: 50px;
+} */
+article {
+    padding-top: 50px;
+}
+article {
+    border: solid 2px #a1a1a1;
+    background-color: grey;
+    width: 30%;
+    float: left;
+    /* !!! nepamirsti isjungti float */
+
+    margin-left: 2.5%;
+    position: relative;
+}
+.isjungiu-float {
+    clear: both;
+}
+.paskutinis {
+    margin-right: 2.5%;
+}
+
+/*  */

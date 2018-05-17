@@ -1,0 +1,39 @@
+h1{text-align: center;
+}
+
+* {box-sizing: border-box;}
+/*===============  */
+
+h2 {position: absolute;
+right: 0;
+top: 0;
+margin-top: 0;
+margin: 0;
+padding: 10px;
+border-left: solid 2px black;
+border-bottom: solid 2px black;
+}
+article {padding: 50px;}
+
+
+
+article {
+    border: solid 2px #a1a1a1;
+    width: 30%;
+    float: left;
+    background-color: gray;
+    margin-left: 2.5%;
+    position: relative;
+    border: solid 3px black;
+}
+.paskutinis{margin-right: 2.5%;}
+.isjungiu-float {
+    clear: both;
+}
+.yellow{background-color: yellow;
+}
+.pink{background-color: pink;
+}
+.red{background-color: red;
+}
+.font{color: white;}

@@ -1,4 +1,16 @@
-﻿==========musu puslapis uzimtu visu monitoriaus auksti =========
+﻿/* Jeigu neveikia MEDIA */
+/*
+    1. sumazinti narsykles langa
+    2. cash - perkrauti puslapi be cash arba atidaryti su kita narsykle
+    3. sintakses klaidos?
+        Inspect-> pasizymeti elmenta kuri keitei -> ziurime desineje  Styles
+        ar atsirado @media(...) tavo komanda
+    4. ar tie failai atidaryti?
+      A) ATOM'e uzdaryti failus ir atidaryti per nauja,
+      B) narsykleje pasiliesti puslapi per nauja
+*/
+
+==========musu puslapis uzimtu visu monitoriaus auksti =========
 body, html {
     height: 100%;
 }
@@ -33,7 +45,7 @@ elemento centravimas
 
      float: left;
      width: 100px;
-	/* panaudojus float - reik po joi naujimo 
+	/* panaudojus float - reik po jo naujimo 
   	<div class="clear-float"> </div>
 	.clear-float {
   		clear: both;

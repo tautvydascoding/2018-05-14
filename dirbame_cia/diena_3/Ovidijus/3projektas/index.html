@@ -1,34 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Kavine</title>
-    <link rel="stylesheet" href="css/kavine.css">
-  </head>
-  <body>
-    <h1> Our meniu </h1>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewposrt"
+        content="width=device-widhth, initiali-scale=1">
+        <title>kavine + universalus ekranas</title>
+        <link rel="stylesheet" href="css/master.css">
+<!--
+    KAIP SURASTI, KODEL failas neveikia?
+    1. blogas kelias/pavadinimas iki CSS failo:
+    Patikrinimas:  puslapyje->Inspect -> Console
+    2. ar i "<link" ideta      rel="stylesheet"
 
-    <article class="">
-      <h2>Chicken</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    2. issivalyti "Cash" F5 arba F5 + Fn   ARBA ctrl + shift + Del
+    3. ar egzistuoja elementas, kuri bandai pakeisti  pvz: h1
+    3.1 ar CSS faile parasei gera selectoriu ?
+    pvz: section h1 { color: red; }
+    Patikrinimas:  puslapyje->Inspect -> Elements  ziurime i stulpeli
+    A) pazymeti html elmenta
+    b) pasiziureti (desineje Styles) ar elementas turi suprogramuotus spakeitimus
 
-    </article>
-    <article class="">
-      <h2>Meat</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    4. ar FAILAI ISSAUGOTI?
+    5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
+    patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
+-->
 
-    </article>
-    <article class="">
-      <h2>Fruits</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    </head>
 
-    </article>
+    <body>
+      <h1> Our meniu </h1>
 
-  </body>
+      <article class="">
+        <h2>Chicken</h2>
+        <p class="1">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+      </article>
+      <article class="">
+        <h2>Meat</h2>
+        <p class="2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+      </article>
+      <article class="paskutinis">
+        <h2>Fruits</h2>
+        <p class="3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+      </article>
+      <div class="isjungti-float"> </div>
+
+    </body>
 </html>

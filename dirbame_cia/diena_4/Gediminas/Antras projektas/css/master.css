@@ -1,0 +1,91 @@
+html {
+    background-color: #f1f1f1;
+}
+
+ h1 {
+    color: orange;
+}
+header {
+    background-color: #FF80FF;
+    height: 80px;
+
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: white;
+    height: 500px;
+    width: 78%;
+
+}
+
+body {
+    width: 1200px;
+    /* elemento centravimas teve. */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+aside {
+    background-color: #FF80FF;
+    height: 500px;
+    width: 20%;
+
+    margin-left: 2%;
+}
+
+footer {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+
+    margin-top: 10px;
+}
+/* MENU */
+
+nav {
+    background-color: yellow;
+    width: 60%;
+}
+
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    width: 24.5%;
+
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+/* END MENU */
+
+input {
+    width: 70%;
+    border: none;
+    background-color: rgb(237, 228, 238);
+    height: 30px;
+    padding-left: 15px;
+}
+
+.#Search {
+    background-color: orange
+    width: 40%;
+    margin: 10px;
+}
+
+
+.float {
+    float: left;
+    /* nepamirsti isjungti float */
+}
+
+.isjungiu-float {
+    clear: both;
+}
