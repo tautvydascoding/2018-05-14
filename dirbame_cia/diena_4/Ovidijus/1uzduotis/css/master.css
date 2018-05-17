@@ -17,7 +17,6 @@ h2{
   border-bottom: solid 2px #a1a1a1;
   border-left: solid 2px #a1a1a1;
 
-
   position: absolute;
   /* kryptys veikia tik su position:absoliute/ realitive */
   right: 0%;
@@ -48,4 +47,38 @@ article{
 }
 p{
   margin-top: 30px;
+}
+/* ====================for tablet 0-768px================= */
+
+@media (max-width: 768px) {
+  article{
+    width: 45%;
+  }
+.paskutinis {
+    width:92.5%;
+    margin-top: 2.5%;
+  }
+}
+
+/* ====================for mobile 0-425px================== */
+
+@media (max-width: 425px) {
+.pirmas {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+.antras {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+.paskutinis {
+    width:94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
