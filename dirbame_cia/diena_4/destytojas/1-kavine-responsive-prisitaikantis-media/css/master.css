@@ -61,6 +61,43 @@ article {
     }
 /* nepamirsti uzdaryti "}" skliausto */
 }
+/* ===============Mobile=================  */
+@media (max-width: 425px) {
+    article {
+        width: 95%;
+    }
+    /* first-of-type  - pirmaji 'article' elementa  */
+    /*       artikle     - suveiks */
+    /*       artikle  - NEsuveiks */
+    /*       artikle  - NEsuveiks */
+    article:first-of-type {
+        margin-bottom: 3%;
+    }
+    /*  2n - kas antra; +1 pradedant nuo pirmo (neprivaloma) */
+    article:nth-of-type(2n +1){
+        background-color: red;
+    }
+    /*  !!! pakeitimai suveiks TIK jeigu sis elementas bus pats pirmasis vaikas */
+    /*  pvz1:    body ->  artikle     - suveiks */
+    /*  pvz2:    body ->  h1  artikle  - NEsuveiks */
+    article:first-child {
+        background-color: green;
+    }
+
+/* nepamirsti uzdaryti "}" skliausto */
+}
+
+/* Jeigu neveikia MEDIA */
+/*
+    1. sumazinti narsykles langa
+    2. cash - perkrauti puslapi be cash arba atidaryti su kita narsykle
+    3. sintakses klaidos?
+        Inspect-> pasizymeti elmenta kuri keitei -> ziurime desineje  Styles
+        ar atsirado @media(...) tavo komanda
+    4. ar tie failai atidaryti?
+      A) ATOM'e uzdaryti failus ir atidaryti per nauja,
+      B) narsykleje pasiliesti puslapi per nauja
+*/
 
 
 

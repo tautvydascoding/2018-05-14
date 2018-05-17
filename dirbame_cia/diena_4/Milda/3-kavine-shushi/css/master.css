@@ -6,13 +6,14 @@
 h1 {
     color: orange;
     text-align: center;
+    background-color: red;
+
 }
 h2 {
     padding-left: 38px;
     padding-right: 38px;
     padding-top: 5px;
     padding-bottom: 5px;
-
     margin-top: 0;
     margin: 0;
     border-bottom: solid 2px #a1a1a1;
@@ -28,6 +29,21 @@ h2 {
 /* p {
     margin-top: 50px;
 } */
+
+.beef {
+  background-color: red;
+}
+
+.chicken {
+  background-color: yellow;
+}
+
+
+.Sushi {
+  background-color: pink;
+}
+
+
 article {
     padding: 50px 15px 10px 15px;
     text-align: justify;
@@ -56,14 +72,28 @@ article {
 article {
     width: 46%;
   }
-    {
-      .paskutinis {
-        width: 95%;
-      }
+    .paskutinis {
+      width: 95%;
+      margin-top: 2.5%;
     }
+
+/*-------------Mobile---------------  */
 
 
 }
+@media (max-width: 768px) {
+article {
+    width: 94%;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+
   /* nepamirsti uzdaryti skliaustelio */
 
 

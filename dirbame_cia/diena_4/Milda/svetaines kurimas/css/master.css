@@ -1,0 +1,75 @@
+html {
+    background-color: #f1f1f1;
+}
+
+header {
+  background-color: rgb(111, 7, 85);
+  height: 80px;
+}
+main {
+  background-color: white;
+  height: 500px;
+  width: 77%;
+}
+
+aside {
+  background-color: rgb(111, 7, 85);
+  height:  500px;
+  width: 20%
+
+}
+/*--------meniu------------ */
+
+nav {
+  width: 60%;
+  margin-top: 8px;
+}
+input {
+  width: 70%;
+  border: none;
+  background-color: rgb(240, 227, 230);
+  height: 30px;
+  margin-top: 27px;
+}
+
+
+
+
+.paieska {
+  margin-top: 27px;
+   background color: pink;
+   width: 40%;
+ }
+
+nav ul {
+ list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 24.5%;
+text-align: center;
+font-size: 30px;
+}
+
+ul {
+  padding-left:
+}
+
+
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.uzdedu-float {
+  float: left;
+  position: relative;
+}
+
+.isjungiu-float {
+  clear: both;
+}
