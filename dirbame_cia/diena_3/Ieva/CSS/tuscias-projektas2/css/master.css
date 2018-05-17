@@ -83,9 +83,9 @@ article {
 }
 
 /* =====FOR MOBILE=====
-=======nuo 0iki 425=====*/
+=======nuo 0 iki 425=====*/
 
 @media (max-width: 426px) {
     article {width: 94%;
-              margin-top: 10px;}
+            margin-top: 10px;}
 }
