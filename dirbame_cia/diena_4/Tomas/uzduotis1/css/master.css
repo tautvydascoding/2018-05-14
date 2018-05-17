@@ -1,3 +1,62 @@
- h1 {
-    color: orange;
+h1{text-align: center;
+    font-size: 70px;
+}
+
+* {box-sizing: border-box;}
+/*===============  */
+
+h2 {position: absolute;
+right: 0;
+top: 0;
+margin-top: 0;
+margin: 0;
+padding-left: 38px;
+padding-right: 38px;
+padding-top: 5px;
+padding-bottom: 5px;
+border-left: solid 2px black;
+border-bottom: solid 2px black;
+font-family: cursive;
+
+}
+article {padding: 50px 15px 10px 15px;
+text-align: justify;}
+
+article {
+    border: solid 2px #a1a1a1;
+    width: 30%;
+    float: left;
+    background-color: gray;
+    margin-left: 2.5%;
+    position: relative;
+    border: solid 3px black;
+}
+.paskutinis{margin-right: 2.5%;}
+.isjungiu-float {
+    clear: both;
+}
+.yellow{background-color: yellow;
+}
+.pink{background-color: pink;
+}
+.red{background-color: red;
+}
+.font{color: white;}
+/* for tablet */
+/* nuo 0 iki 768 */
+@media (max-width: 768px) {
+    article{width: 45%;}
+    .paskutinis{
+        width: 95%;
+        margin-top: 2.5%
+    }
+}
+/* mobiliam */
+/* nuo 0 iki 425 */
+
+@media (max-width: 425px) {
+    article{width: 95%;
+        margin-top: 3%;
+        }
+        
 }
