@@ -11,6 +11,7 @@ html {
     text-align: center;
 }
 nav li{
+  font-family: 'Skranji', cursive;
   display:inline-block;
   text-transform: uppercase;
   padding: 1.8%;
@@ -18,7 +19,6 @@ nav li{
   font-size: 20px;
 }
 
-}
 body {
   width: 1200px;
   margin-left: auto;
@@ -27,18 +27,20 @@ body {
 header {
   background-color: #FF80FF;
   height: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 main {
   background-color: white;
-  height: 500px;
+  /* height: 500px; */
   width: 78%;
   margin-right: 2%;
 }
 aside {
   background-color: #FF80FF;
-  height: 500px;
+
   width: 20%;
+  margin-bottom: -10000px;
+  padding-bottom: 10000px;
 }
 footer{
   background-color: white;
@@ -51,13 +53,13 @@ nav{
   width: 70%;
   height: 80px;
 }
-.paieska{
+header div{
   width: 30%;
   height: 80px;
 }
 input{
-    width: 80%;
-    height: 30px;
+    width: 60%;
+    height: 35px;
     border: none;
     background-color: rgb(226, 230, 224);
     padding-left: 15px;
@@ -65,10 +67,28 @@ input{
 button{
     background-color: black;
     color: white;
-    height: 30px;
-    width: 15%;
+    width: 20%;
+    height: 35px;
     margin-top: 28px;
     border: none;
+}
+ form{
+  width: 100%;
+  height: 80px;
+}
+.tekstas{
+  padding-top: 30px;
+  padding-left: 25px;
+}
+.tekstas h2{
+  font-family: 'Skranji', cursive;
+  text-align: center;
+}
+.tekstas h3{
+  font-family: 'Skranji', cursive;
+}
+.wrapper{
+  overflow: hidden;
 }
 /* END meniu */
 .uzdedu-float{
@@ -76,4 +96,16 @@ button{
 }
 .isjungiu-float{
   clear: both;
+}
+@media (max-widht: 1200px) {
+  body{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 560px) {
+  #paieska{
+    display: none;
+  }
+
 }
