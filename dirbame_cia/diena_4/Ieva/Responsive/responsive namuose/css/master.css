@@ -1,0 +1,143 @@
+html {background-color: rgb(211, 210, 222);
+}
+
+* {box-sizing: border-box;}
+
+body {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Kavivanar', cursive;
+}
+
+header {
+  background-color:rgb(233, 47, 222);
+  width:60%
+  heigth: 80px;
+ }
+
+aside {
+  background-color:rgb(233, 47, 222);
+  width: 20%;
+  height: 500px;
+  margin-left: 2%;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 2em;
+
+}
+
+
+
+main {background-color: white;
+      width: 78%;
+      height: 500px;
+      margin-bottom: 20px;
+      font-size: 13px;
+      text-align: justify;
+      padding-left: 15px;
+      padding-right: 15px;
+      line-height: 1.8em;
+
+}
+
+footer {background-color: white;
+        width:100%;
+        height: 80px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
+        font-size: 15px;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   text-shadow: 3px 3px grey;
+   letter-spacing: 3px;
+   font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+h3 {letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/*===== MENIU programavimas === */
+nav {width: 70%;
+    margin-top: 8px;
+    padding-top: 10px;
+
+
+}
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 24.5%;
+  text-align: center;
+  height: 40px;
+  padding-top: 0;
+
+}
+
+header ul {padding-left: 0px;
+}
+
+/* ============================== */
+
+
+
+#search {
+      width: 30%;
+
+}
+
+input {
+      width: 57%;
+      height: 30px;
+      padding-left: 10px;
+      border: none;
+      margin-top: 30px;
+}
+
+header button {
+  background-color: #000;
+  color: #fff;
+  width: 28%;
+  padding: 8px 40px;
+  margin-left: 10px;
+}
+
+.wrapper {
+  margin-top: 20px;
+  border: none;
+
+
+}
+
+.float {
+  float:left;
+
+}
+
+.isjungiu-float {
+  clear: both;
+}
+/* =======Media====== */
+
+@media (max-width:768) {
+      margin:
+
+}

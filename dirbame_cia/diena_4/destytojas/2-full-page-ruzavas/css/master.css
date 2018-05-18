@@ -11,6 +11,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+h1, h2, h3 {
+    font-family: 'Libre Barcode 39', cursive;
+}
  h1 {
     color: orange;
 }
@@ -21,14 +24,24 @@ header {
 }
 main {
     background-color: white;
-    height: 500px;
+
     width: 78%;
     margin-right: 2%;
+    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 10px;
+}
+.wrapper {
+    overflow: hidden;
 }
 aside {
     background-color: #FF80FF;
-    height: 500px;
+
     width: 20%;
+    /* automatinis aukscio apskaiciavimas */
+    /* !! 1. nuimti height */
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    /* 2. teciui/proteviui uzdeti overflow: hidden; */
 }
 footer {
     background-color: white;
@@ -42,14 +55,14 @@ nav {
     width: 60%;
     margin-top: 8px;
 }
-li {
+header li {
     display: inline-block;
     text-transform: uppercase;
     width: 24.5%;
     text-align: center;
     font-size: 30px;
 }
-ul {
+header ul {
     padding-left: 0;
 }
 /* -----END meniu----- */
@@ -75,8 +88,36 @@ input {
 .isjungiu-float {
     clear: both;
 }
+header button {
+    padding: 8px 30px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+}
 
 
 
 
-/*  */
+
+/* =========desctop====nuo 0 iki 1200px======== */
+@media (max-width: 1200px) {
+    body {
+        width: 100%;
+    }
+}
+@media (max-width: 1070px) {
+    header li {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    #paieska {
+        display: none;
+    }
+}
+@media (max-width: 560px) {
+    #paieska {
+        display: block;
+    }
+}

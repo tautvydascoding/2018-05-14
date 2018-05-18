@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+/* IDEA: prasideda programavimas normalus */
+html {
+    background-color: rgb(184, 190, 182);
+
+}
+body {
+    width: 1200px;
+    /* IDEA: iscentruoti elementa */
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+color: orange;
+}
+header {
+    background-color: rgb(149, 56, 123);
+    height: 80px;
+
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: white;
+    height: 500px;
+    width: 78%;
+
+    margin-right: 2%;
+
+}
+
+aside {
+    background-color: rgb(149, 56, 123);
+    height: 500px;
+    width: 20%;
+}
+footer {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+
+    margin-top: 10px;
+}
+/* IDEA: meniu */
+
+nav {
+    width:60%;
+    margin-top: 8px;
+}
+#paieska {
+    width:40%;
+
+}
+
+li {
+    width: 25%;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+input {
+    width: 70%;
+    border: none;
+    background-color: rgb(216, 210, 232);
+    height: 30px;
+    margin-top: 25px;
+    padding-left: 2px;
+
+
+}
+
+
+
+
+/* IDEA: END meniu */
+.uzdedu-float {
+    float: left;
+}
+.isjungiu-float {
+    clear: both;
+}
