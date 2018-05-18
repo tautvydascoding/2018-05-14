@@ -4,7 +4,8 @@
 
 // teo:
 //  typeof( k ); f-ja kuri isveda kintamojo tipa
-
+// console.log(    typeof(vardas)  );
+// console.log(    typeof(amzius)  );
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
