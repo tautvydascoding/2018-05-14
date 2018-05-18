@@ -21,10 +21,14 @@ aside {
   width: 20%;
   height: 500px;
   margin-left: 2%;
-  font-size: 13px;
+  font-size: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  line-height: 2em;
+
 }
+
+
 
 main {background-color: white;
       width: 78%;
@@ -77,17 +81,18 @@ nav {width: 70%;
 
 
 }
-li {
+header li {
   display: inline-block;
   text-transform: uppercase;
   font-size: 18px;
   width: 24.5%;
   text-align: center;
-  height: 80px;
-  padding-top: 18px;
+  height: 40px;
+  padding-top: 0;
+
 }
 
-ul {padding-left: 0;
+header ul {padding-left: 0px;
 }
 
 /* ============================== */
@@ -96,6 +101,7 @@ ul {padding-left: 0;
 
 #search {
       width: 30%;
+
 }
 
 input {
@@ -103,19 +109,20 @@ input {
       height: 30px;
       padding-left: 10px;
       border: none;
-      margin-top: 44px;
+      margin-top: 30px;
 }
 
-button {
-  background-color: black;
-  color: white;
+header button {
+  background-color: #000;
+  color: #fff;
   width: 28%;
-  padding: 5px 5px 5px 5px;
+  padding: 8px 40px;
   margin-left: 10px;
 }
 
 .wrapper {
   margin-top: 20px;
+  border: none;
 
 
 }
@@ -128,7 +135,9 @@ button {
 .isjungiu-float {
   clear: both;
 }
+/* =======Media====== */
 
-@media (max-width:768) { margin:
+@media (max-width:768) {
+      margin:
 
 }
