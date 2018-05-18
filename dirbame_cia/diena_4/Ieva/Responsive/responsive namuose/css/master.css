@@ -4,7 +4,7 @@ html {background-color: rgb(211, 210, 222);
 * {box-sizing: border-box;}
 
 body {
-  width: 1200px;
+  width:100%; /*medijoms uzdedama vietoje buvusiu 1200px*/
   margin-left: auto;
   margin-right: auto;
   font-family: 'Kavivanar', cursive;
@@ -19,12 +19,12 @@ header {
 aside {
   background-color:rgb(233, 47, 222);
   width: 20%;
-  height: 500px;
   margin-left: 2%;
   font-size: 15px;
   padding-left: 5px;
   padding-right: 5px;
-  line-height: 2em;
+  margin-bottom:-5000px;
+  padding-bottom: 5000px;
 
 }
 
@@ -32,8 +32,7 @@ aside {
 
 main {background-color: white;
       width: 78%;
-      height: 500px;
-      margin-bottom: 20px;
+      margin-bottom: 2px;
       font-size: 13px;
       text-align: justify;
       padding-left: 15px;
@@ -123,6 +122,7 @@ header button {
 .wrapper {
   margin-top: 20px;
   border: none;
+  overflow:hidden;
 
 
 }
@@ -135,9 +135,20 @@ header button {
 .isjungiu-float {
   clear: both;
 }
-/* =======Media====== */
+/* =======Media for deckstop====== */
 
-@media (max-width:768) {
-      margin:
+@media (max-width:1200px) {
+    body {width: 100%;
 
+      }
+
+
+
+}
+
+@media (max-width:760px) {
+      #search {
+        display: none; /*ant tam tikro plocio kai reikia isjungiam
+as search dalis*/
+      }
 }
