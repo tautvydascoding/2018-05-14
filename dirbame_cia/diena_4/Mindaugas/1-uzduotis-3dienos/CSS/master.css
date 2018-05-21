@@ -3,8 +3,7 @@
 }
 /* IDEA: prasideda programavimas normalus */
 html {
-    background-color: rgb(184, 190, 182);
-
+    background: -webkit-linear-gradient(top, #e4f5fc 0%,#bfe8f9 33%,#9fd8ef 67%,#9fd8ef 67%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
 }
 body {
     width: 1200px;
@@ -13,8 +12,21 @@ body {
     margin-right: auto;
 }
 h1 {
-color: orange;
+color: white;
+text-align: center;
+text-shadow: 2px 2px 2px black;
+font-family: 'Lobster', cursive;
 }
+
+h2 {
+ text-align: center;
+ font-family: 'Lobster', cursive;
+}
+
+h3 {
+        font-family: 'Lobster', cursive;
+}
+
 header {
     background-color: rgb(149, 56, 123);
     height: 80px;
@@ -24,17 +36,24 @@ header {
 
 main {
     background-color: white;
-    height: 500px;
     width: 78%;
-
     margin-right: 2%;
+    padding: 20px 10px 10px 10px;
 
 }
 
+.wrapper {
+    overflow: hidden;
+}
 aside {
     background-color: rgb(149, 56, 123);
-    height: 500px;
     width: 20%;
+    /* IDEA: automatinis aukscio apskaiciavimas
+    Nuimti height!!  */
+    margin-bottom: -10000px;
+    padding-bottom: 10000px;
+    /* IDEA: proteviui/teciui uzdeti overflow: hidden; */
+
 }
 footer {
     background-color: white;
@@ -54,7 +73,7 @@ nav {
 
 }
 
-li {
+nav li {
     width: 25%;
     list-style-type: none;
     text-align: center;
@@ -69,16 +88,57 @@ input {
     margin-top: 25px;
     padding-left: 2px;
 
-
+}
+/* IDEA: button dizainas
+mygtukams nenaudojam paveiksliuku, nes nuotraka reikia atsiusti, suleteja.  */
+header button {
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
 }
 
 
 
-
 /* IDEA: END meniu */
+
+aside ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside li {
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 13px;
+        padding-top: 13px;
+        padding-right: 23px;
+        list-style-type: color:black;
+}
+
+
 .uzdedu-float {
     float: left;
 }
 .isjungiu-float {
     clear: both;
+}
+/* IDEA: desctop */
+@media (max-width: 1200px) {
+    body {
+        width: 100%;
+
+    }
+    nav li {
+        font-size: 18px;
+    }
+}
+@media (max-width: 800px) {
+    #paieska {
+        display: none;
+    }
+    nav{
+        /* width: 100%; */
+    }
 }
