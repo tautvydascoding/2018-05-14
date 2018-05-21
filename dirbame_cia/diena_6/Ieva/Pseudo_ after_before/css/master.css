@@ -1,0 +1,19 @@
+h3 {
+  color: green;
+}
+
+h3::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../icon.jpg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+
+}
+
+h3::selection {
+  color: pink;
+  background-color: rgb(56, 208, 31);
+}
