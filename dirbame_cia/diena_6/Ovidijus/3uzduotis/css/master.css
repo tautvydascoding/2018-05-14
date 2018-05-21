@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+/* pseudo elementai */
+h3::before{
+  content: "aaa";
+  color: green;
+  background-image: url(diena_6\Ovidijus\3uzduotis\Image\peach.png);
+  display: inline-block;
+  margin-right: 10px;
+
+  height: 30px;
+  width: 30px;
+}
+h3::selection{
+  color:pink;
+  background-color: yellow;
+}
