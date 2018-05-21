@@ -1,3 +1,23 @@
 h1 {
     color: red;
 }
+
+
+/* pseudo elementai */
+h3::before {
+    content: "";
+    color: green;
+    /* fono paveiksliukui reikia: aukstis, plotis */
+    /* !!! islipti is CSS katalogo */
+    background-image: url("../start.png");
+    height: 30px;
+    width:  30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: inline-block;
+}
+h3::selection {
+    color: pink;
+    background-color: yellow;
+}
