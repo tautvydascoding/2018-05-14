@@ -1,0 +1,42 @@
+article {border: solid 2px #333;
+          font-family: Arial;
+
+  }
+
+
+.fonas1 {
+  background-color: grey;
+
+}
+
+.fonas2 {
+background-color: green;
+}
+
+.fonas3 {
+  background-color: pink;
+}
+
+.fonas4 {
+  background-color: yellow;
+}
+
+.fonas5 {
+  background-color: red;
+}
+
+.spalva1 {
+  color: pink;
+}
+
+.spalva2 {
+  color: blue;
+}
+
+.spalva3 {
+  color: yellow;
+}
+
+.spalva4 {color: green;}
+
+.spalva5 {color: black;}
