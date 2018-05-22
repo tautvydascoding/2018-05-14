@@ -55,17 +55,29 @@
 // sukurti kintamaji   "pavarde" Tomauskas, vardas - Antanas
 // patikrinti ar veikia f-ja
 
+<<<<<<< HEAD
+// 4 UZDUOTIS
+// A) sukurti h1 su tekstu viduje  (HTML faile)
+// B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
+// C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
+=======
+>>>>>>> 074907d7b40321cb97d98f6e1264634b6e7b1d9f
 
 
 // 4.1 UZDUOTIS
 // parasyti f-ja, kuri turi "return" zodeli.
 // "getPazymiuVidurkis2(x1, x2, x3, x4, x5)"  f-ja apskaiciuoja vidurki is paduotu 5 menesiu pazymiu (ir grazina atsakyma i iskvietimo vieta! "return atskymas;")
+<<<<<<< HEAD
+
+
+=======
 
 // 5 UZDUOTIS
 // A) sukurti h1 su tekstu viduje  (HTML faile)
 // B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
 // C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
  
+>>>>>>> 074907d7b40321cb97d98f6e1264634b6e7b1d9f
 // =================FOR intro  ======================
 
 // 1 UZDUOTIS
