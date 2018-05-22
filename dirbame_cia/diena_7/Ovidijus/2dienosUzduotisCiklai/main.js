@@ -19,6 +19,6 @@ document.write(x);
 }
 printX("Tomas<div>");
 
-for (var i = 0; i < 50; i++) {
-  console.log(printX("Tomas<div>"));
+for (var i = 0; i < 100; i++) {
+  console.log(printX("Tomas<div>" )  );
 }
