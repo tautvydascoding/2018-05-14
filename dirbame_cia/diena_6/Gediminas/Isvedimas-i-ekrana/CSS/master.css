@@ -1,0 +1,19 @@
+/* Pseudo elementai */
+
+h3::before {
+    content: "grybu karas";
+    color: white;
+    background-image: url("..//man.jpg");
+    height: 3px;
+    width: 130px
+
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h3::selection {
+    color: black;
+    background-color: yellow;
+}
