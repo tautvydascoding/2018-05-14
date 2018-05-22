@@ -35,18 +35,18 @@ for (var i = 0; i < 50; i++) {
 // 2.1 UZDUOTIS
 // sukurti f-ja "printX(xx)", kuri  i browser langa atspausdins paduota "xx" teksta (panaudojanti document.write arba innerHTML)
 
-function printX( duomenys ) {
+function printX( duomenys = "nieko" ) {
     document.querySelector("body").innerHTML +=   duomenys ;
     console.log(   duomenys );
 }
-
 printX(  "TOmas Tomauskis"  );
 printX(  "Zivile Ilgaityte"  );
 
-
 // 2.2 UZDUOTIS
 // paleisti f-ja "printX(xx)" 100 kartu
-
+for (var i = 0; i < 30; i++) {
+    printX( "Tekstas su FOR ciklu <br>"  );
+}
 // 2.3 UZDUOTIS
 // paleisti f-ja "printX(xx)" 12 kartu ir atspausdinti <img ...
 // skirtingius paveikslelius
