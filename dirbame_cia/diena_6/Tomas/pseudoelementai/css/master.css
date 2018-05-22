@@ -1,0 +1,14 @@
+h3::before{
+    content: "";
+    color: green;
+    /* !!!islipti is katalogo */
+    background-image: url("../sirdis.png");
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: contain;
+}
+h3::selection{color: pink;
+            background-color: yellow;
+
+}
