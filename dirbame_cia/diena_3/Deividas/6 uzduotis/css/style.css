@@ -12,6 +12,10 @@ h2 {
   right: 0px;
   top: 0px;
 
+
+}
+.info-box p {
+  text-align: justify;
 }
 
 .info-box {
@@ -23,7 +27,7 @@ h2 {
   position: relative;
 
 
-  padding-top: 3%;
+  padding-top: 4%;
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -38,13 +42,30 @@ h2 {
 .beef {
   border: solid 2px;
   background-color: grey;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 1px;
+  border-right: 3px;
+  padding-bottom: 1%;
+
 }
 
 .chicken {
   border: solid 2px;
   background-color: yellow;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 1px;
+  border-right: 3px;
+  padding-bottom: 1%;
+
 }
 .sushi {
   border: solid 2px;
   background-color: red;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top: 1px;
+  border-right: 3px;
+  padding-bottom: 1%;
 }
