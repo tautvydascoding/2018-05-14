@@ -1,23 +1,14 @@
-.aukstis-100 {
+.aukstis-100{
     height: 100px;
 }
-
-.aukstis200 {
+.aukstis200{
     height: 200px;
-}
-
-.aukstis-300 {
+}.aukstis-300{
     height: 300px;
 }
-
-.aukstis-400 {
+.aukstis-400{
     height: 400px;
 }
-
-.aukstis-500 {
+.aukstis-500{
     height: 500px;
-}
-
-li a {
-    width:10%;
 }
