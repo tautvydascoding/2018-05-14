@@ -81,7 +81,6 @@
 // kai "if"-ui padauodame Pauliu - isvesti "Buitinei technikai  30% nuolaida"
 // kai "if"-ui padauodame bet ka kita - isvesti "5% nuolaida kelionems"
 
-
 // 3 UZDUOTIS
 // sukurti 3 kintamuosius (klientu tipus) "bronze", "silver", "gold"
 // susikurti kintamaji 'klietoTipas' - kurio reiksme lyginsime

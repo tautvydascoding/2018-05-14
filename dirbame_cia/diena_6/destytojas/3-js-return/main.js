@@ -88,8 +88,11 @@ console.log(  "h1 aukstis yra: " + aukstis );
 // ####
 // #####
 // ######
+<<<<<<< HEAD
+=======
  
 
+>>>>>>> 201854f67f558096928fa3243fb161c7256fe26f
 
 //=========== =KOMANDINE (3-4h) Bootstrap && GIT=================
 // ant lentos

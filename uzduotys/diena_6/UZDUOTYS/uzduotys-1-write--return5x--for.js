@@ -3,7 +3,10 @@
 // "reiksme" - tekstas/ reiksme/ value
 // reiksme() - f-jos paleidimas
 // =============================
+<<<<<<< HEAD
+=======
 
+>>>>>>> 201854f67f558096928fa3243fb161c7256fe26f
 
 
 
@@ -60,13 +63,20 @@
 // A) sukurti h1 su tekstu viduje  (HTML faile)
 // B) sukurti f-ja "getH1ElementoAukstis(), kuri su "return" grazina surenderinto h1 elemento auksti
 // C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 074907d7b40321cb97d98f6e1264634b6e7b1d9f
+>>>>>>> 201854f67f558096928fa3243fb161c7256fe26f
 
 
 // 4.1 UZDUOTIS
 // parasyti f-ja, kuri turi "return" zodeli.
 // "getPazymiuVidurkis2(x1, x2, x3, x4, x5)"  f-ja apskaiciuoja vidurki is paduotu 5 menesiu pazymiu (ir grazina atsakyma i iskvietimo vieta! "return atskymas;")
+<<<<<<< HEAD
+
+
+=======
 <<<<<<< HEAD
 
 
@@ -78,6 +88,7 @@
 // C) su CSS pakeisti h1 auksti, ir paziureti ar jusu f-ja veikia
  
 >>>>>>> 074907d7b40321cb97d98f6e1264634b6e7b1d9f
+>>>>>>> 201854f67f558096928fa3243fb161c7256fe26f
 // =================FOR intro  ======================
 
 // 1 UZDUOTIS
