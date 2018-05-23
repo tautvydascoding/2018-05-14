@@ -1,72 +1,55 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--  kad ant ivairiu irenginiu media veiktu   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="css/master.css">
+<!--
+    KAIP SURASTI, KODEL failas neveikia?
+    1. blogas kelias/pavadinimas iki CSS failo:
+    Patikrinimas:  puslapyje->Inspect -> Console
+    2. ar i "<link" ideta      rel="stylesheet"
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    2. issivalyti "Cash" F5 arba F5 + Fn   ARBA ctrl + shift + Del
+    3. ar egzistuoja elementas, kuri bandai pakeisti  pvz: h1
+    3.1 ar CSS faile parasei gera selectoriu ?
+    pvz: section h1 { color: red; }
+    Patikrinimas:  puslapyje->Inspect -> Elements  ziurime i stulpeli
+    A) pazymeti html elmenta
+    b) pasiziureti (desineje Styles) ar elementas turi suprogramuotus spakeitimus
 
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    4. ar FAILAI ISSAUGOTI?
+    5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
+    patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
+-->
 
-    <title>welcome</title>
-  </head>
+    </head>
 
-  <body>
+    <body>
+        <h1> Our Menu </h1>
 
-    <header>
-      <nav class="navbar navbar-expand-lg">
-            <div class="container">
+        <article class="">
+            <h2>Chicken</h2>
+            <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
 
-                <div id="nav-wrap ">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="our-team.html" class="nav-link">Our team</a></li>
-                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-                <form class="" action="http://google.com" method="get">
-                    <input type="text" name="q" value=""  placeholder="paieska">
-                    <button class="btn btn-success" type="button">&nbsp;&nbsp;&nbsp; Go</button>
-                </form>
+        <article class="">
+            <h2>Beef</h2>
+            <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
 
-                </div>
+        <article class="paskutinis">
+            <h2>Sushi</h2>
+            <p>   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
 
-        </nav>
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-
+        <!--  isjunciu float -->
+        <div class="isjungiu-float">  </div>
 
 
 
 
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script src="js/script.js"></script>
-</body>
+    </body>
 </html>
