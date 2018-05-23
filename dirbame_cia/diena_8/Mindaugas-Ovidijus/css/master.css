@@ -2,6 +2,12 @@ h1 {
     color: red;
 }
 
+.galerija {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .aukstis-100 {
     height: 100px;
 }
