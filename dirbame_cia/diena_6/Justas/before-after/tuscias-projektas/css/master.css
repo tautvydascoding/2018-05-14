@@ -1,0 +1,20 @@
+ h1 {
+    color: orange;
+}
+
+/* preudo elementai */
+
+h3::before {
+    content: "aaa";
+    color: green;
+    /* fono paveiksliukui reikia aukscio ir plocio */
+    background-image: url('../css/icon.png');
+    height: 30px;
+    width: 30px;
+    display: block;
+
+}
+h3::selection {
+    color: pink;
+    background-color: yellow;
+}

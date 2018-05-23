@@ -1,0 +1,92 @@
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    box-sizing: border-box;
+    /* remeliai butu iskaiciuoti i vidu */
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    float: left;
+    border: 3px solid black;
+    width: 30%;
+    margin-left: 2.5%;
+    background-color: grey;
+    padding: 20px 15px 10px 10px;
+    position: relative;
+
+}
+
+.ijungiu-float {
+    clear: both;
+}
+
+h2 {
+    border: 3px solid black;
+    margin: -1%;
+    position: absolute;
+    padding-left: 38px;
+    padding-right: 38px;
+    right: 0;
+    top: 0;
+
+}
+
+.raudonas {
+    background-color: red;
+}
+
+.geltonas {
+    background-color: yellow;
+}
+
+.zalias {
+    background-color: green;
+}
+
+
+.paskutinis {
+    margin-right: 2.5%;
+}
+
+/* ================= for tablet =====================  */
+
+
+/* ========nuo 0 iki 768===== */
+@media (max-width: 768px) {
+    article {
+        width: 46%;
+    }
+    .paskutinis {
+        width: 95%;
+        margin-top: 2.5%;
+    }
+
+    h2 {
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+/* ===========mobile============= */
+@media (max-width: 425px) {
+        article: {
+            width: 94%;
+            margin-bottom: 3px;
+            }
+        
+
+        .paskutinis {
+            width: 95%;
+            margin-top: 2.5%;
+        }
+        /* cia nera taip svarbu */
+        h2 {
+            width: auto;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    /* nepamirsti uzdaryti skliaustu */
+}
