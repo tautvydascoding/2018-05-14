@@ -10,13 +10,13 @@
 	prekiautojai[2] = "Lidl";
 	prekiautojai[3] = "Rimi";
 	prekiautojai[50] = "Cia Market";
-	
+
 	// A) pervadinti pirma stalciu
 	prekiautojai[1] = "Barbora";
-	
+
 	// B) sukeisti antro ir trecio stalciu reiksmes vietomis.
-	// !negalima rasyti rankomis String (nes duomenys kinta, ir jus nezinote koki duomenys bus po savaites) 
-	 
+	// !negalima rasyti rankomis String (nes duomenys kinta, ir jus nezinote koki duomenys bus po savaites)
+
 	// C) padaryti B) uzdaviniui f-ja sukeistiMasyvo2elementus(x, y)
 
 // -------- --Array / Masyvai  TEORIJA (~2h)--------------------
@@ -24,7 +24,7 @@ names = ["Tomas", "Pietkus", 25, "VDU - inzinerija"];
 
 console.log(names);
 
-.length
+.length()
 .join()
 .shift()
 .pop()
