@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+
+
+/* pseudo elementai */
+
+h3::before {
+  content: "";
+  display: block;
+  color: green;
+  background-image: url("../atsisiųsti.png");
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h3::selection {
+  color: pink;
+  background-color: yellow;
+  background-color: #ff00c9;
+}
