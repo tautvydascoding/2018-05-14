@@ -1,0 +1,34 @@
+h3 {
+  color: purple;
+}
+
+/* IDEA: pseudo elementai */
+h3::before{
+  content: "";
+  color: green;
+  background-color: rgb(206, 222, 115);
+  /* IDEA: fono paveiksliukui reikia aukscio ir plocia arba bg-size */
+  background-image: url("file:///C:/Users/Mindaugas/Downloads/baseline-accessible_forward-24px.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+h3::selection {
+  color:pink;
+  background-color: purple;
+}
+.aukstis-100 {
+  height: 100px;
+}
+.aukstis-300 {
+  height: 300px;
+}
+.auskstis-400 {
+  height: 400px;
+}
+.auskstis-500 {
+  height: 500px;
+}
