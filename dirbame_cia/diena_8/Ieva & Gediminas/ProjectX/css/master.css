@@ -17,3 +17,104 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
+.aukstis-600 {
+    height: 600px;
+}
+.aukstis-700 {
+    height: 700px;
+}
+.aukstis-800 {
+    height: 800px;
+}
+
+.column {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    font-color: transparent;
+    background-color: black;
+}
+
+
+
+.background-color {
+    background-color: grey;
+}
+
+.column1 {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 1%;
+    background-color: indigo;
+}
+.clear-float {
+    clear: both;
+}
+
+.image-100 {
+    background-image: url("C:/Users/Lenovo-PC/Documents/Kaunas Coding School Projektas/dirbame_cia/diena_8/Ieva & Gediminas/ProjectX/Images/cosmos.jpg");
+    height: 100%;
+    font-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.bottom-100 {
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+}
+
+.top-100 {
+    padding-top:
+}
+
+.center-100 {
+    margin-right: auto;
+    width: 30%;
+    border: 3px solid black;
+    }
+
+.center-101 {
+    margin-left: auto;
+    width: 30%;
+    border: 3px solid black;
+    }
+
+.center-102 {
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+        }
+
+.bottom-10 {
+    vertical-align: baseline;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    background-color: #ccc;
+}
+
+.mygtukas {
+    background-color: black;
+    width: 250px;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px
+    border-radius: 5px;
+    cursor: pointer;
+
+}
