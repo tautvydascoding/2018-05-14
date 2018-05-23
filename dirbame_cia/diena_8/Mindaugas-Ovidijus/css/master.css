@@ -1,7 +1,17 @@
-h1 {
-    color: red;
+article h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
 }
-
+.pirmas {
+  
+}
+.antras{
+  text-align: center;
+}
+.trecias{
+  text-align: center;
+}
 .aukstis-100 {
     height: 100px;
 }
