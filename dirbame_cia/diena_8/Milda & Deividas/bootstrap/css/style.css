@@ -73,11 +73,22 @@ h1 {
   margin-right: top;
   float: right;
 }
+<<<<<<< HEAD
 .aukstis2 {
   height: 600px;
+=======
+
+.aukstis1 {
+  height: 200px;
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
   margin: 80px;
 }
 
-button {
+/* button {
   height: 100px;
+} */
+
+
+.ads {
+  height: 200px;
 }
