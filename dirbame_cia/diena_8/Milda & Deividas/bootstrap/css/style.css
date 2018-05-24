@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
 }
@@ -53,6 +54,30 @@ h1 {
 
 .foot-article {
   text-align: justify;
+}
 
 
+
+.tekstas1 {
+  margin-top: 120px;
+  float: left;
+  border: 1px;
+}
+
+.tekstas2 {
+  margin-top: 360px;
+  float: : right;
+}
+
+.tekstas3 {
+  margin-right: top;
+  float: right;
+}
+.aukstis2 {
+  height: 600px;
+  margin: 80px;
+}
+
+button {
+  height: 100px;
 }
