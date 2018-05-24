@@ -31,3 +31,7 @@ h1 {
 .nopading {
     padding: 0;
 }
+
+.bgImg {
+    background-image: url(../img/1.jpg);
+}
