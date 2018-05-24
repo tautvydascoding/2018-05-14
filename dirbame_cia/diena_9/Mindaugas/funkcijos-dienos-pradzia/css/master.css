@@ -17,17 +17,3 @@ h1 {
 .aukstis-500 {
     height: 500px;
 }
-
-.centre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.raidziuSpalva {
-    color: black;
-}
-
-.nopading {
-    padding: 0;
-}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD=======
 
 .navbar-brand {
@@ -25,6 +26,31 @@ article h1 {
 }
 
 .btn {
+=======
+
+article h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.antras{
+  margin-top: 120px;
+}
+.trecias{
+  margin-top: 240px;
+}
+.tekstas{
+  display: flex;
+}
+.btn{
+>>>>>>> b73c42619b865d881b4c846a350caeb4c47803ef
   color: white;
   margin: 75px 0px 0px 616px;
 }
@@ -91,6 +117,29 @@ article h1 {
   display: inline-block;
   background-size: cover;
   padding-top: 10px;
+<<<<<<< HEAD
   margin-bottom: -6px;
   /* IDEA: padaro teksta per viduri paveiklsiulo */
+=======
+  margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
+}
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+>>>>>>> b73c42619b865d881b4c846a350caeb4c47803ef
+}
+.aukstis-600{
+  height: 600px;
 }
