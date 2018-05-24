@@ -1,0 +1,70 @@
+h1 {
+    color: red;
+}
+
+.galerija {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+<<<<<<< HEAD
+=======
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+.ads{
+  padding: 0px 0px 0px 0px;
+  background: url(jpg);
+  background-size: 1348px 200px;
+background-repeat: no-repeat;
+}
+.footeris{
+  margin-top: 160px;
+}
+
+/* IDEA: galerijos klases */
+/* IDEA: galerijos pavadinimui iscentruoti */
+.galpav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* IDEA: viduriam paveiksliukui */
+
+.butcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pavgale::before{
+  content: ""; /* IDEA: reikia butinai sukurti content  */
+  background-image: url("../img/grybas2.jpg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  padding-top: 10px;
+  margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
+}
+<<<<<<< HEAD
+>>>>>>> 118e115dc0e854d7f7b3fab5334aa142430115c1
+=======
+>>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
+
+.aukstis-100 {
+    height: 100px;
+}
+.aukstis-200 {
+    height: 200px;
+}
+.aukstis-300 {
+    height: 300px;
+}
+.aukstis-400 {
+    height: 400px;
+}
+.aukstis-500 {
+    height: 500px;
+}
