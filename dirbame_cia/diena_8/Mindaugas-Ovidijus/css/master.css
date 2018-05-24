@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD=======
-
-.navbar-brand {
-}
-p{
-  float:right;
-  margin: 0px 0px;
-}
-article h1 {
-  color: black;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.antras {
-  margin-top: 120px;
-}
-
-.trecias {
-  margin-top: 240px;
-}
-
-.tekstas {
-  display: flex;
-}
-
-.btn {
-=======
-
 article h1 {
     color: black;
     text-align: center;
@@ -50,56 +20,26 @@ article h1 {
   display: flex;
 }
 .btn{
->>>>>>> b73c42619b865d881b4c846a350caeb4c47803ef
   color: white;
   margin: 75px 0px 0px 616px;
 }
-
-.ads {
+.ads{
   padding: 0px 0px 0px 0px;
-  background: url("../img/grybas3.jpg");
+  background: url(jpg);
   background-size: 1348px 200px;
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
 }
-
-.footeris {
+.footeris{
   margin-top: 160px;
 }
 
-.aukstis-100 {
-  height: 100px;
-}
-
-.aukstis-200 {
-  height: 200px;
-}
-
-.aukstis-300 {
-  height: 300px;
-}
-
-.aukstis-400 {
-  height: 400px;
-}
-
-.aukstis-500 {
-  height: 500px;
-}
-
-.aukstis-600 {
-  height: 600px;
-}
-
 /* IDEA: galerijos klases */
-
 /* IDEA: galerijos pavadinimui iscentruoti */
-
 .galpav {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-
 /* IDEA: viduriam paveiksliukui */
 
 .butcon {
@@ -108,19 +48,14 @@ article h1 {
   justify-content: center;
 }
 
-.pavgale::before {
-  content: "";
-  /* IDEA: reikia butinai sukurti content  */
+.pavgale::before{
+  content: ""; /* IDEA: reikia butinai sukurti content  */
   background-image: url("../img/grybas2.jpg");
   width: 24px;
   height: 24px;
   display: inline-block;
   background-size: cover;
   padding-top: 10px;
-<<<<<<< HEAD
-  margin-bottom: -6px;
-  /* IDEA: padaro teksta per viduri paveiklsiulo */
-=======
   margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
 }
 
@@ -138,7 +73,6 @@ article h1 {
 }
 .aukstis-500 {
     height: 500px;
->>>>>>> b73c42619b865d881b4c846a350caeb4c47803ef
 }
 .aukstis-600{
   height: 600px;
