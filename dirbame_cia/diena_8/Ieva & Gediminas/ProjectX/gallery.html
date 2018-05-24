@@ -1,103 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>ProjektasX</title>
-         <!--  kad ant ivairiu irenginiu media veiktu   -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="utf-8">
+  <title>ProjektasX</title>
+  <!--  kad ant ivairiu irenginiu media veiktu   -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
-        <!-- mano failas visada zemiau -->
-        <link rel="stylesheet" href="css/master.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+  <!-- mano failas visada zemiau -->
+  <link rel="stylesheet" href="css/master.css">
 
-    </head>
+</head>
 
-    <body>
-        <h1>Galerija </h1>
+<body>
+  <h1 class="text-center text-secondary">Projektas</h1>
 
-<div class="container">
+  <div class="container">
 
-            <header class="row aukstis-100 bg-info">
-              HEADER
-            </header>
+    <header class="row">
+      <nav class="col-md-12 bg-light">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">INDUSTRY</a></li>
+          <li><a href="#">STORY</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<main>
+    <main class="">
+      <h2 class="text-center text-secondary">GALERIJA</h2>
+
       <div class="row">
-        <div class="col-md-12 bg-primary aukstis-100">
-            <img class="rounded-circle" src="images/stones.jpg" alt="Photo of stones" width="100px" heigth="auto">
+        <div class="col-md-12 p-3 bg-light aukstis-100">
+          <img class="mx-auto d-block rounded-circle" src="images/stones.jpg" alt="Image of stones" width="90px" height="90px">
         </div>
       </div>
 
-        <div class="row">
-            <div class="col-md-12 bg-warning aukstis-100">
-                  <img class="rounded-circle" src="images/lake.jpg" alt="lake" width="100px" heigth="auto">
-                  <img class="rounded-circcle" src="images/waterfall.jpg" alt="waterfall" width="100px" heigth="auto">
-            </div>
-       </div>
-
-
-       <div class="row">
-         <div class="col-md-12 bg-primary aukstis-100">
-            <img class="rounded-circle" src="images/clouds.jpg" alt="waterfall" width="100px" heigth="auto">
-         </div>
-       </div>
-
-
-</main>
-
-
-</div> <!-- IDEA: END OF HEADER CONTAINER -->
-
-
-
-
-<div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6 bg-info aukstis-300">
-        <img class="" src="images/clouds.jpg" alt="waterfall" width="auto" heigth="100px">
+      <div class="row">
+        <div class="col-md-12 p-2 bg-light aukstis-100">
+          <img class="rounded-circle" src="images/clouds.jpg" alt="Image of stones" width="90px" height="90px">
+          <img class="rounded-circle float-right" src="images/lake.jpg" alt="Image of lake" width="100px" height="100px">
+        </div>
       </div>
 
-      <div class="col-md-6 bg-danger">
-        <button type="button" class="btn btn-primary">Send</button>
+      <div class="row">
+        <div class="col-md-12 p-2 bg-light aukstis-100">
+          <img class="mx-auto d-block rounded-circle" src="images/waterfall.jpg" alt="Image of waterfall" width="90px" height="90px">
+        </div>
       </div>
 
-    </div>
+    </main>
 
-</div> <!-- IDEA: END OF FLUID  CONTAINER = nuotrauka plius send mygtukas -->
+  </div>
+  <!-- IDEA: END OF CONTAINER header+galerija -->
 
+  <div class="container-fluid">
 
-
-<div class="container">
-    <div class="row">
-          <article class="col-md-12 bg-warning aukstis-100">
-            <h1>Antraštė</h1>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-          </article>
+    <article class="row">
+      <div class="col-md-6 mt-2 aukstis-200">
+        <img src="images/clouds.jpg" alt="Image of clouds" width="750px" height="200px">
       </div>
 
+      <div class="d-flex align-items-center justify-content-center col-md-6 mt-2 bg-info aukstis-200">
+        <button class="p-2 w-25" type="button" name="button">Send</button>
+      </div>
 
-  <footer class="row">
-      <div class="col-md-12 bg-info aukstis-100">
-        FOOTER
-        <ul class="">
-          <li>Home</li>
-          <li>Gallery</li>
-          <li>Brand</li>
+    </article>
+
+  </div>
+  <!-- IDEA: END OF FLUID CONTAINER -->
+
+  <div class="container">
+
+    <article class="row">
+      <div class="col-md-12 bg-light aukstis-100">
+        <h2 class="text-center text-secondary pt-2">Antraštė</h2>
+        <p class="text-center text-secondary pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </article>
+
+    <footer class="row bg-secondary">
+      <div class="col-md-12 aukstis-100">
+        <img class="float-right" src="images/footer_icon.svg" alt="icon" width="40px">
+        <ul class="list-unstyled p-2 mb-1">
+          <li> <a href="">Home </a> </li>
+          <li> <a href="">Gallery </a> </li>
+          <li> <img src="images/footer_icon.svg" alt="icon" width="40px"> Brand</li>
         </ul>
-
       </div>
-  </footer>
-</div> <!-- IDEA: END OF FOOTER and ANTRASTE CONTAINER- -->
+    </footer>
 
+  </div> <!-- IDEA:  END OF CONTAINER WITH FOOTER AND ANTRAŠTĖ -->
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        <!-- MANO JS failas pats zemiausias -->
-        <script type="text/javascript" src="main.js" >  </script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- MANO JS failas pats zemiausias -->
+    <script type="text/javascript" src="main.js">
+    </script>
+</body>
+
 </html>
