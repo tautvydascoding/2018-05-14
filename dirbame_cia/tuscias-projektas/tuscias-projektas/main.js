@@ -1,1 +1,1 @@
-console.log("Labas ");
+console.log(labas);
