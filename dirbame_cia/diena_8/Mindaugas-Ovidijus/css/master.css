@@ -73,8 +73,7 @@ background-repeat: no-repeat;
   justify-content: center;
   align-items: flex-end;
 }
-<<<<<<< HEAD
-=======
+
 .btn{
   color: white;
   margin: 75px 0px 0px 616px;
@@ -145,6 +144,8 @@ background-repeat: no-repeat;
   margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
 }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -157,6 +158,7 @@ background-repeat: no-repeat;
 =======
 >>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
 >>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
 
 .aukstis-100 {
     height: 100px;
