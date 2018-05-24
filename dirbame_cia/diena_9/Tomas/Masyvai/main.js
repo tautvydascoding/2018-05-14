@@ -77,8 +77,7 @@ printDuomenys();
 
 var x="BMW pinga, nes daugeja";
 function printAntraste(x) {
-    
+    x="Greik pageres orai";
     console.log(x);
 
     }
-}
