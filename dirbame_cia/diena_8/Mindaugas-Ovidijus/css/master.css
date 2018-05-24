@@ -1,5 +1,6 @@
 h1 {
     color: red;
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 .antras{
@@ -29,16 +30,38 @@ h1 {
   margin: 75px 0px 0px 616px;
 }
 >>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+=======
+}
+
+.galerija {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+<<<<<<< HEAD
+=======
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
 .ads{
   padding: 0px 0px 0px 0px;
   background: url(jpg);
   background-size: 1348px 200px;
 background-repeat: no-repeat;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .footeris{
   margin-top: 160px;
 }
+=======
+}
+.footeris{
+  margin-top: 160px;
+}
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
 =======
 }
 .footeris{
@@ -72,8 +95,14 @@ background-repeat: no-repeat;
   margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> 118e115dc0e854d7f7b3fab5334aa142430115c1
+=======
+>>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+=======
 >>>>>>> 118e115dc0e854d7f7b3fab5334aa142430115c1
 =======
 >>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
