@@ -18,6 +18,32 @@
     height: 500px;
 }
 
-li a {
-    width:10%;
+.dydis{
+    width: 100% \9;
+}
+.img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+
+  height: 20%;
+}
+.float1{
+    float: right;
+}
+.float2{
+    float: right;
+    float: left;
 }
