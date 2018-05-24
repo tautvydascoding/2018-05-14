@@ -41,7 +41,15 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
-
+var arRadau = false;
+var ieskoma vardas = "Rico";
+for (var i = 0; i < names.length; i++) { //galima rinktis name.length, jei kistu masyvo ilgis
+  if ( names[i] == ieskomasvardas) {
+    arRadau = true; //radau
+    console.log("radau Rico. Jo numeris" + i);
+    break;
+  }
+}
 
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
@@ -49,7 +57,23 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+
+for (var i = 0; i < 50; i++) {
+  if (name[i] == "Rico") {
+  console.log("radau rico. Jo nr:" + i);
+  break;
+}
+}
 // 4) rasti visu zmoniu vardu "Rico" pavardes
+for (var i = 0; i < 50; i++) {
+  // tiriname ar vardas yra Rico is masyvo virsuje
+  //nelysti i stalcius, kuriuose nera
+  if (names[i] == "Rico") {
+    console.log("radau Rico. Jo numeris:" + i);
+  }
+}
+
+
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
 
 // var a = Math.random(); // 0 - 1
