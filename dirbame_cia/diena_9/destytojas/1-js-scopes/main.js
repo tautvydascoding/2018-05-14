@@ -1,4 +1,4 @@
-
+console.log("Labas ");
 
 
 // ====================Scope====================
@@ -8,6 +8,13 @@
 // kuri  atspausdina i konsole  kintamaji "vardas"
 // iskviesti f-ja
 
+function printDuomenys() {
+    var vardas = "Tomas";  // local
+    console.log( "vardas f-joje: " + vardas);
+}
+printDuomenys();
+// console.log( "vardas po f-ja:" + vardas); // ERRRO  nes local (f-joje sukurtu kintamuju negalim pasiekti)
+
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
@@ -16,18 +23,19 @@
 
 
 //================local && global=========
-//var x = "x -viesas ";   // global
-//function testLocalVar() {
-//    var y = "y -vietinis ";  // local
-//    z = "z -viesas";        // global // nereiketu taip daryti
+// var x = "x global";
+// function testLocalVar() {
+//    var y = "y local";
+//    z = "z global";   // nereiketu taip daryti
 //    console.log("x", x);
 //    console.log("y", y);
 //    console.log("z", z);
-//}
-//testLocalVar();
-//console.log("x", x);
-//console.log("z", z);
-//console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
+// }
+// testLocalVar();
+//
+// console.log("x", x);
+// console.log("z", z);
+// console.log("y", y);  // error - 1)   nes sukurtas f-jos viduje 2) sukurtas su "var"
 
 //------
  // UZDUOTIS // UZDUOTIS
@@ -49,24 +57,25 @@
  // console.log("3 katinas:", katinas);
 
 //==========================
-
+ // 
  // var xx = 10; // global
  //
  // function isvesti( xx ) {  // xx - (local) naujas issigalvotas LAIKINAS  kintamasis
  //     xx = 20;  // local
- //     console.log( "1. xx:", xx);
- //     console.log( "2. this.xx:",   this.xx);
+ //     console.log( "1. xx:", xx);             // 20
+ //     console.log( "2. this.xx:",   this.xx); // 10
  // }
+ // isvesti(99);
  // console.log( "3. xx:", xx);
 
 
  //======================
- // var vardas = "Jonas";   // global - kintamasis
- // function myName ( vardas ) { //  vardas - local kintamasis
- //     console.log( " vardas" + vardas);
- //     console.log("this.vardas - f-jos viduje: ",  this.vardas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
- // }
- // myName("PETRAS");
+ var vardas = "Jonas";   // global - kintamasis
+ function myName ( vardas ) { //  vardas - local kintamasis
+     console.log( " vardas" + vardas);
+     console.log("this.vardas - f-jos viduje: ",  this.vardas);    // this - pasiekia ~global kintamuosius (tavo tecio kintamuosius)
+ }
+ myName("PETRAS");
 //======================TEKSTO ISVEDIMAS===============
 
 
