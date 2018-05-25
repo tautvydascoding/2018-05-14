@@ -32,3 +32,9 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // }
 //arba
 // console.log(getStalciausNumeris("Tenagfhd"));
+
+
+
+// 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+// 4) rasti visu zmoniu vardu "Rico" pavardes
+// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
