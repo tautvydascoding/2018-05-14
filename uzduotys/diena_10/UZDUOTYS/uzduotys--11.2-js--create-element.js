@@ -2,7 +2,7 @@
 
 
 
-// 1. sukurti "header"  DOM objekta/NODE'a
+// 1. sukurti "header"   objekta/NODE'a    document.createElment
 // test
 // console.log(  manoHeader );
 
@@ -14,7 +14,7 @@
 // console.log(  manoHeader );
 
 // 4. headeri idesime po H1
-//        tetis                kaIdeti  PriesKa
+//      manoH1 tetis            kaIdeti  PriesKa
 // document.body.insertBefore(  manoAside, manoH1 );
 
 
