@@ -30,7 +30,7 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // } else {
 //     console.log("ieskomo zmogaus nera");
 // }
-//arba
+// arba
 // console.log(getStalciausNumeris("Tenagfhd"));
 
 
@@ -38,3 +38,35 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
 // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+
+//3)
+
+// var zmogausNr = names.indexOf("Piper");//iesko pirmo stalciaus su sia fraze
+// var pavardeYra = lastNames[zmogausNr]; //pasiima zmogaus numeri ir iesko masyve pagal ta numeri stalciaus
+// console.log("pavarde yra: " + pavardeYra);
+
+//4)
+
+
+// var rastosPavardes = [];
+// var ieskomasVardas = "Rico";
+// for (var i = 0; i < names.length; i++) {
+//     //tikrinu ar stalciuje stalcius
+//     if (names[i] == ieskomasVardas) {
+//         console.log("zmogaus pavarde: " + lastNames[i]);
+//         rastosPavardes.push(lastNames[i]);
+//     }
+// }
+// console.log("visos rastos pavardes: ", rastosPavardes);
+
+
+//5)
+
+ieskomiNr = [2, 16, 17, 18, 19, 25];
+
+for (var i = 0; i < ieskomiNr.length; i++) {
+    var x = ieskomiNr[i];
+    console.log("ieskomo zmogaus nr: " + x);
+    console.log("vardas: " + names[x]);
+    console.log("pavarde: " + lastNames[x]);
+}
