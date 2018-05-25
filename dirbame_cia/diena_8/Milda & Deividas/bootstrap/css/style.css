@@ -1,30 +1,94 @@
 
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+.aukstis-galerija {
+  height: 150%;
+
+}
+.container {
+  background-color: #E8ECEF;
+}
+
+.galerijaImg {
+
+  border-radius: 50%;
+  height: 300px;
+}
+
+.aukstis-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  color: yellow;
+}
+
+
+
+
+.poGalerija {
+  background-color: #E8ECEF;
+
+  background-size: cover;
+  height: 400px;
+}
+.senukai {
+  padding-top: 2%;
+  margin-top: 2%;
+}
+
+.aukstis-200 {
+  height: 200px;
+
+}
+.butCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-article {
+  text-align: justify;
+}
+
+
+
 .tekstas1 {
   margin-top: 120px;
   float: left;
   border: 1px;
-
-
 }
+
 .tekstas2 {
   margin-top: 360px;
   float: : right;
-
-
 }
 
 .tekstas3 {
   margin-right: top;
   float: right;
-
-
 }
-aukstis2 {
+<<<<<<< HEAD
+.aukstis2 {
   height: 600px;
-  margin: 80px;
+=======
 
+.aukstis1 {
+  height: 200px;
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
+  margin: 80px;
 }
 
-button {
+/* button {
   height: 100px;
+} */
+
+
+.ads {
+  height: 200px;
 }

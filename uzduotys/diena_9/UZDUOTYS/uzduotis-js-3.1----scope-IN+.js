@@ -16,10 +16,10 @@
 
 
 //================local && global=========
-//var x = "x global";
+//var x = "x -viesas ";   // global
 //function testLocalVar() {
-//    var y = "y local";
-//    z = "z global";
+//    var y = "y -vietinis ";  // local
+//    z = "z -viesas";        // global // nereiketu taip daryti
 //    console.log("x", x);
 //    console.log("y", y);
 //    console.log("z", z);

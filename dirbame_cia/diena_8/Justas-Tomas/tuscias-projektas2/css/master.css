@@ -27,3 +27,7 @@ h1 {
 .raidziuSpalva {
     color: black;
 }
+
+.nopading {
+    padding: 0;
+}
