@@ -1,10 +1,11 @@
 console.log("labas");
 
 // =================taisyklingas Array copy  =================
-// NOTE: var arr2 =  arr1; // !!! Blogi  - sukurs susietaja kopija ir redaguojant keisis abu masyvai
 var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
 var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
 var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
+
+var arr2 =  arr1; // !!! Blogi  - sukurs susietaja kopija ir redaguojant keisis abu masyvai
 // ================= ========= ======== ========
 
 
@@ -20,13 +21,26 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
     var atlyginimas = 500;
     var arPasikeite = false;
     // UZDUOTIS
-    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
+    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji
+    // 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima
+    // -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
     atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
     if ( atlyginimas > 500) {
-
+            console.log(" atlyginimas pasikeite");
     } else {
-
+           console.log("  atlyginimas toks pats ");
     }
+    // suprogramuoti patikrinima (su if), kad isvestu zinute
+    if ( atlyginimas > 500) {
+        arPasikeite = true;
+    }
+    // ar cia tiesa??
+    if ( arPasikeite ) {
+            console.log(" atlyginimas pasikeite");
+    } else {
+           console.log("  atlyginimas toks pats ");
+    }
+
 
 
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
@@ -40,7 +54,9 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
-// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];
+// A) atspausdinti visus numerius
+// B) isvesti ju pavardes ir vardus
 
 // var a = Math.random(); // 0 - 1
 // if ( a <= 0.1) {

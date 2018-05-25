@@ -26,22 +26,32 @@ console.log(manoFooter);
 // test
 // console.log(  manoHeader );
 
-var elementas = document.createTextNode("headersukurimas");
-var manoHeader = document.querySelector("header");
+var manoHeader = document.createElement("Header");
+// cia yra kintamasis, jis neideda elemento i dom'a (tai reikes padaryti patiems su appendChild)
 
-console.log("elementas:", manoHeader );
+// var manoHeader = document.querySelector("header");
 
+console.log( manoHeader );
 
+var manoTekstas = document.createTextNode("labas");
 
-
-
+manoHeader.appendChild(manoTekstas);
+manoBody.appendChild(manoHeader);
 
 // 2. sukurti 'tekstas' kintamaji ir sukurti teksto Node : panaudojant js document.createTextNode(xxx)
+manoHeader.appendChild(manoTekstas);
+// a) surasti body
+
+document.querySelector
 
 
 // 3. i susikuta 'header' objekta idedame 'tekstas' objekta
 // test
 // console.log(  manoHeader );
+
+var manoAside = document.querySelector("aside");
+document.body.insertBefore(manoHeader, manoAside);
+
 
 // 4. headeri idesime po H1
 //        tetis                kaIdeti  PriesKa

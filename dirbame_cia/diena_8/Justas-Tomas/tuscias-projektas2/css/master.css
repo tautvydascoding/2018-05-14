@@ -5,15 +5,19 @@ h1 {
 .aukstis-100 {
     height: 100px;
 }
+
 .aukstis-200 {
     height: 200px;
 }
+
 .aukstis-300 {
     height: 300px;
 }
+
 .aukstis-400 {
     height: 400px;
 }
+
 .aukstis-500 {
     height: 500px;
 }
@@ -31,3 +35,17 @@ h1 {
 .nopading {
     padding: 0;
 }
+<<<<<<< HEAD
+=======
+
+.spalvaBG {
+    background-color: #FFEF01;
+}
+
+body {
+    background-image: image("img/01.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    }
+>>>>>>> 070a381d113356d2ae82f6b6c0b2320f7df162d2
