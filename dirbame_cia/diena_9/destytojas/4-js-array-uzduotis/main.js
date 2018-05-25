@@ -19,8 +19,36 @@ console.log(   "ieskoma Pavarde:  " + ieskomaPavarde   );
 
 // 4) rasti visu zmoniu vardu "Rico" pavardes
 
-// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+    var rastosPavardes = [];
 
+    // ieskom visu Rico
+    for (var i = 0; i < names.length; i++) {
+        // tikrinu ar stalciuje Rico
+        if ( names[i] == "Rico" ) {
+            console.log(  "Rico pavarde: ",   lastNames[i]  );
+            rastosPavardes.push(      lastNames[i]     );
+        }
+    }
+
+    console.log(" Visos rastos pavardes: ",  rastosPavardes);
+
+// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];
+//  isvesti ju pavardes ir vardus
+
+ieskomiNR = [2, 16, 17, 18, 19, 25];
+
+for (var i = 0; i < ieskomiNR.length; i++) {
+    //A) atspausdinti visus numerius
+    var x = ieskomiNR[i];
+    // console.log(  "ieskomo zmogaus numeris: " + x   );
+
+    // B)
+    // Enriqueta", "Sybil", "Piper", "Anh", "Carmelo"
+    // console.log("vardas: " +  names[ i ]);
+
+    console.log("vardas: " +  names[ x ]);
+    console.log("pavardes: " +  lastNames[ x ]);
+}
 
 
 
