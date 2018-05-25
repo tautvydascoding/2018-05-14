@@ -45,10 +45,10 @@ function getStalciausNumeris(xxx) {
         }
         if (arRadau == false) {
              return -1;
-             return null;  // sitas niekad neivyks, nes sutikus " return -1;" f-ja nutrauks darba
+             //return null;  // sitas niekad neivyks, nes sutikus " return -1;" f-ja nutrauks darba
         }
 }
-var nr = getStalciausNumeris('Rico----');
+var nr = getStalciausNumeris('Rico');
 if (nr >= 0) {
     console.log( "iskomo zmogaus numeris: " + nr );
 } else {
