@@ -16,18 +16,22 @@
 <body>
   <!-- navigacija -->
   <!-- <div class="container-fluid bg-success aukstis-100 pt-4"> -->
-  <nav class="container navbar navbar-expand-sm bg-info mb-2 navbar-dark shadow-lg sticky-top">
+  <nav class="container navbar navbar-expand-sm bg-info mb-2 navbar-dark shadow-lg sticky-top  p-0">
     <!-- Brand/logo -->
-    <a class="navbar-brand" href="#"> <img src="img\grybas4.jpg" width= "50px"  alt="">  </a>
+
     <!-- Links -->
-    <ul class="navbar-nav ">
-      <li class="nav-item">
+    <ul class="navbar-nav p-2">
+      <li>
+        <a class="navbar-brand " href="#"> <img src="img\grybas4.jpg" width= "50px"  alt="">  </a>
+      </li>
+      <li class="nav-item ">
         <a class="nav-link" href="index.html">Home</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item ">
         <a class="nav-link" href="gallery.html">Gallery </a>
       </li>
     </ul>
+<img src="img\grybas4.jpg" class="p-0 m-0 " width= "120px"  alt="">
   </nav>
   <!-- navigacijos pabaiga -->
 
@@ -62,10 +66,16 @@
   <!-- footerio pradzia -->
   <div class="container">
     <footer class="row">
-      <div class=" col-md-12 mb-2 bg-info aukstis-200">
-        <div class="footeris">
-          &copy Visos teises saugomos.
-        </div>
+      <div class="col-md-10 bg-warning ">
+        <a href="index.html">Home</a>
+        <br>
+        <a href="#">Gallery</a>
+        <br>
+
+        <p class="pavgale">Grybai</p> <!-- IDEA: paveiklsiukas pries tex -->
+      </div>
+      <div class="col-md-2 bg-warning p-0">
+        <img src="img/grybas1.jpg" width="100%" alt="grybas">
       </div>
     </footer>
   </div>
