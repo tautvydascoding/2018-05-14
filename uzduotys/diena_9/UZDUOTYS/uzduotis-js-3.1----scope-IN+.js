@@ -8,6 +8,8 @@
 // kuri  atspausdina i konsole  kintamaji "vardas"
 // iskviesti f-ja
 
+
+
 //   UZDUOTIS  B
 //  dabar, pabandykite po f-ja (uz jos ribu) i konsole atspausdinti kintamaji "vardas"
 //  console.log( vardas) ;
