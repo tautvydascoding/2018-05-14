@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+article h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+=======
 h1 {
     color: red;
 <<<<<<< HEAD
 }
 <<<<<<< HEAD
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
 .antras{
   margin-top: 120px;
 }
@@ -11,6 +19,48 @@ h1 {
 }
 .tekstas{
   display: flex;
+<<<<<<< HEAD
+}
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+.ads{
+  padding: 0px 0px 0px 0px;
+  background: url(jpg);
+  background-size: 1348px 200px;
+background-repeat: no-repeat;
+}
+.footeris{
+  margin-top: 160px;
+}
+
+/* IDEA: galerijos klases */
+/* IDEA: galerijos pavadinimui iscentruoti */
+.galpav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* IDEA: viduriam paveiksliukui */
+
+.butcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pavgale::before{
+  content: ""; /* IDEA: reikia butinai sukurti content  */
+  background-image: url("../img/grybas2.jpg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  padding-top: 10px;
+  margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
+=======
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
 }
 .btn{
   color: white;
