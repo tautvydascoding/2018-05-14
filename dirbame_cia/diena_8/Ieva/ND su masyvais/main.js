@@ -27,8 +27,7 @@ vardai.splice(1,1);
 console.log("ištryniau marijos vietą su splice:", vardai);
 
 // ) sukeisti vietomis pirma ir paskutini stalciu
-vardai.sort();
-vardai.reverse(3,0);
+vardai.sort(); // nerikiuoja skaičių
 console.log("sukeiciau pirma su paskutiniu:", vardai);
 
 // ) sukurti masyvo kojipa
