@@ -23,6 +23,8 @@ prekiautojai[2] = temp;
 console.log(  "po sukeitimo prekybos centrai:", prekiautojai  );
 // !negalima rasyti rankomis String (nes duomenys kinta, ir jus nezinote koki duomenys bus po savaites)
 
+
+
 // C) padaryti B) uzdaviniui f-ja sukeistiMasyvo2elementus(x, y)
 function sukeistiMasyvo2elementus(x,y) {
   var temp = prekiautojai[y];
@@ -45,7 +47,7 @@ console.log("Po idedant unshift:" , keliautojas);
 var ilgis = keliautojas.length; // nustatome ilgi masyvo
 console.log("masyvo ilgis:" + ilgis);
 //triukas paskutiniam elementui rasti
-keliautojas[ilgis] = "baige su pagirymu";
+keliautojas[ilgis] = "baige su pagirymu"; // galima ideti i elemento gala su length
 console.log( "pridedame ilgi", keliautojas);
 
 //.join() skliausteliuose nurodome skyrikli
@@ -70,9 +72,11 @@ delete keliautojas[2];
 console.log("po istrinimo delete 2:", keliautojas);
 
 //splice() - iterpti, istrinti
-
+keliautojas.splice(1,2);
+console.log("naudojama splice komanda:", keliautojas);
 //slice() - dalies kopija
 
+console.log("naudojame slice kom", keliautojas.slice(2));
 
 
 // =========================================================
@@ -96,7 +100,7 @@ for (var i = 0; i < 50; i++) {
   console.log("masyvas 50 elem:", sk );
   // arba
   for (var i = 0; i < 50; i++) {
-    sk[i] = 0; // priskiriame i masyvo vienam tringui, taip galima pakartoti ta elementa kiek kartu jis vyksta
+    sk[i] = 0; // priskiriame i masyvo vienam stringui, taip galima pakartoti ta elementa kiek kartu jis vyksta
   }
   console.log( sk);
 

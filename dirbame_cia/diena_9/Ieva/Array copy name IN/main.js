@@ -65,23 +65,23 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // }
 //   }
 
-var arRadau = false;
-
-for (var i = 0; i < names.length; i++) {
-
-    if (names[i] == "Rico") {
-
-        arRadau = true;
-        console.log("RADAU, VIETA:" +i);
-        break;
-    }
-
-     if  (arRadau == false) {
-
-
-    console.log("nepavyko");
-  }
-}
+// var arRadau = false;
+//
+// for (var i = 0; i < names.length; i++) {
+//
+//     if (names[i] == "Rico") {
+//
+//         arRadau = true;
+//         console.log("RADAU, VIETA:" +i);
+//         break;
+//     }
+//
+//      if  (arRadau == false) {
+//
+//
+//     console.log("nepavyko");
+//   }
+// }
 
 
 
@@ -89,7 +89,33 @@ for (var i = 0; i < names.length; i++) {
 // // 2 UZDUOTIS (f-ja iekom stalciaus)
 // // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
 // // eg: getStalciausNumeris( ieskomasTekstas)
-//
+
+function getStalciausNumeris(xxx) {
+
+var arRadau = false;
+
+for (var i = 0; i < names.length; i++) {
+
+    if (names[i] == "xxx") {
+
+        arRadau = true; // radau
+        return i;
+
+      }
+
+    }
+      if (arRadau == false) {
+        return - 1;
+
+    }
+}
+
+var nr = getStalciausNumeris("Treva");
+console.log(nr);
+
+// arba funckija iškviečiame konsole.log su funkcija viduje.
+
+
 // // uzduots:----------------------------
 // // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // // 4) rasti visu zmoniu vardu "Rico" pavardes

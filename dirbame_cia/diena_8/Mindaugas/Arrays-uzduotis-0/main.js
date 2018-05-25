@@ -14,6 +14,7 @@ console.log("Labas ");
 //      <div> savininko vardas: ...</div>
 //      <span> masinos metai: ...  Rida: ...</span>
 //      i mygtuka ideti: masinos kaina ....
+
 // </article>
 
 
@@ -23,4 +24,16 @@ console.log( "maisino pavadinimas:", masina1[0] );
 console.log( "maisino rida:", masina1[1] );
 console.log( "maisino kaina:", masina1[2] );
 
-masina1[3] = "Tadas";
+masina1[2] = masina1[2] + 100;
+console.log( "didinta kaina:", masina1[2]);
+document.querySelector('p').innerHTML += "-" + masina1;
+
+masina1[1] = masina1[1] + -50000;
+console.log( "didinta rida:", masina1[1]);
+document.querySelector('p').innerHTML += "-" + masina1;
+
+
+masina1[3] = "Tomas";
+console.log("Spasudinti masyvo duom:", masina1);
+
+document.querySelector('button').innerHTML = masina1[2];
