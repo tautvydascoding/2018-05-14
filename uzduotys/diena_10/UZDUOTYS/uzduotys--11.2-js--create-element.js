@@ -14,30 +14,9 @@
 
 // 3.1. headerio elementa ideti i <body> elementa
 
-// 3.2. headerio elementa ideti po H1 elementu
+// 3.2. headerio elementa ideti virs <aside> elementu
 //      manoH1 tetis            kaIdeti  PriesKa
 // document.body.insertBefore(  manoAside, manoH1 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //
