@@ -21,19 +21,34 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
     var atlyginimas = 500;
     var arPasikeite = false;
     // UZDUOTIS
-    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
+    // A) patikrinti ar 'atlyginimas' padidejo ir panaudoti kintamaji
+    // 'arPasikeite'.rementis siuo kintamuoju, isvesti pranesima
+    // -" atlyginimas pasikeite" arba 'atlyginimas toks pats'
     atlyginimas += 100;  // atlyginimas = atlyginimas + 100;
     if ( atlyginimas > 500) {
-
+            console.log(" atlyginimas pasikeite");
     } else {
-
+           console.log("  atlyginimas toks pats ");
     }
+    // suprogramuoti patikrinima (su if), kad isvestu zinute
+    if ( atlyginimas > 500) {
+        arPasikeite = true;
+    }
+    // ar cia tiesa??
+    if ( arPasikeite ) {
+            console.log(" atlyginimas pasikeite");
+    } else {
+           console.log("  atlyginimas toks pats ");
+    }
+
 
 
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
-
+for (var i = 0; i < array.length; i++) {
+    array[i]
+}
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
 // eg: getStalciausNumeris( ieskomasTekstas)
