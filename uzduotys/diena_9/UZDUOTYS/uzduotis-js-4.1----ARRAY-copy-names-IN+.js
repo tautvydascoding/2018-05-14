@@ -46,9 +46,7 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 // 1A) surasti vardu masyve, kelintas zmogus yra "Rico" (surasti pirmaji; sunkes- surasti visus riko)
 // 1B) papildyti ^: jeigu tokio vardo neranda, isvesti VIENĄ pranesima "Nepavyko rasti...Bandykite kita zodi"
 
-for (var i = 0; i < array.length; i++) {
-    array[i]
-}
+
 // 2 UZDUOTIS (f-ja iekom stalciaus)
 // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
 // eg: getStalciausNumeris( ieskomasTekstas)
@@ -56,7 +54,9 @@ for (var i = 0; i < array.length; i++) {
 // uzduots:----------------------------
 // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
 // 4) rasti visu zmoniu vardu "Rico" pavardes
-// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+// 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];
+// A) atspausdinti visus numerius
+// B) isvesti ju pavardes ir vardus
 
 // var a = Math.random(); // 0 - 1
 // if ( a <= 0.1) {
