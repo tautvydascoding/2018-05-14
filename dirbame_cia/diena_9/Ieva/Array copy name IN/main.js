@@ -1,17 +1,17 @@
 console.log("Labas ");
 console.log("labas");
 
-// =================taisyklingas Array copy  =================
-// NOTE: var arr2 =  arr1; // !!! Blogi  - sukurs susietaja kopija ir redaguojant keisis abu masyvai
-var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
-var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
-var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
+// // =================taisyklingas Array copy  =================
+// // NOTE: var arr2 =  arr1; // !!! Blogi  - sukurs susietaja kopija ir redaguojant keisis abu masyvai
+// var arr1 = ['a', 'b', 'c'];  // Becomes arr1 = ['a', 'b', 'c']
+// var arr2a = arr1.slice(0);   // Becomes arr2a = ['a', 'b', 'c'] - deep copy
+// var arr2b = arr1.concat(  );   // Becomes arr2b = ['a', 'b', 'c'] - deep copy
 // ================= ========= ======== ========
 
 /// PATARTINAS MASYVŲ KOPIJAVIMAS
 
-var masyvas1 = ["Tomas", "Tadas", "Karolis"];
-var masyvas2 = masyvas1;
+// var masyvas1 = ["Tomas", "Tadas", "Karolis"];
+// var masyvas2 = masyvas1;
 // console.log("prieš redaguojant masyvas1:" + masyvas1);
 // console.log("prieš redaguojant masyvas2:" + masyvas2);
 //
@@ -85,43 +85,82 @@ var lastNames = ["Mcdowell", "Gates", "Mccall", "Cisneros", "Hancock", "Gaines",
 
 
 
-
-// // 2 UZDUOTIS (f-ja iekom stalciaus)
-// // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
-// // eg: getStalciausNumeris( ieskomasTekstas)
-
-function getStalciausNumeris(xxx) {
-
-var arRadau = false;
-
-for (var i = 0; i < names.length; i++) {
-
-    if (names[i] == "xxx") {
-
-        arRadau = true; // radau
-        return i;
-
-      }
-
-    }
-      if (arRadau == false) {
-        return - 1;
-
-    }
-}
-
-var nr = getStalciausNumeris("Treva");
-console.log(nr);
+//
+// // // 2 UZDUOTIS (f-ja iekom stalciaus)
+// // // parasyti funkcija, kuriai davus iekoma zodi , ji suranda jo vieta masyve (stalciaus numeri) ir si   numeri grazina
+// // // eg: getStalciausNumeris( ieskomasTekstas)
+//
+// function getStalciausNumeris(xxx) {
+//
+// var arRadau = false;
+//
+// for (var i = 0; i < names.length; i++) {
+//
+//     if (names[i] == "xxx") {
+//
+//         arRadau = true; // radau
+//         return i;
+//
+//       }
+//
+//     }
+//       if (arRadau == false) {
+//         return - 1;
+//
+//     }
+// }
+//
+// var nr = getStalciausNumeris("Treva");
+// console.log(nr);
 
 // arba funckija iškviečiame konsole.log su funkcija viduje.
 
 
-// // uzduots:----------------------------
-// // 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
-// // 4) rasti visu zmoniu vardu "Rico" pavardes
-// // 5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+// uzduotis:----------------------------
+// 3) rasti pavarde masyve esancio  zmogaus vardu "Freida" (pirmojo)
+
+  // var zmogausNr = names.indexOf("Piper");
+  //
+  // var ieskomaPavarde = lastNames[zmogausNr];
+  // console.log("Ieskoma pavarde:" + ieskomaPavarde);
+
+
+
+// 4) rasti visu zmoniu vardu "Rico" pavardes
+
+// var rastieji = [];
+// //ieškome visų Rico
+// for (var i = 0; i <= names.length; i++) {
 //
-// // var a = Math.random(); // 0 - 1
-// // if ( a <= 0.1) {
-// //     console.log("laimejai");
-// // }
+//     if (names[i] == "Rico") {
+//
+//       rastieji.push(lastNames [i]);
+//
+//     } else {
+//
+//
+//     }
+//
+// }
+// console.log("Rico pavardes:" + rastieji);
+
+//5) Turime masyva su zmoniu nr.  ieskomiZmones = [2, 16, 17, 18, 19, 25];  isvesti ju pavardes ir vardus
+
+
+
+
+ieskomiNumeriai = [2, 16, 17, 18, 19, 25];
+
+for ( i = 0; i < ieskomiNumeriai.length; i++) {
+    var x = ieskomiNumeriai[i];
+
+
+    console.log ("vardas:" + names[x] + "," + "pavarde:" + lastNames[x]);
+
+}
+
+//
+// var a = Math.random(); // 0 - 1
+// if ( a <= 0.1) {
+//     console.log("laimejai");
+// }

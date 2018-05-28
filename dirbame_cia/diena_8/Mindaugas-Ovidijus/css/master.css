@@ -2,7 +2,11 @@
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 64d454bec4215e2efdc4dffa75acc2c933519165
+=======
+>>>>>>> 070a381d113356d2ae82f6b6c0b2320f7df162d2
+>>>>>>> 95f655dd6d30fc45a1f93bd04afa3110f1bf33a8
 article h1 {
     color: black;
     text-align: center;
@@ -16,7 +20,81 @@ h1 {
 }
 <<<<<<< HEAD
 >>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
+<<<<<<< HEAD
 =======
+=======
+.antras{
+  margin-top: 120px;
+}
+.trecias{
+  margin-top: 240px;
+}
+.tekstas{
+  display: flex;
+<<<<<<< HEAD
+}
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+.ads{
+  padding: 0px 0px 0px 0px;
+  background: url(jpg);
+  background-size: 1348px 200px;
+background-repeat: no-repeat;
+}
+.footeris{
+  margin-top: 160px;
+}
+
+/* IDEA: galerijos klases */
+/* IDEA: galerijos pavadinimui iscentruoti */
+.galpav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* IDEA: viduriam paveiksliukui */
+
+.butcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pavgale::before{
+  content: ""; /* IDEA: reikia butinai sukurti content  */
+  background-image: url("../img/grybas2.jpg");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  padding-top: 10px;
+  margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
+=======
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
+}
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+=======
+
+.galerija {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btn{
+  color: white;
+  margin: 75px 0px 0px 616px;
+}
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+=======
+=======
+>>>>>>> 070a381d113356d2ae82f6b6c0b2320f7df162d2
+>>>>>>> 95f655dd6d30fc45a1f93bd04afa3110f1bf33a8
 }
 
 .navbar {
@@ -81,15 +159,30 @@ background-repeat: no-repeat;
   color: white;
   margin: 75px 0px 0px 616px;
 }
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
 .ads{
   padding: 0px 0px 0px 0px;
   background: url(jpg);
   background-size: 1348px 200px;
 background-repeat: no-repeat;
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
 .footeris{
   margin-top: 160px;
 }
+=======
+}
+.footeris{
+  margin-top: 160px;
+}
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+=======
+}
+.footeris{
+  margin-top: 160px;
+}
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
 
 /* IDEA: galerijos klases */
 /* IDEA: galerijos pavadinimui iscentruoti */
@@ -116,6 +209,25 @@ background-repeat: no-repeat;
   padding-top: 10px;
   margin-bottom: -6px; /* IDEA: padaro teksta per viduri paveiklsiulo */
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 118e115dc0e854d7f7b3fab5334aa142430115c1
+=======
+>>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+=======
+>>>>>>> 118e115dc0e854d7f7b3fab5334aa142430115c1
+=======
+>>>>>>> eee950afc692e0c4d2305f3a9dd68474c57828eb
+>>>>>>> 1f45cc97660aa4e39dd7778cb829da315cf6fe65
+>>>>>>> 1fc016dc07f724d6bb22f3badeacadd430970f4a
+=======
+>>>>>>> 070a381d113356d2ae82f6b6c0b2320f7df162d2
 
 .aukstis-100 {
     height: 100px;

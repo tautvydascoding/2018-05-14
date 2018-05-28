@@ -1,1 +1,2 @@
-console.log("Labas ");
+
+var manoHeader = document.createElement('header');

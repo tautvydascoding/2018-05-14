@@ -25,8 +25,8 @@ console.log("pavarde:" , Mokinys.pavarde);
 console.log("kelintokas:" , Mokinys.kelintokas);
 
 
-for (var i = 0; i < matPazymiai.length; i++) {
-  console.log("pazymiai:", matPazymiai);
+for (var i = 0; i < Mokinys.matPazymiai.length; i++) {
+  console.log("pazymiai:", Mokinys.matPazymiai);
 }
 // UZDUOTIS 1.2
 // PAKEISTI : klase i sekancia
@@ -40,7 +40,7 @@ console.log(Mokinys.kelintokas);
 Mokinys.begu = function begu() { console.log("bugu begu");
 
 };
-begu();
+Mokinys.begu();
 // prideti nauja kintamaji: miestas = 'kaunas'
 
 
