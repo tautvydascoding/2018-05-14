@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,15 +16,49 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
 
 
+        <?php
 
+            // paprasto masyvo kurimas
+            $darbuotojas = ["Povilas", "Povilaitis", 1992];
+            // test isvesdis
+            print_r( $darbuotojas );
+            echo "<br />";
+
+            // kitas isvedimo budas:
+            // count($x) suskaiciuoja koks masyvo ilgis
+            for ($i=0; $i < count( $darbuotojas ); $i++) {
+                echo     "stalciaus info: $darbuotojas[$i]    <br />";
+            }
+
+            //==============asociatyvus masyvas========
+            $masina = ["pavadinimas" => "Opel",
+                        "metai" => 2000,
+                        "spalva" => "raudona"
+                    ];
+            print_r( $masina );
+            //                     masyvas    stalciaus pavadinimas
+            echo  "masino matai:" . $masina["metai"];
+
+    echo "<br />";
+    echo "<br />";
+    echo "<br />";
+    //       manoMasyvas   stalciaus Pavadinimas    issigalvotas kintamasis stalciui
+    foreach ($masina as $stalciausPavadinimas => $konkreciamStalciuteIdetaReiksme) {
+        echo $konkreciamStalciuteIdetaReiksme . "<br />";
+    }
+    echo "<br />";
+    echo "<br />";
+    echo "<br />"; 
+    foreach ($masina as $key => $value) {
+        echo $key . " : " . $value . "<br />";
+    }
+
+
+
+         ?>
 
 
 

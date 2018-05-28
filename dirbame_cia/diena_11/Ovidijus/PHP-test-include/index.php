@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,13 +14,27 @@
 
     </head>
 
-    <body>
+    <body class="container">
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+        <?php
+
+        $kaina = 500;// panaudota preke.php faile
+        $antraste = "Belekas";
+        // $aprasymas = ...;
+
+
+        echo "<div class='row'>";
+
+        for ($i=0; $i < 6 ; $i++) {
+          include("preke.php");
+        }
+
+        echo "</div>"
+
+
+
+         ?>
 
 
 
