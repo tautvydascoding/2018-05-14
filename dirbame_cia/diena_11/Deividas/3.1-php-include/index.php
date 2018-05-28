@@ -17,11 +17,46 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Welcome to our site</title>
   </head>
-  <body>
-
-
-
+  <body class="container">
     <h1>tekstas</h1>
+
+    <div class="row">
+
+    </div>
+
+
+
+    <?php
+
+      $kaina = 500;
+      $antraste = "Dviratis";
+      $aprasymas = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+
+      echo "<div class='row'>";
+    for ($i=0; $i <6; $i++) {
+      // code...
+      include( "preke.php");
+    }
+      echo "</div>";
+
+
+      //UZDUOTIS:
+      //1: sukurti "preke.php" faila
+      //h2
+      //p
+      //button
+      //2: PALEIST for cikla 6 kartus( ideti i container ir row)
+      //3) index.php
+      // sukurti kintamuosius:
+      //$kaina = ..;
+      //$antraste = ..;
+      //$aprasymas = ..;
+
+
+
+      ?>
+
 
 
 
