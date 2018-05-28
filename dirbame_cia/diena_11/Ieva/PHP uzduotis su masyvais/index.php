@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>scope</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,53 @@
 
     <body>
         <h1 > Isijunk console </h1>
+<!--
+        // uzduotis 1
+        // A. susikurti meniu masyva: home, about, gallery, contact, blog
+        // B. atspausdinti visus meniu punktus i HTML (su html tag'ais)
+
+
+        // uzduotis 2
+        // A. susirasti 6 nuotraukas
+        // B. susikurti nuotrauku pavadinimu masyva
+        // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
+        // <img src='./img/1.jpg' alt=''  /> -->
+
+<?php
+    // $darbuotojas = ["Povilas", "Povilaitis", 1992];
+    // print_r($darbuotojas);
+    // echo "<br />";
+    //
+    // $masina = ["pavadinimas"=> "Opel", "spalva"=> "juoda", "metai" =>2000];
+    // print_r($masina);
+    //
+    // echo "<br/>";
+    // echo "masinos metai:" . $masina["metai"];
+    //
+    // echo "<br/>";
+    // foreach ($masina as $stalciausPavadinimas => $stalciausReiksme) {
+    //   echo "$stalciausReiksme" . "<br/>";
+    // }
+
+
+    $masyvasMeniu = ["Home", "About", "Gallery", "Contact", "Blog", "WordPress"];
+    // print_r($masyvasMeniu); testavimui
+?>
+
+    <nav>
+      <ul>
+          <?php
+
+          foreach ($masyvasMeniu as $key => $value) {
+            echo "<li>" . $value . "</br/>";
+          }
+
+           ?>
+
+
+      </ul>
+    </nav>
+
 
 
 
