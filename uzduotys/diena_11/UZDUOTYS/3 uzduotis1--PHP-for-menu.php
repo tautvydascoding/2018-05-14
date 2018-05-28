@@ -8,5 +8,3 @@
             // B. susikurti nuotrauku pavadinimu masyva
             // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
             // <img src='./img/1.jpg' alt=''  />
-
-
