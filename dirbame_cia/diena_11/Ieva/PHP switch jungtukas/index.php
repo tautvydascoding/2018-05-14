@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>scope</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,6 +17,28 @@
     <body>
         <h1 > Isijunk console </h1>
 
+        <?php
+        $kintamasis = 'jautis';
+          switch ($kintamasis) {
+            case 'avinas':
+              echo "Jusu laukia sekminga diena <br/>";
+              break;
+
+              case 'jautis':
+                echo "Jusu laukia palanki diena <br/>";
+                break;
+
+                case 'vandenis':
+                  echo "Jusu laukia nesekme diena <br/>";
+                  break;
+
+            default:
+                echo "Tokio \" $kintamasis \" nera <br/>";
+              break;
+          }
+
+      ?>
+
 
 
 
@@ -30,10 +52,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <!-- MANO JS failas pats zemiausias -->
-        <script type="text/javascript" src="main.js" >
-            var x = 1000;
-            console.log(x);
-
-         </script>
+        <script type="text/javascript" src="main.js" >  </script>
     </body>
 </html>
