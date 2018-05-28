@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,14 +17,72 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<?php
-%%%%%%%%%%%%%
+        <?php
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-JHJHVVK>U
 
-;ligoigigologlul
-loh
+
+        $kintamasis="jautis";
+        switch ($kintamasis) {
+          case 'avinas':
+          echo "jusu laukia sekminga diena <br />";
+            break;
+          case 'jautis':
+            echo "jusu laukia nesekme finansuose <br />";
+            break;
+            case 'vandenis':
+          echo "jusu laukia staigmena <br />";
+              break;
+
+
+          default:
+
+          echo "tokio \" $kintamasis \" zodiako neturime <br /> ";
+            break;
+        }
+
+        // UZDUOTIS  "Switch"
+       // paduoti varda ir Jeigu jis lygus:
+       // "audi" - atspausdinti "Susimastykite apie variklio prieziura"
+       // "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
+       // "opel" - atspausdinti "Susimastykite apie naujus priedus"
+
+       $vardas="audi";
+       switch ($vardas) {
+         case 'audi':
+           echo "Susimastykite apie variklio prieziura <br />";
+           break;
+           case 'bmw':
+          echo "Susimastykite apie greiti ir vairavimo kultura";
+             break;
+             case 'opel':
+             echo "Susimastykite apie naujus priedus";
+             break;
+         default:
+           echo "tokio \" $vardas \" nera <br /> ";
+           break;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+        ?>
+
+
+
+
+
+
+
+
+
 
 
 
