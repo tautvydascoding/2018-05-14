@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,19 +16,47 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
 
+        <?php
+            $kintamasis = 'skorpijonas';
+            switch ($kintamasis) {
+                case 'avinas':
+                        echo "Jusu laukia sekminga diena<br>";
+                    break;
+                case 'jautis':
+                        echo "Jusu laukia nesekme finansuose<br>";
+                    break;
+                case 'vandenis':
+                        echo "Jusu laukia staigmena<br>";
+                    break;
+                default:
+                        echo "tokio \"  $kintamasis \" zodiako neturime <br>";
+                    break;
+            }
 
+            //=====================
+            // koks automobilis?
+            $tekstas = "  Audi";
 
+            // paverciame i mazasias raides, bet nesugadinam orginalaus kintamojo
+            $auto = strtolower( $tekstas);
+            // pasalina tarpus ir tab is abieju sonu (bet ne is teksto vidurio)
+            $auto = trim(  $auto );
+            switch ($auto) {
+                case 'audi':
+                        echo "<h3>puikus pasirinkimas</h3>";
+                    break;
+                case 'bwm':
+                        echo "<h3> greitas psirinkimas </h3>";
+                    break;
 
+                default:
+                        echo "<h3> nieko nezinome spie jusus pasirinkima </h3>";
+                    break;
+            }
 
-
-
+         ?>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

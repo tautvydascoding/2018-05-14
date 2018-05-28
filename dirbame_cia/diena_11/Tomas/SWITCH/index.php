@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,11 +16,57 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+<?php
+$kintamsis = 'vilkas';
+switch ($kintamsis) {
+    case 'avinas';
+        // code...
+        echo "Jusu laukia sekminga diena <br />";
+        break;
+    case 'jautis';
+        // code...
+        echo "Siandien jums nesiseks <br />";
+        break;
+
+    default:
+        // code...
+        echo "tokio \" $kintamsis \" zodiako nera <br />";
+        break;
+}
+ ?>
+
+ <!-- // UZDUOTIS  "Switch"
+// paduoti varda ir Jeigu jis lygus:
+// "audi" - atspausdinti "Susimastykite apie variklio prieziura"
+// "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
+// "opel" - atspausdinti "Susimastykite apie naujus priedus" -->
+
+<?php
+
+$automobilis = "Audi";
+$automobilis = strtolower($automobilis);
+$automobilis = trim($automobilis);
+switch ($automobilis) {
+    case 'audi':
+        echo "Susimastykite apie variklio prieziura <br />";
+        break;
+    case 'bmw':
+        echo "Susimastykite apie greiti ir vairavimo kultura <br />";
+    
+case "opel":
+echo "Susimastykite apie naujus priedus <br />";
+        default:
+        // code...
+        echo "Tokio automobilio neturime";
+        break;
+}
+
+
+
+ ?>
+<!-- kox auto -->
+
 
 
 

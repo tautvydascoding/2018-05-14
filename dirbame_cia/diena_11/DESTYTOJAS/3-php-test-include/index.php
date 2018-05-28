@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,20 +14,30 @@
 
     </head>
 
-    <body>
+    <body class="container">
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
+        <?php
+            $kaina = 500;
 
+            echo "<div class='row'>";
+                for ($i=0; $i < 6 ; $i++) {
+                    include( "preke.php ");
+                }
+            echo "</div>";
 
-
-
-
-
+            // UZDUOTIS:
+            // 1: sukurti "preke.php" faila
+            // h2 (antraste)
+            // p (aprasymas)
+            // button (Kaina)
+            // 2: paleisti FOR cikla 6 kartus (ideti container ir row)
+            // 3) index.php
+            // sukurti kintamuosius:
+            // $kaina = ...;
+            // $antraste = ...;
+            // $aprasymas = ...;
+         ?>
 
 
 

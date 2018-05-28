@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,12 +16,49 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
+        <?php
+            echo "mano zinute <br />";
+            echo "mano zinute <br />";
+
+            $vardas = "Petras";
+            echo " aukstas $vardas   isejo  <br> "; //  aukstas Petras isejo
+            echo ' aukstas $vardas   isejo  <br> '; //  aukstas $vardas isejo
+
+            print(  "kitas budas isvesti  i ekrana/faila <br />" );
+            // die(  " paskutine zinute kuria isves PHP <br />"  );
+            // echo "zinute po die ";
+
+
+            // konstantos
+            define("HOMESTRAIPSNIUSK", 6);
+            echo HOMESTRAIPSNIUSK;
+
+            // HOMESTRAIPSNIUSK = 8; // EROROR konstantos nekeiciamos
+
+
+
+
+            // js   "pirmas tekstas" + "antras"   // "pirmas tekstas antras"
+            // php   "pirmas tekstas" . "antras"   // "pirmas tekstas antras"
+            // pvz:
+            $nr = 999;
+            echo "skaiciaus tipas: " . gettype($nr) . "<br />";
+
+            if ( gettype($nr) == "string") {
+                settype($nr,  "integer");
+                echo "skaiciaus tipas: " . gettype($nr) . "<br />";
+            }
+            if ( $nr != 0 ) {
+                $ats = 100 / $nr;
+            }
+            echo "atsakymas:" .  $ats . "<br />";
+            echo "atsakymas: $ats  <br />";
+
+            // str - STRING    len - length
+            echo "teksto ilgis: " . strlen($nr) . "<br />";
+
+         ?>
 
 
 
