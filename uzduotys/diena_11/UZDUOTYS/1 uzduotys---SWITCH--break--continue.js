@@ -1,7 +1,7 @@
- PASIZIURETI KAS YRA PHP, js "Switch"
- 
- 
- 
+ // PASIZIURETI KAS YRA PHP, js "Switch"
+
+
+
    // UZDUOTIS  "Switch"
   // paduoti varda ir Jeigu jis lygus:
   // "audi" - atspausdinti "Susimastykite apie variklio prieziura"
