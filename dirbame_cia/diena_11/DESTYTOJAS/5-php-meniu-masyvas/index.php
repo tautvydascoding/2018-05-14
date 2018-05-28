@@ -18,49 +18,9 @@
         <h1 > Isijunk console </h1>
 
 
-
         <?php
-
-            // paprasto masyvo kurimas
-            $darbuotojas = ["Povilas", "Povilaitis", 1992];
-            // test isvesdis
-            print_r( $darbuotojas );
-            echo "<br />";
-
-            // kitas isvedimo budas:
-            // count($x) suskaiciuoja koks masyvo ilgis
-            for ($i=0; $i < count( $darbuotojas ); $i++) {
-                echo     "stalciaus info: $darbuotojas[$i]    <br />";
-            }
-
-            //==============asociatyvus masyvas========
-            $masina = ["pavadinimas" => "Opel",
-                        "metai" => 2000,
-                        "spalva" => "raudona"
-                    ];
-            print_r( $masina );
-            //                     masyvas    stalciaus pavadinimas
-            echo  "masino matai:" . $masina["metai"];
-
-    echo "<br />";
-    echo "<br />";
-    echo "<br />";
-    //       manoMasyvas   stalciaus Pavadinimas    issigalvotas kintamasis stalciui
-    foreach ($masina as $stalciausPavadinimas => $konkreciamStalciuteIdetaReiksme) {
-        echo $konkreciamStalciuteIdetaReiksme . "<br />";
-    }
-    echo "<br />";
-    echo "<br />";
-    echo "<br />"; 
-    foreach ($masina as $key => $value) {
-        echo $key . " : " . $value . "<br />";
-    }
-
-
-
+            include_once('nav.php');
          ?>
-
-
 
 
 
