@@ -17,11 +17,40 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Welcome to our site</title>
   </head>
-  <body>
-
-
-
+  <body class="container">
     <h1>tekstas</h1>
+
+    <div class="row">
+
+    </div>
+
+
+
+    <?php
+      echo "<div class='row'>";
+    for ($i=0; $i <6; $i++) {
+      // code...
+      include( "preke.php");
+    }
+      echo "</div>";
+
+
+      //UZDUOTIS:
+      //1: sukurti "preke.php" faila
+      //h2
+      //p
+      //button
+      //2: PALEIST for cikla 6 kartus( ideti i container ir row)
+      //3) index.php
+      // sukurti kintamuosius:
+      //$kaina = ..;
+      //$antraste = ..;
+      //$aprasymas = ..;
+
+
+
+      ?>
+
 
 
 

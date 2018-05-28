@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title>Include</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,17 +14,37 @@
 
     </head>
 
-    <body>
-        <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+    <body class="container">
 
 
+        <!-- include('header.php');
 
+        Susikurti 4 failus:
 
+        header.php
+        main.php
+        footer.php
+        index.php
+
+        Faile index.php naudojant include('kelias'); f-ja "iterpti" header, main ir footer failus -->
+
+<?php
+$kaina = 500;
+
+echo "<div  class = 'row'>";
+for ($i=0; $i < 6 ; $i++) {
+    include("preke.php");
+}
+"</div>"
+ ?>
+<!-- paleisti FOR cikla 6 kartus ideti container ir row-->
+<!--index.php
+sukurti kintamuosius:
+$kaina = ...
+$antraste = ...
+$aprasymas = ...
+
+ -->
 
 
 

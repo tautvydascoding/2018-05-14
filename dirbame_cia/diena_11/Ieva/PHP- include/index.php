@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,15 +14,34 @@
 
     </head>
 
-    <body>
+    <body class="container">
+
+
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+          <?php
+         /* 2. Sukurti ciklą for 6  kartus (ideti container ir row)
+            3. index.php sukurti kintamuosius: $kaina=..., $antraste=..., $aprasymas =...
+        */
+
+          $kaina = 499;
+          $antraste = "Paspirtukas";
+          $aprasymas = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+          echo "<div class='row'>";
+            for ($i=0; $i < 6; $i++) {
+
+                include("preke.php");
+
+              }
+          echo "</div>";
 
 
+
+
+
+
+         ?>
 
 
 

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,12 +16,38 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
+        <?php
+
+            echo "Hello World! <br />";
+            echo "Labas <br />";
+
+
+            $vardas = "Petras";
+            echo "Mokinys $vardas mokosi <br/>"; // ekrane "Mokinys Petras mokosi"
+            echo 'Mokinys $vardas mokosi <br/>'; // ekrane "Mokinys $vardas mokosi"
+
+            print("Kitas būdas išvesti į ekraną / failą <br />");
+            /*die ("paskutinė žinutė kurią išvesti PHP <br />");*/
+
+            //konstantos
+            define("HOMESTRAIPSNIUSK", 6);
+            echo HOMESTRAIPSNIUSK;
+
+            //kitos komandos//
+            $nr = "999";
+            echo gettype($nr);
+
+            echo "skaiciaus tipas:" . gettype($nr) . "<br/>";
+
+            settype($nr, "integer");
+
+            echo "skaiciaus tipas:" . gettype($nr) . "<br/>";
+
+
+            echo"Teksto ilgis:" . strlen($nr) . "<br/";
+
+         ?>
 
 
 

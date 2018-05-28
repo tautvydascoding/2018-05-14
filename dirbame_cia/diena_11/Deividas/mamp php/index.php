@@ -23,6 +23,57 @@
 
     <h1>tekstas</h1>
 
+    <?php
+        echo "mano zinute <br/>";
+        echo "mano zinute <br/>";
+        $vardas = "Petras";
+        echo "aukstas  $vardas isejo i lauka <br/>";
+        echo 'aukstas  $vardas isejo i lauka <br/>';
+
+        print("kitas budas isvesti i ekrana/faila <br/>");
+        //die("paskutine zinute kuria isves PHP <br/>");
+
+        //konstantos
+
+        //define("HOMESTRAIPSNIUSK", 6 );
+        //echo HOMESTRAIPSNIUSK;
+
+        //HOMESTRAIPSNIUSK = 8; //ERROR konstantos nekeiciamos
+
+        //$nr = 999;
+        //echo gettype($nr);
+        //js "pirmas tekstas" + "antras" // "pirmas tekstas antras"
+        //php "pirmas tekstas" . "antras" // "pirmas tekstas antras"
+        //pvz:
+        $nr = 100;
+
+        echo "skaiciaus tipas: " . gettype($nr) . "<br />";
+        settype($nr, "integer");
+
+        if (gettype($nr) == "string") {
+          settype($nr, "integer");
+          echo "skaiciaus tipas: " . gettype($nr) . "<br />";
+        }
+          if ($nr != 0 ) {
+            $ats = 100 / $nr;
+        }
+        echo "atsakymas: " . $ats . "<br />";
+        echo "atsakymas:   $ats . <br />";
+
+        //str - STRING  len - lenght
+        echo "teksto ilgis: " . strlen($nr) . "<br />";
+
+
+       ?>
+
+
+
+
+
+
+
+
+
 
 
     <article >

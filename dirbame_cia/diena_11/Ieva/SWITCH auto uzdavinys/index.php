@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,14 +16,39 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
 
 
+<?php
+// UZDUOTIS  "Switch"
+// paduoti varda ir Jeigu jis lygus:
+// "audi" - atspausdinti "Susimastykite apie variklio prieziura"
+// "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
+// "opel" - atspausdinti "Susimastykite apie naujus priedus"
 
+$tekstas = '  OpeL';
+$auto = strtolower($tekstas); // paverciame i mazasias raides
+$auto = trim($auto); // Pašalina tarpus iš kairės ir dešinės
+
+switch ($auto) {
+  case 'audi':
+
+    echo "Susimastykite apie variklio prieziura <br/>";
+    break;
+
+    case 'bmw':
+      echo "Susimastykite apie greiti ir vairavimo kultura <br/>";
+      break;
+
+      case 'opel':
+        echo "Susimastykite apie naujus priedus <br/>";
+        break;
+
+          default:
+           echo "Tokios \"$vardas\" nera <br/>";
+            break;
+}
+
+?>
 
 
 

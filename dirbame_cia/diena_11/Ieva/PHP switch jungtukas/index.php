@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,11 +16,28 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+        <?php
+        $kintamasis = 'jautis';
+          switch ($kintamasis) {
+            case 'avinas':
+              echo "Jusu laukia sekminga diena <br/>";
+              break;
+
+              case 'jautis':
+                echo "Jusu laukia palanki diena <br/>";
+                break;
+
+                case 'vandenis':
+                  echo "Jusu laukia nesekme diena <br/>";
+                  break;
+
+            default:
+                echo "Tokio \" $kintamasis \" nera <br/>";
+              break;
+          }
+
+      ?>
 
 
 

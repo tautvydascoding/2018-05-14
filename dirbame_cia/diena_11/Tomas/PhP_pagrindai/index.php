@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,11 +16,53 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+
+<?php
+    echo "Labas Pasauli<br />";
+    echo "Labas Pasauli<br />";
+    $vardas = "Petras";
+    echo "aukstas $vardas isejo<br />"; // IDEA: aukstas Petras
+    echo 'aukstas $vardas idejo <br />';// IDEA: aukstas $vardas
+    printf("Kitas budas isvesti i ekrana <br />");
+    // die("Paskutine zinute kuria isves PHP <br/>");
+    // echo "zinute po die";
+ ?>
+<!-- Konstantos -->
+
+<?php
+define("HOMESTRAIPSNIUSKAICIUS", 6 );
+echo "HOMESTRAIPSNIUSKAICIUS";
+
+$nr=999;
+echo "Skaiciaus tipas" . gettype($nr) . "<br />";
+settype($nr, "integer");
+echo "Skaiciaus tipas:" . gettype($nr) . "<br />";
+if (gettype($nr)=="string") {
+    // code...
+    settype($nr, "integer");
+    echo "Skaiciaus tipas:" . gettype($nr) . "<br />";
+}
+    if ($nr !=0) {
+        // code...
+        $ats = 100 / $nr;
+
+}
+echo "atsakymas:" . $ats . "<br/>";
+echo "Atsakymas:" . $ats . "<br />";
+acho "Teksto ilgis" . strlen($nr) . "<br />"
+// str = string
+ ?>
+
+
+
+
+
+
+
+
+
+
 
 
 

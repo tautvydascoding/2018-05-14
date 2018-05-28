@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>PhP</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,11 +16,50 @@
 
     <body>
         <h1 > Isijunk console </h1>
-<div class="">
-    <?php
-    echo "Hello World";
-     ?>
-</div>
+
+        <?php
+
+        $kintamasis = 'jautis';
+        switch ($kintamasis) {
+          case 'avinas':
+            echo "Sekminga diena<br />";
+            break;
+          case 'jautis':
+            echo "Nesekminga diena<br />";
+            break;
+          case 'mergele':
+            echo "Gera  diena<br />";
+              break;
+          default:
+            echo "tokio zodiako nera<br />";
+            break;
+        }
+
+        $marke = "Audi ";
+
+        $automobilis = strtolower($marke); //paverciame i mazasias raides
+
+        $automobilis = trim ($automobilis);//pasalina tarpus is abieju sonu
+
+        switch ($automobilis) {
+          case "audi":
+            echo "reikia taisyt varikli<br />";
+            break;
+          case "bmw":
+            echo "reikia taisyt vaziuokle<br />";
+            break;
+          case "volvo":
+            echo "reikia taisyt salona<br />";
+            break;
+          case "mazda":
+            echo "reikia taisyt kebula<br />";
+            break;
+          default:
+            echo "Tokio automobilio neradome<br />";
+            break;
+        }
+
+         ?>
 
 
 
