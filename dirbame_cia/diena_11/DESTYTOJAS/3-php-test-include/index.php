@@ -22,7 +22,7 @@
 
             echo "<div class='row'>";
                 for ($i=0; $i < 6 ; $i++) {
-                    include( "preke.php ");
+                    require_once( "preke.php"); 
                 }
             echo "</div>";
 
