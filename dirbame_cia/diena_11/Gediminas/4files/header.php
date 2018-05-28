@@ -13,15 +13,4 @@
         <link rel="stylesheet" href="css/master.css">
 
     </head>
-
-
-    <div class="col-md-4 bg-success">
-      <header>
-        <ul>
-          <li>Home</li>
-          <li>Contacts</li>
-          <li>Gallery</li>
-        </ul>
-
-      </header>
-    </div>
+    <body>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>scope</title>
+        <title></title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,14 +14,4 @@
 
     </head>
 
-
-    <div class="col-md-4 bg-success">
-      <header>
-        <ul>
-          <li>Home</li>
-          <li>Contacts</li>
-          <li>Gallery</li>
-        </ul>
-
-      </header>
-    </div>
+    <body>
