@@ -10,12 +10,8 @@ var manoBody = document.querySelector('body');
 // console.log("mano elementas:", manoElementas); // test
 // console.log("mano body:", manoBody);    // test
 
-// appendChild - i 'manoBody' idedame 'manoElementas' (kaip vaika)
-manoBody.appendChild(   manoElementas );   // veikia tik su NODE/objektais
+manoBody.appendChild(   manoElementas );   // veikia tik su NODE/objektais  // appendChild - i 'manoBody' idedame 'manoElementas' (kaip vaika)
 // manoBody.appendChild(   "mano tekstas" );  // !!!! ERROR
-
-// document.querySelector('body').appendChild(   manoElementas );
-// ARBA
 
 //===============================
 // egzistuojancio 'h1' elemnto perkelimas i 'body' apacia
@@ -23,6 +19,9 @@ var manH1 = document.querySelector('h1');
 manoBody.appendChild(  manH1 );
 //===============================
 
+//==============footer elemento kurimas=================
 var manoFooter = document.createElement('footer');   // objektas/Node'as
 console.log(  manoFooter   );  //test
+//===============================
+
 //
