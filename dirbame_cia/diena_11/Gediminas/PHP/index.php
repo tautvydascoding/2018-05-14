@@ -14,8 +14,27 @@
 
     </head>
 
-    <body>
-        <h1 > Isijunk console </h1>
+    <body class="container">
+
+
+        <?php
+
+        $kaina = 500;
+
+
+
+        echo "<div class= 'row'>";
+            for ($i=0; $i<6; $i++) {
+                include( "preke.php");
+            }
+
+        echo "</div>";
+
+
+
+
+        ?>
+
 
 
 
