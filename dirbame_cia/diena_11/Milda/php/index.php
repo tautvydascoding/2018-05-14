@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,14 +17,55 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<?php
-%%%%%%%%%%%%%
+          <?php
+          echo "mano zinute <br/>";
+          echo "mano 2 zinute <br/>" ;
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-JHJHVVK>U
+            $vardas = "Petriukas";
+            // aukstas Petras isejo
+            echo "aukstas $vardas  isejo i lauka <br />";
+            // aukstas $vardas isejo
+            echo 'aukstas $vardas  isejo i lauka <br />';
 
-;ligoigigologlul
-loh
+            print("kitas budas isvesti i ekrana/faila <br />");
+            // die("paskutine zinute kuria isves PHP <br />");
+            echo "zinute po die";
+
+            // konstantos
+            define("HOMESTRAIPSNIUSK", 6);
+            echo "HOMESTRAIPSNIUSK";
+            $nr = "999";
+// php sujungimas "pirmas tekstas"."antras tekstas"
+            echo "gettype($nr)";
+
+            echo "skaiciaus tipas" . gettype($nr) . "<br />";
+            if (gettype($nr) == "string") {
+              settype($nr, "integer");
+              echo "skaiciaus tipas:" . gettype($nr) . "<br />";
+
+              if ($nr !=0 ) {
+                $ats=100 / $nr;
+              }
+            }
+            echo "atsakymas" . $ats . "<br />";
+            echo "atsakymas:$ats <br />";
+
+            // settype($nr, "integer");
+            // echo "skaiciaus tipas:" . gettype($nr) . "<br />";
+
+
+
+// str stringo trumpinys, o len length trumpinys (strlen)
+            echo "teksto ilgis:" . strlen($nr) . "<br />";
+
+
+
+
+
+
+          ?>
+
+
 
 
 

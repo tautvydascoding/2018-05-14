@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,17 +14,52 @@
 
     </head>
 
-    <body>
+    <body class="container">
         <h1 > Isijunk console </h1>
+        <div class="row">
 
-<?php
-%%%%%%%%%%%%%
+        </div>
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-JHJHVVK>U
+          <?php
+          $kaina = 500;
 
-;ligoigigologlul
-loh
+
+
+          echo "<div class='row'>" ;
+            for ($i=0; $i < 6; $i++) {
+              include ("preke.php");
+            }
+          echo "</div>";
+
+
+// uzduotis
+// 1:sukurti preke php faile
+// h2 (antraste)
+// p (aprasymas)
+// button (kaina)
+// 2: paleisti FOR cikla 6 kartus (ideti i container ir row)
+// 3: index.php
+// sukurti kintamuosius:
+// $kaina =...;
+// $antraste=...;
+// $aprasymas=...;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          ?>
+
 
 
 
