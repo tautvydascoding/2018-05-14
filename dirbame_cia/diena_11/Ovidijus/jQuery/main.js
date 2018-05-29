@@ -24,3 +24,8 @@ $("li:even").css("background-color", "orange");
 $("li").eq(2).css("color", "pink");
 
 $("body").find("h2").css("color", "green");
+
+$("h1").click(function(event){
+  $("body").css("color", "White");
+  $("body").css("background-color", "black");
+});
