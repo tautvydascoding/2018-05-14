@@ -1,0 +1,134 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Forum', cursive;
+  color: greye;
+  background-image: url(../images/fonas2.jpg);
+}
+
+h2 {
+  text-align: center;
+}
+
+.aukstis-100 {
+  height: 100px;
+}
+
+.aukstis-150 {
+  height: 150px;
+}
+
+.aukstis-200 {
+  height: 200px;
+}
+
+.aukstis-300 {
+  height: 300px;
+}
+
+.aukstis-400 {
+  height: 400px;
+}
+
+.aukstis-500 {
+  height: 500px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+#wrapper {
+  background-image: url("../images/mountain-lake-nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Forum', cursive;
+  color: white;
+
+}
+
+.front-page {
+  padding: 50px;
+  text-align: center;
+  text-size: 20px;
+
+}
+
+.nature {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 20px;
+  width: 25%;
+  background-color: grey;
+  color: white;
+}
+
+.blog-image {
+  position:relative;
+
+}
+
+p {
+  font-size: 15px;
+  padding: 50px;
+  align-content: center;
+}
+
+/* --------Menu ir logo -----------*/
+nav li {
+    margin-right: 100px;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 40px;
+    }
+
+
+    header { margin-bottom: 100px;
+
+
+
+}
+/*---------------------------------*/
+
+input {
+  margin-top: 20px;
+  border: 0px;
+  padding: 10px;
+
+}
+
+textarea {
+  border: 0px;
+  padding: 10px;
+}
+
+/*-------------------------------------*/
+    footer {
+      padding-top:20px;
+      background-image: linear-gradient(to top, #7d997a, #F5F5F5);
+      color: grey;
+      text-align: center;
+      font-family: 'Forum', cursive;
+      font-size: 15px;
+
+    }
+
+
+/* ------------------------------*/
+
+.search-input {
+  width: 60px;
+
+}
+
+
+
+.fonas {
+  background-image: linear-gradient(0deg,  #ebe7e7, #adcba9);
+}
