@@ -22,6 +22,13 @@ var elementas2 = $("<p> </p>").html("<button>Register</button>");
 // note2: When passing HTML to jQuery(), note that text nodes are not treated as DOM elements. With the exception of a few methods (such as .content()), they are generally ignored or removed. eg: "<p>text</p> text" text may be removed
 //var elementas2 = $("<p/>").html("<button>Register</button>"); // shortcut
 
+// Turinio idejimas i vidu
+$('h1').html("<b>Naujas tekstas</b>");  // Naujas tekstas (ryskus tekstas)
+$('h1').txt("<b>Naujas tekstas</b>");  // <b>Naujas tekstas<b>
+
+$('input').val("Naujas tekstas");  // !! TIK ivedimo laukams
+
+
 // arba js
 
 // var elementas2 = document.createElement("p");
