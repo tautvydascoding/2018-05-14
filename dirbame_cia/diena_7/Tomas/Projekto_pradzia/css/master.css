@@ -1,29 +1,50 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+     flex-direction:row;
+    overflow: hidden;
+    background-color: #FAE936;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
 
- a {
+#navbar a {
     color: #A0CE4E;
     text-shadow: 3px 3px 6px black;
-    font-weight: bold;
-    font-family: 'Kavoon', cursive;
+font-weight: bold;
+    font-family: 'Kavivanar', cursive;
     font-size: 25px;
     height: 100px;
+
+
     display: block;
+
+
     padding: 16px;
     text-decoration: none;
 }
-a:hover {
-    color: white;
-}
 
-.spalvaNav{
-background-color: yellow;
-}
-
-img {
+img{
     height: 90px;
 }
+/* float: right;
+text-align: center; */
 
-body {
-background: url("../img/01.jpg");
-background-size: cover;
-background-repeat: no-repeat;
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
 }

@@ -1,7 +1,7 @@
 // sukurti masyva: Jonas, Petras, Povilas, Kestas, Karolis
 // ) sunaikinti pirma STALCIU VISA
 // ) tarp Petras ir Povilas, iterpti Marija
-// ) surikiuoti Masyvai
+// ) surikiuoti Masyva
 // ) sunaikinti Marijos stalciu
 // ) sukeisti vietomis pirma ir paskutini stalciu
 // ) sukurti masyvo kojipa

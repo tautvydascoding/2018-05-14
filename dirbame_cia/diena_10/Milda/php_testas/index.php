@@ -17,14 +17,9 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<?php
-%%%%%%%%%%%%%
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-JHJHVVK>U
 
-;ligoigigologlul
-loh
+
 
 
 

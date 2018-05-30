@@ -16,6 +16,8 @@ console.log("labs");
 
 function piestiEilute(ilgis) {
   var eilute = "-";
+
+
   for (var i = 0; i < ilgis ; i++) {
     eilute = eilute + "-";
   }
@@ -40,9 +42,6 @@ piestiEilute(20);
 var kiekMenesiu = 10 * 12;
 var menAtlyginimas = 680;
 var algosPokytis = 1;  // 1%
-
-
-}
 
 // ==============SCSS============================
 
