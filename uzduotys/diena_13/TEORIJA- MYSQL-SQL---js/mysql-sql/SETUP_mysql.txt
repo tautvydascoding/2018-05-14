@@ -1,9 +1,11 @@
 ============WIN===================
 einam MAMP/bin/mysql/bin
-randame mysql.exe ir ant jo spaudizma DPK -  Sernd To -> Desctop
+randame mysql.exe ir ant jo spaudizma DPK -  Send To  Desctop
 ant to failiuko, kuri nusiuntem mysql.exe
 spaudzima DPK - > Properties
 ....exe -u root -p
+//arba
+....exe -u root -p  --default-character-set=utf8    // nebutina
 
 pasisitkrinti:
 !!!
@@ -14,9 +16,13 @@ NOTE: jeigu issijungia, MAMP'e pasikeiskita portus i 80 arba su PrintScreen mygt
 4) ivesti komanda: show databases;
 
 
+!!! jeigu neveikia
+MAMP-> Preference -> PORTS
+Spaudziame pakeisti i 80 porta:  Set web & Mysql porsts to 80 ...
 
 
-//====================
+
+//===========ARBA=========
 
 mysql.exe per properties pakeisti reiksme:
 C:\MAMP\bin\mysql\bin\mysql.exe -u root -p
