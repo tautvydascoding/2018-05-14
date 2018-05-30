@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+// PASIZIURETI KAS YRA PHP, js "Switch"
+=======
  // PASIZIURETI KAS YRA PHP, js "Switch"
+>>>>>>> ae8e176076de0eac7abb44332dacf42635a96f75
+=======
+ // PASIZIURETI KAS YRA PHP, js "Switch"
+>>>>>>> 911d4c3ccf95990303b74176e87fda699a81a146
 
 
 
