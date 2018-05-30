@@ -17,11 +17,67 @@
 
     <body >
 
+      <?php
+
+
+
+
+          $preke1 = ["preke1","1","prekes aprasymas 11111","500"];
+          $preke2 = ["preke2","2","prekes aprasymas 22222","500"];
+          $preke3 = ["preke3","3","prekes aprasymas 33333","500"];
+          $preke4 = ["preke4","4","prekes aprasymas 44444","500"];
+
+          $visosPrekes = [];
+
+          $visosPrekes[0] = $preke1;
+          $visosPrekes[1] = $preke2;
+          $visosPrekes[2] = $preke3;
+          $visosPrekes[3] = $preke4;
+
+
+          // print_r($preke1);
+          // echo "<br />";
+          // print_r($preke2);
+          // echo "<br />";
+          // print_r($preke3);
+          // echo "<br />";
+          // print_r($visosPrekes);
+          // echo "<br />";
+          // C. atvaizduodi kiekvienoje eiluteje po 3 prekes
+
+
+          // for ($i=0; $i < count($visosPrekes); $i++) {
+          //   echo  $visosPrekes[$i][0] . "<br/>";
+          //   //
+          //   // code...
+          // }
+
+          echo "<div class='row'>";
+          for ($i=0; $i < count($visosPrekes); $i++) {
+            echo "<article class='col-mg-4'>";
+            echo "<h2>" . $visosPrekes[$i][0] . "</h2>";
+            echo "<img>" . $visosPrekes[$i][1] . "</img>";
+            echo "<p>" . $visosPrekes[$i][2] . "</p>";
+            echo "<button>" . $visosPrekes[$i][3] . "</button>";
+            echo "</article>";
+          }
+          echo "</div>";
 
 
 
 
 
+       ?>
+
+       <div class="container">
+         <div class="row">
+           <article class="">
+
+           </article>
+
+         </div>
+
+       </div>
 
 
 
