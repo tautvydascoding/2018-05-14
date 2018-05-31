@@ -33,9 +33,7 @@ function getPrisijungimas() {
 
 // uzduotis sukurti funkcija kad paimtu gydytojo duomenis
 
-if (!is_numeric($nr)){
-      return NULL;
-  }
+
 
 function getDoctor($nr) {
     $manoSQL = "SELECT * FROM doctors WHERE id = '$nr';  ";
