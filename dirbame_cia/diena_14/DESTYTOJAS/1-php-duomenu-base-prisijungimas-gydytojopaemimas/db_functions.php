@@ -21,6 +21,10 @@ function getPrisijungimas() {
 
 // paimam  gydytojo duomenis is DB
 function getDoctor( $nr ) {
+    // apsauga - ar paduotas skaicius
+    if ( !is_numeric($nr) ) {
+        return NULL;
+    }
     //                                           '$nr'
     $manoSQL = "SELECT * FROM doctors   WHERE id='$nr';   ";
     //  mysqli_query -  ivykdo SQL koda  ( grista mysql Objektas)
@@ -38,7 +42,7 @@ function getDoctor( $nr ) {
     }
 }
 
-$gydytojas1 = getDoctor(4); // php masyvas
+$gydytojas1 = getDoctor(3); // php masyvas
 print_r( $gydytojas1 ) ;
 
 
