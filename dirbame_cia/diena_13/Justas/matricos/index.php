@@ -17,9 +17,28 @@
 
     <body>
         <h1 > Isijunk console </h1>
+        
+        
+        
+        
 
 
+        <?php
+        // UZDUOTIS 2 --------------
+        // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
+        // Antraste, img pavadinimas, kaina, prekes aprasymas
 
+        // A. sukurti masyva preke1: Antraste, img pavadinimas, prekes aprasymas, kaina
+        // A. sukurti masyva preke2: Antraste, img pavadinimas, prekes aprasymas, kaina
+        // A. sukurti masyva preke3: Antraste, img pavadinimas, prekes aprasymas, kaina
+        // B. i masyva visosPrekes, ideti "preke" masyva
+        // C. atvaizduodi kiekvienoje eiluteje po 3 prekes
+        // (naudojant for arba foreach) ir bootstrap dizaina
+        // D. naudojant du FOR FOR arba FOREACH FOREACH
+
+        include("prekes.php");
+
+         ?>
 
 
 

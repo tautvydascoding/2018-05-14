@@ -15,10 +15,19 @@
 
     </head>
 
-    <body>
+    <body class="container">
         <h1 > Isijunk console </h1>
 
 
+        <!-- // A. sukurti masyva preke: Antraste, img pavadinimas, prekes aprasymas, kaina -->
+        <?php
+
+        include("visosPrekes.php")
+
+
+
+        
+         ?>
 
 
 

@@ -23,5 +23,5 @@
 
 
 // 3 budai nuotraukoms
-printf("<img    src='./img/"     . $visosPrekes[$i][1] . "' width='200px' alt=''  />");
+printf("<img src='./img/". $visosPrekes[$i][1] . "'width='200px' alt=''  />");
 printf("<img src='./img/%s' width='200px' alt=''  />", $visosPrekes[$i][1]);
