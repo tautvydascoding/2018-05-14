@@ -1,5 +1,7 @@
 -- sql komentaras
-CREATE DATABASE hospital4;
+CREATE DATABASE hospital5;
+
+
 -- pasitikrinimui:
 show databases;
 USE `hospital4`;   --!!!! isveda 'Database changed'
