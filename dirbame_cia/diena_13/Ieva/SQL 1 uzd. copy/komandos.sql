@@ -12,7 +12,7 @@ CREATE DATABASE hospital5;
 -- pasitikrinimas ar veikia
 SHOW databases;
 
---issirenkame DB su kuria dirbame, jeigu gerai parodo "database changed"
+--issirenkame DB su kuria dirbame, jeigu gerai - parodo "database changed"
 USE hospital5;
 
 --kuriama lentele, būtinai panaudoti komandas AUTO_INCREMENT (dides skaiciukai) PRIMARY KEY
@@ -93,3 +93,32 @@ UPDATE doctors
  SET name = 'Litas'
  WHERE id = '4'
  LIMIT 1; -- APSAUGA KAD PAKEISTI TIK VIENĄ
+
+ -- // uzduotis 1: istrinti gydytoja "Koris"
+ -- // uzduotis 2:  Pakeisti Paciento "Co" varda i "Karolis"
+ -- // uzduotis 3.1: visu pacientu, kuriu vardas yra "Tom" -  varda pakeisti i "Tomas"
+ -- // uzduotis 3.2: visu pacientu, kuriu vardas prasideda "T" -  docotor_id pakeisti i "4"
+ -- // uzduotis 4: gauti paciento "Mark" daktaro pavarde
+
+
+ DELETE FROM doctors
+ WHERE id = '5'
+ LIMIT 1;
+
+UPDATE patients
+SET name = "Karolis"
+WHERE id = '5'
+LIMIT 1;
+
+UPDATE patients
+SET name = "Tomas"
+WHERE name = "Tom";
+
+UPDATE patients
+SET doctor_id = '4'
+WHERE name LIKE "T%";
+
+ SELECT name, doctor_id FROM patients
+ UNION
+ SELECT id, lname FROM doctors
+ WHERE id = '2';
