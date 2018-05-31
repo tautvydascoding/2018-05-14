@@ -45,5 +45,8 @@ function getDoctor( $nr ) {
 $gydytojas1 = getDoctor(3); // php masyvas
 print_r( $gydytojas1 ) ;
 
+echo "<h2>". $gydytojas1['name']." </h2>";
+echo "<h2>". $gydytojas1['lname']." </h2>";
+
 
 // php neuzsidaro
