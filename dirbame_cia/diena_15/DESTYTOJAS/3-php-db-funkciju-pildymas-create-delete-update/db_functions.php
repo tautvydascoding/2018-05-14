@@ -1,5 +1,17 @@
 <?php
 
+ // visa info apie php
+ // phpinfo( );
+
+//  // exprot using terminal
+// C:\MAMP\bin\mysql\bin\mysqldump.exe -u root -p 'hospital1' > "C:\Users\User\Documents\Projektas\uzduotys\MAMP\diena_15\mano_DB.sql"
+//
+// C:\xampp\mysql\bin\mysqldump.exe -u root -p hospital10 > "C:\Users\info\Documents\Projektai\uzduotys\MAMP\diena_15\Elvinas\doctors_DB\mano_DB.sql"
+//
+// //import using terminal
+// C:\MAMP\bin\mysql\bin\mysql.exe -u root -p 'hospital1' < "C:\Users\User\Documents\Projektas\uzduotys\MAMP\diena_15\mano_DB.sql"
+
+
  define('DB_PAVADINIMAS', 'hospital5');
  define('DB_VARTOTOJAS', 'root');
  define('DB_SLAPTAZODIS', 'root');
@@ -50,23 +62,61 @@ function getDoctor( $nr ) {
 // $gydytojas1 = getDoctor(3); // php masyvas
 // print_r( $gydytojas1 ) ;
 
-function createDoctor($vardas, $pavarde) {
+function createDoctorPaprasta($vardas, $pavarde) {
     $manoSQL = " INSERT INTO doctors
                         VALUES ('', '$vardas', '$pavarde');
                ";
+    $arPavyko  = mysqli_query(getPrisijungimas(), $manoSQL);
+}
+
+function createDoctor($vardas, $pavarde) {
+    // SAUGUMAS:  uzkoduoja spec. simbolius "  ' \n \t < >
+    // $vardas = mysqli_real_escape_string( getPrisijungimas(), $vardas);
+    // $pavarde = mysqli_real_escape_string( getPrisijungimas(), $pavarde);
+
+    // geresnis
+    // ENT_QUOTES- kad uzkoduotu ir dvigubas kabutes
+    $uzkoduotasVardas =  htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' );
+    $uzkoduotasPavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
+
+    $manoSQL = " INSERT INTO doctors
+                        VALUES ('', '$uzkoduotasVardas', '$uzkoduotasPavarde');
+               ";
 
     $arPavyko  = mysqli_query(getPrisijungimas(), $manoSQL);
+
     if ($arPavyko == false) {
     // if ($arPavyko != true) {
     // if (!$arPavyko) {
         echo "ERROR: nepavyko sukurti Gydytojo" . mysqli_error(getPrisijungimas());
-    } else {
-        echo "pavyko";
     }
 }
 
-createDoctor("Povilas", "Povilaitis");
 // createDoctor("Povilas", "Povilaitis");
 
+function deleteDoctor($nr) {
+    $uzkoduotasNR = htmlspecialchars( $nr, ENT_QUOTES, 'UTF-8' );
+
+    $manoSQL = "DELETE FROM doctors
+                       WHERE id='$uzkoduotasNR'
+               ";
+    mysqli_query(getPrisijungimas() ,   $manoSQL );
+}
+ // deleteDoctor(11);
+
+ function  editeDoctor($nr, $vardas, $pavarde) {
+      $uzkoduotasNR = htmlspecialchars( $nr, ENT_QUOTES, 'UTF-8' );
+      $uzkoduotasVardas = htmlspecialchars( $vardas, ENT_QUOTES, 'UTF-8' );
+      $uzkoduotasPavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
+
+     $manoSQL = "UPDATE doctors SET
+                                name  = '$uzkoduotasVardas',
+                                lname = '$uzkoduotasPavarde'
+                                WHERE id = '$uzkoduotasNR'
+                                LIMIT 1
+                ";
+    mysqli_query(getPrisijungimas() , $manoSQL);
+ }
+ editeDoctor(12, "Poviliukas222", "Povilaitis");
 
 // php neuzsidaro
