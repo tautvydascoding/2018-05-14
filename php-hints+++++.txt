@@ -1,0 +1,7 @@
+﻿//==========js isvesimas su PHP==========
+
+ // if (condition) {
+//     echo "<script type='text/javascript'>
+//                 console.log('jau suveikiau');
+//           </script>";
+// }
