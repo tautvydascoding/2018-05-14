@@ -27,6 +27,7 @@ ideti i head dali:
 <!—- ============== patterns - regx ==================== -—>
         <form class="" action="index.html" method="post">
             <input id="telNo" name="telNo" type="tel" required  pattern="370[0-9]{6}">
+ 	    <input type="email" name="elpastas" placeholder="aaa@aaa.lt" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+[^'.ru|^'.RU]$"  title="El. pastas turi buti ne .ru galunes"><br />
             <input type="submit" name="" value="">
         </form>
 
