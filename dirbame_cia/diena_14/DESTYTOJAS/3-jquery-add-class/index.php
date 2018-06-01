@@ -19,6 +19,14 @@
         <h1 > Isijunk console </h1>
 
 
+        <ul>
+            <li id="logo" alt="" data="" tautvydas="aaaa" >Home</li>
+            <li class="col-md-<?=  preke1['col'] ?> ">about</li>
+            <li class=" ">Gallery</li>
+            <li class=" ">contact</li>
+        </ul>
+        <img src="img/1.jpg" alt="">
+
 
 
 

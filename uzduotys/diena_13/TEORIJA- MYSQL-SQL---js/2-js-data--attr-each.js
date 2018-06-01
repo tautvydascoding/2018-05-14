@@ -19,15 +19,15 @@ $( "body" ).data( { baz: [ 1, 2, 3 ] } );
 $( "body" ).data( "foo" ); // 52
 $( "body" ).data(); // { foo: 52, bar: { myType: "test", count: 40 }, baz: [ 1, 2, 3 ]
 
-    //<article id="electriccars"  data-columns="3" data-index-number="12314"   data-parent="cars"  </article>
+    <article id="electriccars"  data-columns="3" data-index-number="12314"   data-parent="cars"  </article>
 
-            //<article
-            //    id="electriccars"
-            //    data-columns="3"
-            //    data-index-number="12314"
-            //    data-parent="cars"
-            //    ...
-            //</article>
+            <article
+               id="electriccars"
+               data-columns="3"
+               data-index-number="12314"
+               data-parent="cars"
+               ...
+            </article>
 
 
     var article = document.getElementById('electriccars');
@@ -68,7 +68,7 @@ $( "li" ).each(function( index ) {
 });
 //----js---
  <button onclick="x.forEach(myFunction)">Try it</button>
- var x = [ 52, 97 ]; 
+ var x = [ 52, 97 ];
 function myFunction(item,index,arr) {
     arr[index] = item + 1;
     console.log( x);
