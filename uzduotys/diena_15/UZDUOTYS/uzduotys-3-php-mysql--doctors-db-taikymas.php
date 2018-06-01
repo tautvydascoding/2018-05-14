@@ -6,3 +6,4 @@
     kad   doctor.php faile isvestu info apie - paspausta gydytoja
 
     HINT: 'a' nuorodoje, prideti '?kintamasis=...'   ir doctor.php faile su $_GET pasiimti kintamaji
+ 
