@@ -42,8 +42,8 @@ function getDoctor( $nr ) {
     }
 }
 
-$gydytojas1 = getDoctor(3); // php masyvas
-print_r( $gydytojas1 ) ;
+// $gydytojas1 = getDoctor(3); // php masyvas
+// print_r( $gydytojas1 ) ;
 
 
 // php neuzsidaro
