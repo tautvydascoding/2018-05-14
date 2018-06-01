@@ -6,6 +6,7 @@
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="css/normalize.css">
 
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
@@ -15,62 +16,24 @@
     </head>
 
     <body>
-        <h1 > Isijunk console </h1>
+        <h1 > Lietuvos pilietis </h1>
+
+        <?php
+            require_once('db_functions.php');
+            //  is narsykels ivedimo juostos, paimame kintamaji 'numeris'
+            $nr = $_GET['numeris'];
+            // is DB paimam gydytoja, kurio id yra '$nr'
+            $gydytojas = getDoctor($nr);
+         ?>
+
+        <h2>
+            <?php
+               echo $nr;
+               echo $gydytojas['name'];
+            ?>
+        </h2>
 
 
-<?php
-
-$visosPrekes = [];
-        $preke1 = ["plaktukas",
-        "Lorem ipsum dolor sit amet",
-        12.90,
-        4
-      ];
-
-      $preke1 = ["svitrinis",
-      "Lorem ipsum dolor sit amet",
-      0.4,
-      151
-      ];
-      $preke1 = ["plaktukas",
-      "Lorem ipsum dolor sit amet",
-      16.50,
-      18
-    ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ?>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
