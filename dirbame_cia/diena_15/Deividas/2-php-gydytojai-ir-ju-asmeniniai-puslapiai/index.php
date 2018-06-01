@@ -15,29 +15,31 @@
 
     </head>
 
-    <body >
+    <body>
         <h1 > Isijunk console </h1>
 
         <ul>
-          <li><a href="zmogus.php?numeris=1">Petka</a></li>
-          <li><a href="zmogus.php?numeris=2">Vycka</a></li>
-          <li><a href="zmogus.php?numeris=3">Untanis</a></li>
-          <li><a href="zmogus.php?numeris=4">Dzonis</a></li>
-
+            <li>
+                 <a href="zmogus.php?numeris=1"  >
+                     Petras
+                 </a>
+             </li>
+            <li>
+                <a href="zmogus.php?numeris=2"  >
+                      Vytautas
+                 </a>
+            </li>
+            <li>
+                <a href="zmogus.php?numeris=3"  >
+                      Antanas
+                 </a>
+            </li>
+            <li>
+                <a href="zmogus.php?numeris=4"  >
+                      Jonas
+                 </a>
+            </li>
         </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

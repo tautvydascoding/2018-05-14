@@ -15,36 +15,23 @@
 
     </head>
 
-    <body >
+    <body>
         <h1 > Lietuvos pilietis </h1>
 
+        <?php
+            require_once('db_functions.php');
+            //  is narsykels ivedimo juostos, paimame kintamaji 'numeris'
+            $nr = $_GET['numeris'];
+            // is DB paimam gydytoja, kurio id yra '$nr'
+            $gydytojas = getDoctor($nr);
+         ?>
 
-           <?php
-           require_once('db_functions.php');
-           $nr =  $_GET['numeris'];
-           $gydytojas = getDoctor($nr);
-
+        <h2>
+            <?php
+               echo $nr;
+               echo $gydytojas['name'];
             ?>
-
-            <h2>
-              <?php
-                echo $nr;
-                echo $gydytojas['name'];
-               ?>
-            </h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </h2>
 
 
 
