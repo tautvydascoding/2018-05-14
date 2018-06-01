@@ -18,13 +18,26 @@
     <body >
         <h1 > Isijunk console </h1>
 
+<form  action="registracija.php" method="get">
+  <input type="text" name="vardas" maxlength="10" placeholder ="Jusu vardas" required /> <br />
+  <input type="text" name="pavarde" maxlength="15" placeholder ="Jusu pavarde" required /> <br />
+  <label for="">+370</label>
+  <input type="tel" name="telefonas" value="" placeholder ="12345678" pattern="[0-9]{8}" title="tel numeris turi buti be tarpu" required  /> <br />
+  <input type="email" name="elpastas" value="" placeholder ="aaa@aaa.lt"  required /> <br />
+  <button type="submit" name="button"> Registracija gooo</button>
+
+</form>
 
 
 
-          <?php
-          require_once('db_functions.php');
-           // $pacientas1 = getPatient(3); // array
-           ?>
+
+
+
+
+
+
+
+
 
 
 
