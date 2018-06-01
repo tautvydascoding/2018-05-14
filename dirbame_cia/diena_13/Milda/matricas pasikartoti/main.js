@@ -1,6 +1,4 @@
-
-
-// ============svarbus patarimai===============:
+// / ============svarbus patarimai===============:
 // ARRAY: jeigu naudoji FOR || while cikla, tai negalvojant masyve naudoti "i" (pvz.: myArray[i])
 // FOR:   "for (i = 0; i < x; i++) {"  - nesusijusi su uzdaviniu (skirtas apeit masyva/ ivykdyti daug kartu kazka)
 // matricas  - visada nusipiesti ant popieriaus eskiza su testiniais duomenimis
