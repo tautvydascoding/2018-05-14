@@ -6,6 +6,7 @@
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="css/normalize.css">
 
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
@@ -17,33 +18,14 @@
     <body>
         <h1 > Isijunk console </h1>
 
-        <?php
-        $visosPrekes = [];
+<?php
+        require_once('php_functions.php');
+        $gydytojas1 = getDoctor(3);
 
-        $preke1 = [ "antraste", "img pavadinimas", "dffd", "9" ];
-        $preke2 = [ "antraste", "img pavadinimas", "prekes aprasymas", "10" ];
-        $preke3 = [ "antraste", "img pavadinimas", "prekes aprasymas", "56" ];
+        $pacientas1 = getPatient(1);
+        print_r($pacientas1);
 
-        $visosPrekes[0] = $preke1;
-        $visosPrekes[1] = $preke2;
-        $visosPrekes[2] = $preke3;
-
-        print_r($visosPrekes);
-
-
-            for ($i=0; $i < count($visosPrekes); $i++) {
-                echo "<h2>" . $visosPrekes[$i][0] . "</h2>";
-                echo "<p>" . $visosPrekes[$i][1] . "</p>";
-                echo "<p>" . $visosPrekes[$i][2] . "</p>";
-                echo "<button>" . $visosPrekes[$i][3] . "</button>";
-
-         echo "<br  />";
-        }
-
-
-
-        ?>
-
+?>
 
 
 

@@ -6,6 +6,7 @@
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="css/normalize.css">
 
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
@@ -17,33 +18,49 @@
     <body>
         <h1 > Isijunk console </h1>
 
-        <?php
-        $visosPrekes = [];
 
-        $preke1 = [ "antraste", "img pavadinimas", "dffd", "9" ];
-        $preke2 = [ "antraste", "img pavadinimas", "prekes aprasymas", "10" ];
-        $preke3 = [ "antraste", "img pavadinimas", "prekes aprasymas", "56" ];
+<?php
+require_once('db_functions.php');
+$gydytojas1 = getDoctor(3);
+if ($gydytojas1 !=NULL) {
+    // print_r($gydytojas1);
+//     echo "<h2> Nr." . $gydytojas1['id'] . "</h2>";
+//     // echo "<h2>" . $gydytojas1['id'] . "</h2>";
+// $varPav = "<h3>" . $gydytojas1['name'] . "" . $gydytojas1['lname'] . "</h3>";
+// echo $varPav;
+}
+ ?>
+<!--arba  -->
+<h2>
+Nr. <?php echo $gydytojas1['id']; ?>
+</h2>
+<h3>
+<?php echo $gydytojas1['name'] . $gydytojas1['lname'];?>
 
-        $visosPrekes[0] = $preke1;
-        $visosPrekes[1] = $preke2;
-        $visosPrekes[2] = $preke3;
+</h3>
 
-        print_r($visosPrekes);
+<?php
+$gydytojas2 = getDoctor(4);?>
+<h2>
+Nr. <?php echo $gydytojas2['id']; ?>
+ </h2>
+ <h3>
+ <?php echo $gydytojas2['name'] . " " . $gydytojas2['lname'];?>
+ </h3>
 
+ <?php
+ require_once('db_functions.php');
+ $patient1 = getPatient(3);
+ if ($patient1 !=NULL) {
+     $patient1 = getPatient(3);?>
 
-            for ($i=0; $i < count($visosPrekes); $i++) {
-                echo "<h2>" . $visosPrekes[$i][0] . "</h2>";
-                echo "<p>" . $visosPrekes[$i][1] . "</p>";
-                echo "<p>" . $visosPrekes[$i][2] . "</p>";
-                echo "<button>" . $visosPrekes[$i][3] . "</button>";
-
-         echo "<br  />";
-        }
-
-
-
-        ?>
-
+     <h2>
+     Nr. <?php echo $patient1['id']; ?>
+      </h2>
+      <h3>
+      <?php echo $patient1['name'] . " " . $patient1['lname'];?>
+      </h3>
+<?php } ?>
 
 
 
