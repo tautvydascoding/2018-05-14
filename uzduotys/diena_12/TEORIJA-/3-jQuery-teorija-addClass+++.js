@@ -2,11 +2,11 @@
 //============= add Class ===============
 // -------simple js------
 
-var d = document.getElementById("div1");
-d.className += " otherclass";
-d.classList.add("otherclass");
-d.classList.remove("otherclass");
-d.classList.toggle('otherclass');
+var manoH2 = document.querySelector("h2");
+manoH2.className += " otherclass";
+manoH2.classList.add("otherclass");
+manoH2.classList.remove("otherclass");
+manoH2.classList.toggle('otherclass');
 
 //   -------jQuery-CLASS------------------
 
@@ -18,8 +18,11 @@ d.classList.toggle('otherclass');
 // is('.pretty.awesome')
 
 $("h1").addClass(" bg-info ");
+$( "p" ).removeClass( "myClass noClass" );
 $( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
+
 $("h1").toggleClass('change_me newClass');
+
 $('h2').hasClass(" mt-2 "); // tikrinu ar 'h2' elementas turi klase 'mt-2'
 $('h2').is(' .mt-2');   // tikrinu ar 'h2' elementas turi klase 'mt-2'
 
