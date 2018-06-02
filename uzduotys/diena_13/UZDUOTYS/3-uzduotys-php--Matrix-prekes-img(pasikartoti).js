@@ -17,6 +17,11 @@
 // sukurti matrica, kurioje bus saugoma kiekvienos prekes info:
 // Antraste, img pavadinimas, kaina, prekes aprasymas
 
+
+
+
+
+
 // A. sukurti masyva preke1: Antraste, img pavadinimas, prekes aprasymas, kaina
 // A. sukurti masyva preke2: Antraste, img pavadinimas, prekes aprasymas, kaina
 // A. sukurti masyva preke3: Antraste, img pavadinimas, prekes aprasymas, kaina
