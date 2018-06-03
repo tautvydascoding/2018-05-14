@@ -110,13 +110,30 @@ function deleteDoctor($nr) {
       $uzkoduotasPavarde = htmlspecialchars( $pavarde, ENT_QUOTES, 'UTF-8' );
 
      $manoSQL = "UPDATE doctors SET
-                                name  = '$uzkoduotasVardas',
-                                lname = '$uzkoduotasPavarde'
+                                      name  = '$uzkoduotasVardas',
+                                      lname = '$uzkoduotasPavarde'
                                 WHERE id = '$uzkoduotasNR'
                                 LIMIT 1
                 ";
     mysqli_query(getPrisijungimas() , $manoSQL);
  }
- editeDoctor(12, "Poviliukas222", "Povilaitis");
+ // paimame VISUS gygytojus is DB
+ function  getDoctors() {
+     $manoSQL = "SELECT * FROM doctors";
+     $visiGydytojaiObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
+     return $visiGydytojaiObjektas;
+ }
+
+// paimam visus gydytojus
+$visiDaktarai =   getDoctors();
+// is objekte laikomu VISU gydytoju - paimame SEKANTI VIENA gydytoja (idedam i masyva)
+ $gydytojas1Masyvas = mysqli_fetch_assoc(   $visiDaktarai   );
+ print_r( $gydytojas1Masyvas  );
+
+ $gydytojas2Masyvas = mysqli_fetch_assoc(   $visiDaktarai   ); 
+ print_r( $gydytojas2Masyvas  );
+
+
+
 
 // php neuzsidaro
