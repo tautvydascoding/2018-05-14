@@ -18,13 +18,31 @@
     <body >
         <h1 > Isijunk console </h1>
 
+<form  action="login.php" method="get">
+    <label for="">User name</label> <br />
+  <input type="text" name="vardas" maxlength="10" placeholder ="Jusu vardas" required /> <br />
+    <label for="">Password</label> <br />
+  <input type="password" name="slaptazodis" maxlength="15" placeholder ="Jusu slaptazodis" required /> <br />
+    <label for="">Date</label> <br />
+  <input type="date" name="data"  placeholder ="1234-56-78"  title="Data turi buti: 1234-56-78" required  /> <br />
+      <label for="">id</label> <br />
+  <input type="hidd" name="id" maxlength="15" placeholder ="8" required /> <br />
+
+
+  <button type="submit" name="button"> Registracija gooo</button>
+
+</form>
 
 
 
-          <?php
-          require_once('db_functions.php');
-           // $pacientas1 = getPatient(3); // array
-           ?>
+
+
+
+
+
+
+
+
 
 
 
