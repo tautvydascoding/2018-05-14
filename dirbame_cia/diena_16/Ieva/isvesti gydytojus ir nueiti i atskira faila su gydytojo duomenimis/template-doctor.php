@@ -29,21 +29,15 @@
 
 
         <?php
-
         include_once('db_functions-full.php');
 
-        // išvesti visus gydytojus
+        // print_r($_GET);
 
-        $visiGydytojaiObjektas = getDoctors(); // išsaugoti gydytoją per kintamąjį kad neišnyktų
-        $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // paimame
 
-        while ($gydytojas ) {
-                //print_r($gydytojas); testavimui
+        $gydytojas =  getDoctor($_GET['numeris'] );
 
-                echo "<a href='template-doctor.php?numeris=". $gydytojas['id']."'>"."<br/>". $gydytojas['name'] ." ". $gydytojas['lname']. "</a>";
-                $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // !!!! be šito bus amžinas ciklas
-
-        }
+        echo "<h2> Gydytojo numeris: ". $_GET['numeris'] . "</h2>";
+        echo "<h3> Gydytojo vardas ir  pavardė: ". $gydytojas['name'] ." ".  $gydytojas['lname'] . "</h3>";
 
 
         ?>

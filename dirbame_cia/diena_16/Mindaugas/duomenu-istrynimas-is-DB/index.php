@@ -18,35 +18,22 @@
     <body>
         <h1 > Isijunk console </h1>
 
+<?php
 
-        <!-- 1. paspaudus ant betkurio gydytojo vardo  - vartotoja perkelti i "template-doctor.php" faila
-        (galite panaudoti "<a> </a>")
+require_once('db_functions-full.php');
+$visiGydytojaiObjektas = getDoctors();
 
-        2. template-doctor.php faile iskviesti savo pasirasyta f-ja  getDoctor(...);
-        ir isvesti visa informacija tik apie sita gydytoja
-        <h2>NR: ...</h2>
-        <h3> vardas pavarde</h3> -->
+while ($gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas )) {
+  echo "<h2>" . $gydytojas['name'] . $gydytojas['lname'] . "</h2>" ;
+  echo "<a href='delete-doctor.php?numeris=". $gydytojas["id"]. "'type='button'>Trinti</a>";
 
+}
 
-        <?php
-
-        include_once('db_functions-full.php');
-
-        // išvesti visus gydytojus
-
-        $visiGydytojaiObjektas = getDoctors(); // išsaugoti gydytoją per kintamąjį kad neišnyktų
-        $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // paimame
-
-        while ($gydytojas ) {
-                //print_r($gydytojas); testavimui
-
-                echo "<a href='template-doctor.php?numeris=". $gydytojas['id']."'>"."<br/>". $gydytojas['name'] ." ". $gydytojas['lname']. "</a>";
-                $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // !!!! be šito bus amžinas ciklas
-
-        }
+ ?>
 
 
-        ?>
+
+
 
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->

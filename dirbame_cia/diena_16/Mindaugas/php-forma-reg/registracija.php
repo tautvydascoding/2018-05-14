@@ -1,6 +1,6 @@
 <?php
 
-include('db_functions.php');
+include('db_functions-full.php');
 
 print_r($_GET);
 

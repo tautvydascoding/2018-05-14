@@ -19,34 +19,48 @@
         <h1 > Isijunk console </h1>
 
 
-        <!-- 1. paspaudus ant betkurio gydytojo vardo  - vartotoja perkelti i "template-doctor.php" faila
-        (galite panaudoti "<a> </a>")
+        <?php
+        //visu gydytoju isvedimas
 
-        2. template-doctor.php faile iskviesti savo pasirasyta f-ja  getDoctor(...);
-        ir isvesti visa informacija tik apie sita gydytoja
-        <h2>NR: ...</h2>
-        <h3> vardas pavarde</h3> -->
+        require_once('db_functions-full.php');
+        $visiGydytojaiObjektas = getDoctors();
 
+        $gydytojas1 = mysqli_fetch_assoc( $visiGydytojaiObjektas ); //paima tik viena sekancia eilute mysqli_fetch_assoc
+        $gydytojas2 = mysqli_fetch_assoc( $visiGydytojaiObjektas );
+        $gydytojas3 = mysqli_fetch_assoc( $visiGydytojaiObjektas );
+        $gydytojas4 = mysqli_fetch_assoc( $visiGydytojaiObjektas );
+
+        // print_r($visiGydytojaiObjektas); // test
+?>
+        <h2> <?= $gydytojas1['name']. $gydytojas1['lname'] ;?></h2>
+        <h2> <?= $gydytojas2['name']. $gydytojas2['lname'] ;?></h2>
+        <h2> <?= $gydytojas3['name']. $gydytojas3['lname'] ;?></h2>
+        <h2> <?= $gydytojas4['name']. $gydytojas4['lname'] ;?></h2>
 
         <?php
 
-        include_once('db_functions-full.php');
-
-        // išvesti visus gydytojus
-
-        $visiGydytojaiObjektas = getDoctors(); // išsaugoti gydytoją per kintamąjį kad neišnyktų
-        $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // paimame
-
-        while ($gydytojas ) {
-                //print_r($gydytojas); testavimui
-
-                echo "<a href='template-doctor.php?numeris=". $gydytojas['id']."'>"."<br/>". $gydytojas['name'] ." ". $gydytojas['lname']. "</a>";
-                $gydytojas=mysqli_fetch_assoc($visiGydytojaiObjektas); // !!!! be šito bus amžinas ciklas
+        while ($gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas )) {
+          echo "<h2>" . $gydytojas['name'] . $gydytojas['lname'] . "</h2>";
 
         }
 
+// ==============arba FOR============
+    $gydytojuSkaicius = mysqli_num_rows($visiGydytojaiObjektas);
+    for ($i=0; $i < $gydytojuSkaicius ; $i++) {
+      $gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas );
+      echo "<h2>" . $gydytojas['name'] . $gydytojas['lname'] . "</h2>";
+    }
+         ?>
 
-        ?>
+
+
+
+
+
+
+
+
+
 
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
