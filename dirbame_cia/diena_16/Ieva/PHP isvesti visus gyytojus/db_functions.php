@@ -107,7 +107,7 @@ function editDoctor($nr, $name, $lname) {
           $manoSQL = "SELECT * FROM doctors LIMIT 200";
           $visiGydytojaiObjektas = mysqli_query(getPrisijungimas(), $manoSQL);
           return $visiGydytojaiObjektas; // GRĄŽINAME ne masyvą, bet objektą.
-          }
+    }
 
 
 
