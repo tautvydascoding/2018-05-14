@@ -1,7 +1,7 @@
 <?php
 
  // visa info apie php
- phpinfo( );
+ // phpinfo( );
 
 //  // exprot using terminal
 // C:\MAMP\bin\mysql\bin\mysqldump.exe -u root -p 'hospital1' > "C:\Users\User\Documents\Projektas\uzduotys\MAMP\diena_15\mano_DB.sql"
