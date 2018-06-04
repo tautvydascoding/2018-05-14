@@ -1,4 +1,6 @@
 <?php
+// SUkurti gydytoju registracios  forma
+
 
 // 1. sukurti form'a naudojant metoda (GET) ir  su ivedimo laukais:
 //  vardas, pavarde,  mygtukas 'registruotis'
