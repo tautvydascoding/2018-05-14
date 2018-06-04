@@ -12,9 +12,9 @@
 
     <div class="col-md-4">
       <h6 class="text-center ">Iveskite savo duomenis, greitu metu su Jumis susisieksime</h6>
-      <input class="text-center mb-1" type="text" name="vardas" maxlength="15" placeholder="Jūsų vardas"><br />
-      <input class="text-center mb-1" type="email" name="elpastas" placeholder="El.paštas" title="aaaaa@aaaaaa.lt" ><br />
-      <input class="text-center mb-1" type="tel" name="Tel.numeris"  placeholder="861234567" pattern="[0-9]{9}" title="Tel numeris ne maziau 9 simboliu" required><br />
+      <input class="text-center mb-1 w-100" type="text" name="vardas" maxlength="15" placeholder="Jūsų vardas"><br />
+      <input class="text-center mb-1 w-100" type="email" name="elpastas" placeholder="El.paštas" title="aaaaa@aaaaaa.lt" ><br />
+      <input class="text-center mb-1 w-100" type="tel" name="Tel.numeris"  placeholder="861234567" pattern="[0-9]{9}" title="Tel numeris ne maziau 9 simboliu" required><br />
       <input class="mb-1" type="submit" name="" value="Siųsti">
     </div>
 

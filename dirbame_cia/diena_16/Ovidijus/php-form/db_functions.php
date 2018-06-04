@@ -7,9 +7,6 @@
 
 $prisijungimas =  mysqli_connect( DB_HOST, DB_VARTOTOJAS, DB_SLAPTAZODIS, DB_PAVADINIMAS);
 
-//nustatom mysqlui utf8 koduote
-//kad kai jis paims duomenis is db  kad ju nesugadintu
-
 mysqli_set_charset($prisijungimas, "utf8"); // !!! utf8 - be bruksnelio
 
 
@@ -24,12 +21,6 @@ function getPrisijungimas() {
         return NULL;
     }
 }
-function creatDoctor($vardas, $pavarde){
-  $manoSQL =  "";
-}
-
-createDoctor("Tautvydas", "Tautvydauskas")
-
 
 // paimam  gydytojo duomenis is DB
 function getDoctor( $nr ) {

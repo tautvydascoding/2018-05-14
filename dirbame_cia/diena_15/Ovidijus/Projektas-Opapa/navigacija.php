@@ -8,8 +8,8 @@
   <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navigacijosMygtukas">
     <span class="navbar-toggler-icon"> </span>
   </button>
-  <div class="collapse navbar-collapse" id="navigacijosMygtukas">
-    <ul class="navbar-nav ml-auto">
+  <div class="collapse navbar-collapse " id="navigacijosMygtukas">
+    <ul class="navbar-nav ml-auto ">
       <li class="nav-item">
         <a class="nav-link" href="index.php">PRADŽIA</a>
       </li>

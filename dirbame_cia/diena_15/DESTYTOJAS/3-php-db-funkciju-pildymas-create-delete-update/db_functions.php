@@ -1,7 +1,7 @@
 <?php
 
  // visa info apie php
- // phpinfo( );
+ phpinfo( );
 
 //  // exprot using terminal
 // C:\MAMP\bin\mysql\bin\mysqldump.exe -u root -p 'hospital1' > "C:\Users\User\Documents\Projektas\uzduotys\MAMP\diena_15\mano_DB.sql"
@@ -119,19 +119,19 @@ function deleteDoctor($nr) {
  }
  // paimame VISUS gygytojus is DB
  function  getDoctors() {
-     $manoSQL = "SELECT * FROM doctors";
+     $manoSQL = "SELECT * FROM doctors LIMIT 200";
      $visiGydytojaiObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
-     return $visiGydytojaiObjektas;
+     return $visiGydytojaiObjektas; // graziname ne Array, o Objekta
  }
 
 // paimam visus gydytojus
-$visiDaktarai =   getDoctors();
+// $visiDaktarai =   getDoctors();
 // is objekte laikomu VISU gydytoju - paimame SEKANTI VIENA gydytoja (idedam i masyva)
- $gydytojas1Masyvas = mysqli_fetch_assoc(   $visiDaktarai   );
- print_r( $gydytojas1Masyvas  );
-
- $gydytojas2Masyvas = mysqli_fetch_assoc(   $visiDaktarai   ); 
- print_r( $gydytojas2Masyvas  );
+ // $gydytojas1Masyvas = mysqli_fetch_assoc(   $visiDaktarai   );
+ // print_r( $gydytojas1Masyvas  );
+ //
+ // $gydytojas2Masyvas = mysqli_fetch_assoc(   $visiDaktarai   );
+ // print_r( $gydytojas2Masyvas  );
 
 
 
