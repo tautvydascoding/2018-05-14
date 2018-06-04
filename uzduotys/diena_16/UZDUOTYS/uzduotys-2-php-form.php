@@ -7,3 +7,4 @@
 // 3. registracija.php faile pasinaudojant globaliu PHP masyvu $_GET atspausdinti
 // vartotojo ivestus duomenis
 // pvz.: print_r( $GET)
+// 4. paleisti savo funkcija createDoctor()
