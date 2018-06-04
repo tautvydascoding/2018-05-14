@@ -43,14 +43,17 @@ while( $gydytojas ) :  ?>
     <h2>
         <?php echo $gydytojas['name'] ?>
      </h2>
-     <a  href="delete-doctor.php?numeris=<?=  $gydytojas['id'] ?>">
-          TRINTI
-     </a>
 
+     <a  href="delete-doctor.php?numeris=<?=  $gydytojas['id'] ?>">
+         TRINTI
+     </a>
 
      <?php
     $gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas );  // !!!!
 endwhile;
+
+
+
 
  // =============arba FOR ===================
 //  $gydytojuSkaicius = mysqli_num_rows($visiGydytojaiObjektas);
