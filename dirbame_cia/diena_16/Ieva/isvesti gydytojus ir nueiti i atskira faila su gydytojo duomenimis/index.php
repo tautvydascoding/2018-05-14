@@ -18,31 +18,7 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<?php
 
-include_once("db_function-full.php");
-
-function getDoctors(){
-  $manoSQL = "SELECT * FROM doctors";
-  $visiGydytojaiObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
-  return $visiGydytojaiObjektas;
-}
-
-$visiDaktarai = getDoctors();
-
-$gydytojas = mysqli_fetch_assoc($visiDaktarai);
-while ($gydytojas) {
-
-  echo "<a herf='template-doctor.php?daktaras="$gydytojas['id']"'>"  $gydytojas['name']  "</a>";
-  echo "<h2>" . $gydytojas['lname'] . " " . $gydytojas['id'] . "</h2>";
-
-}
-
-
-
-
-
- ?>
 
 
 
