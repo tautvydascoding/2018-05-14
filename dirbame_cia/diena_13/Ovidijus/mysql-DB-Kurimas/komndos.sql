@@ -14,11 +14,10 @@ USE  hospital5;
 -- kuriame seimos gydytoju lentele
 -- doctors - lenteles pavadinimas
 -- id, name , lname - stulperliu pavadinimai
-CREATE TABLE patients(
+CREATE TABLE doctors(
         id  INT(6)    AUTO_INCREMENT    PRIMARY KEY,
         name  VARCHAR(30),
-        lname  VARCHAR(30),
-        doctor_id VARCHAR(6)
+        lname  VARCHAR(30)
 );
 
 -- pasitikrinimnas
