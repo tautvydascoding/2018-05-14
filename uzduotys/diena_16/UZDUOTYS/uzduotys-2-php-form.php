@@ -7,4 +7,5 @@
 // 2.2. registracija.php faile pasinaudojant globaliu PHP masyvu $_GET atspausdinti
 // vartotojo ivestus duomenis
 //       pvz.: print_r( $GET)
-// 3. paleisti savo f-ja createDoctor()
+// 3. registracija.php faile - paleisti savo f-ja createDoctor(....)
+//   kad 'createDoctor()' pasileistu, reiks ideti faila include('db_functions.php')
