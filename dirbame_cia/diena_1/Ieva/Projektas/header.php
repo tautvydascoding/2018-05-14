@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
         <!-- mano failas visada zemiau -->
@@ -32,12 +33,28 @@
     5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
     patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
 -->
+<script>
+$('p').mouseenter(function(event) {
+  $(this).css("color", "pink");
+})
+$('p').mouseleave(function(event) {
+  $(this).css("color", "black");
+})
+
+</script>
+
 
     </head>
 <body>
-      <h1>  </h1>
+      <h1> </h1>
 
     <div class = "container-fluid">
+
+
+
+
+
+
 
       <header class="">
 
@@ -49,19 +66,25 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
                 <ul class="navbar-nav">
+
                   <li class="nav-item">
                     <a class="nav-link" href="index.php">About</a>
                   </li>
+
                   <li class="nav-item">
-                    <a class="nav-link" href="contacts.php">Contacts</a>
+                    <a class="nav-link" href="gallery.php">Gallery</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.php">Portfolio</a>
-                  </li>
+
                   <li class="nav-item">
                     <a class="nav-link" href="blog.php">Blog</a>
                   </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacts.php">Contacts</a>
+                  </li>
+
                 </ul>
               </div>
       </nav>
