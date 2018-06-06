@@ -21,21 +21,8 @@ else {
 
 getPrisijungimas();
 
-
-// paimam gydytojo duomenis
-function getDdarbuotoja($nr){
-$manoSQL = "SELECT * FROM darbuotojai WHERE id='$nr';";
-$rezultatai = mysqli_query(getPrisijungimas(), $manoSQL );
-//  paima sekancia eilute (ir pavercia i array)
-$rezultatai = mysqli_fetch_assoc($rezultatai);
-return $rezultatai;
-// print_r($rezultatai);
-if (mysql_num_rows($rezultatai) > 0) {
-    $rezultatai = mysqli_fetch_assoc($rezultatai);
-    return $rezultatai;
-
-}else {
-    echo "ERROR! Darbotojo nr: $nr neradome. Bandykite kita <br />" . mysqli_error($prisijungimas());
-    return NULL;
-}
+function  getKainos() {
+    $manoSQL = "SELECT * FROM kainos";
+    $visosKainosObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
+    return $visosKainosObjektas;
 }

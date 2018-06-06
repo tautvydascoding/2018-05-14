@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <h1></h1>
 <div class="container">
     <div id="carousel" class="carousel slide" data-ride="carousel">
