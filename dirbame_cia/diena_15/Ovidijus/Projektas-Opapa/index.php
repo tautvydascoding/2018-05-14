@@ -18,7 +18,7 @@ include("header.php");
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img src="img/1.jpg" alt="">
+      <img src="img/1interior.jpg" alt="">
       <div class="carousel-caption">
         <h1 class="display-5">Tekstas karuseleje</h1>
         <button type="button" class="btn btn-primary btn-lg" href="kontaktai.php">Kontaktai</button>
@@ -26,11 +26,11 @@ include("header.php");
     </div>
 
     <div class="carousel-item">
-      <img src="img/2.jpg" alt="">
+      <img src="img/2interior.jpg" alt="">
     </div>
 
     <div class="carousel-item">
-      <img src="img/3.jpg" alt="">
+      <img src="img/3interior.jpg" alt="">
     </div>
 
   </div>

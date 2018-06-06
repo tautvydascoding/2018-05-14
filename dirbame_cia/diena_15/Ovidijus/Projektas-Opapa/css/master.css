@@ -13,3 +13,8 @@ height: 350px;
 .aukstis-500{
 height: 500px;
 }
+
+.carousel-inner img {
+  width: 20px;
+  height: 20px;
+}
