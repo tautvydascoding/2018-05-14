@@ -18,11 +18,11 @@
 
     print_r($_GET);
 
-    $vartotojoVardas = $GET['vardas'];
-    $vartotojoPavarde = $GET['pavarde'];
+    $vartotojoVardas = $_GET['vardas'];
+    $vartotojoPavarde = $_GET['pavarde'];
 
-      echo "<h2>" . $vartotojoVardas . "</h2>";
-      echo "<h2>" . $vartotojoPavarde . "</h2>";
+      echo '<h2>' . $vartotojoVardas . '</h2>';
+      echo '<h2>' . $vartotojoPavarde . '</h2>';
 
       createDoctor($vartotojoVardas, $vartotojoPavarde );
 
