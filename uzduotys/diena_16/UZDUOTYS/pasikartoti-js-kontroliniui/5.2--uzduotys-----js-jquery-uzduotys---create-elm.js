@@ -1,4 +1,4 @@
-console.log("Labas222");
+console.log("Labas");
 
 // visas uzduotis atlikti naudojant js (arba jquery jeigu destytojas leidzia - sisiklausti)
 
