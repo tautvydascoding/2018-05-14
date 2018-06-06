@@ -33,15 +33,6 @@
     5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
     patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
 -->
-<script>
-$('p').mouseenter(function(event) {
-  $(this).css("color", "pink");
-})
-$('p').mouseleave(function(event) {
-  $(this).css("color", "black");
-})
-
-</script>
 
 
     </head>
@@ -60,7 +51,7 @@ $('p').mouseleave(function(event) {
 
         <nav class="navbar navbar-expand-md mx-auto bg-dark navbar-dark fixed-top text-uppercase">
             <a class="navbar-brand" href="#">
-              <img src="images/logo3.jpg" alt="logo" width="100px" height="auto" />
+              <img id="logoImage" src="images/logo3.jpg" alt="logo" width="100px" height="auto" />
             </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>

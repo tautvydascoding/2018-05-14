@@ -1,5 +1,5 @@
 <?php
-define('DB_PAVADINIMAS', 'hospital5');
+define('DB_PAVADINIMAS', 'studija');
 define('DB_VARTOTOJAS', 'root');
 define('DB_SLAPTAZODIS', 'root');
 define('DB_HOST', 'localhost');

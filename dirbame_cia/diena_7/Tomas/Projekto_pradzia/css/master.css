@@ -17,7 +17,7 @@ a:hover {
 background-color: yellow;
 }
 
-img {
+.dydis {
    height: 90px;
 }
 
@@ -40,8 +40,10 @@ background-repeat: no-repeat;
 
 .gallery-block.grid-gallery .heading h2{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
+    font-family: 'Kavoon', cursive;
+    color: yellow;
 }
 
 .gallery-block.grid-gallery a:hover{

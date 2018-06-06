@@ -32,7 +32,6 @@
 // UZDUOTIS 5
 // sukeisti vietomis "li" elementu "about" ir "gallery" (naujant jQuery)
 
-
 //------ atributes--------------------------
 // UZDUOTIS 6
 // surasti <li class='reklama'> ir jam ideti dar viena atributa: style='color: red'   (naujant jQuery)

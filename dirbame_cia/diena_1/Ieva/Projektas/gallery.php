@@ -72,10 +72,10 @@
 
 
                       <div class="row">
-                        <div class="containerPencils col-md-12 p-0 ">
-                          <img class="imagePencils border border-white" src="images/pencils-glass.jpg" alt="pencils" width="372px" height="461px" />
-                            <div class="overlayPencils">
-                              <div class="textPencils"> Create </div>
+                        <div class="containerStones col-md-12 p-0 ">
+                          <img class="imageStones border border-white" src="images/stones.jpg" alt="stones" width="372px" height="461px" />
+                            <div class="overlayStones">
+                              <div class="textStones"> Create </div>
                             </div>
 
                         </div>

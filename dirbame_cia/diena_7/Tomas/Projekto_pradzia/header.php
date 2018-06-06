@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
     <!-- mano failas visada zemiau -->
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="grid-gallery.css">
+
 
 </head>
 
@@ -23,10 +23,10 @@
     </header>
 
         <nav class="container-fluid spalvaNav navbar navbar-expand-sm  mb-2 navbar-dark shadow-lg sticky-top aukstis-100">
-            <img src="img/logotipas.png" alt="logotipas Smalsus snekuciai">
+            <img class="dydis" src="img/logotipas.png" alt="logotipas Smalsus snekuciai">
             <ul class="navbar-nav">
                 <li class="nav-item flex">
-                    <a class="" href="#">Home</a>
+                    <a class="" href="index.php">Home</a>
                 </li>
 
                 <li class="nav-item">
@@ -36,7 +36,7 @@
                     <a class="" href="Gallery.php">Galerija</a>
                 </li>
                 <li class="nav-item">
-                    <a class="" href="#">Kainos </a>
+                    <a class="" href="kainos.php">Kainos </a>
                 </li>
                 <li class="nav-item">
                     <a class="" href="#">Kontaktai </a>
