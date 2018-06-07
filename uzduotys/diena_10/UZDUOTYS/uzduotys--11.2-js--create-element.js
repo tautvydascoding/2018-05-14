@@ -6,6 +6,11 @@
 // nepamirskite patestuot ar pavyko
 // console.log(  manoHeader );  // test
 
+<<<<<<< HEAD
+=======
+ 
+
+>>>>>>> d1bdff441d2acab6001cde19bae895f4cb65a135
 // 1.2. naudojant javascript sukurti (var manotekstas = "Antraste") kintamaji ir sukurti teksto Node : panaudojant js document.createTextNode(manotekstas)
 
 // 2. i susikuta 'header' elemneta  ideti 'tekstas' elementas (Node)

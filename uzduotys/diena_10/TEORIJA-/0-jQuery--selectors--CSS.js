@@ -36,7 +36,7 @@ $( "article > p" ).css( myCSS );
 
 // keliu elementu select'as (select h1 and h2 elements)
 $( "h1, h2" ).css( "background", "black" );
-$( "h1" ).css().add( "h2" ).css( "background", "yellow" );
+$( "h1" ).css("background", "orange" ).add( "h2" ).css( "background", "yellow" );
 
 // paveiks paskutini is li elementu
 $( "li" ).last().css( "background", "yellow" );
