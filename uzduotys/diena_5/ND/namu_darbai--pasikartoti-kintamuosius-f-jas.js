@@ -14,16 +14,16 @@
 // sukurti funkcijas:
 // printName()  printLName(), printClass() ,
 // kurios atspausdina i konsole pirmos uzduoties kintamuosius
-
+ 
 
 //  03 UZDUOTIS
 // parasyti f-ja printVardasPavardeKlase(name, lname, klase)
 // kuria iskviesti 3 kartus su skirtingais zmoniu vardasi ir pavardem
 
-// =====================CSS Flex=========================
+// =====================CSS Flex========================= 
 
 // 1) suzaisti CSS Frog game
 
-// =====================JS zaidimas=========================
+// =====================JS zaidimas========================= 
 
 // suzaisti JS zaidima Code Combat

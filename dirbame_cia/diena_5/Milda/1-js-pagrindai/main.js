@@ -5,7 +5,7 @@
 var vardas = "Karolina";
 var pavarde = "karoliuke";
 var amzius = 20;
-var atlyginimas = 600;
+var atlyginimas = 600.0;
 
 console.log(vardas, pavarde, amzius, atlyginimas);
 // console.log(vardas, pavarde, amzius, atlyginimas);
@@ -20,16 +20,16 @@ console.log( typeof (atlyginimas));
 
 //  2 UZDUOTIS
 // sukurti funkcija "printVardasPavardeAmzius()" , kuri atspausdina i konsole pirmos uzduoties kintamuosius
-
-function printVardasPavardeAmzius () {
-  console.log( vardas, pavarde, amzius );
+function printVardasPavardeAmzius() {
+  console.log(vardas, pavarde, amzius, atlyginimas);
 }
-printVardasPavardeAmzius ();
+printVardasPavardeAmzius();
 
 
 //  3 UZDUOTIS
 // sukurti funkcija "printMetinisPajamuDydis()" ,
 // kuri  atspausdina i konsole suma 12 atlyginimu (vienas atlyginimas yra lygus "uzduotis 1" kintamajam - "atlyginimas")
+
 
 function printMetinisPajamuDydis() {
 pajamos = atlyginimas * 12;
@@ -69,8 +69,9 @@ function printTekstas(x) {
 // 6 UZDUOTIS
 // sukurti f-ja, kuri sudaugina du  paduotus skaicius "daugyba(x, y)"
 
+
 function daugyba (x, y) {
-  rezultatas = x * y ;
+  var rezultatas = x * y ;
   console.log(rezultatas);
 }
 daugyba (2, 4);

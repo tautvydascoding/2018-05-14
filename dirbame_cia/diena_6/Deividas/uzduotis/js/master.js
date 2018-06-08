@@ -87,11 +87,21 @@ function pazymiuVidurkis() {
 }
 pazymiuVidurkis();
 
-
+console.log("PAZYMIU VIDURKIS TEST");
 // 1.1 UZDUOTIS
 // parasyti f-ja "pazymiuVidurkis1(x1, x2, x3, x4, x5)", kuriai galima paduoti 5 kintamuosius,
 // kuri apskaiciuoja vidurki is paduotu 5 menesiu pazymiu
 // suskaiciuoti pazymiu vidurki, 5, 10 , 8 , 6 , 8  (ir atspausdintu vidurki)
+var x1 = 5;
+var x2 = 10;
+var x3 = 8;
+var x4 = 6;
+var x5 = 8;
+
+function pazymiuVidurkis1(x1, x2, x3, x4, x5){
+  console.log( "pazymiu vidurkis: " + ( x2 + x3 + x4 + x5 + x1 ) / 5  );
+}
+pazymiuVidurkis();
 
 //function pazymiuVidurkis1 (x1, x2, x3, x4, x5, vardas) {
   //var vidurkis = ( x2 + x3 + x4 + x5 + x1 ) / 5;
@@ -134,8 +144,7 @@ function getVardasPavarde() {
   return x + y;
 }
 
-console.log( getVardasPavarde() );
-
+getVardasPavarde();
 
 
 // 5 UZDUOTIS
