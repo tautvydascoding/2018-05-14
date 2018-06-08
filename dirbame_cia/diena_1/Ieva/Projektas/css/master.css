@@ -5,14 +5,11 @@
 }
 
 body {
-  font-family: 'Forum', cursive, monospace;
+  font-family: 'Quicksand', sans-serif;
   color: rgb(0, 0, 0);
   background-image: url(../images/fonas-wood.jpg);
 }
 
-h2 {
-  text-align: center;
-}
 
 .aukstis-100 {
   height: 100px;
@@ -43,29 +40,26 @@ h1{
   color: white;
 }
 
+h4 {
+  padding:0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 #logoImage {
   box-shadow: -4px -6px 8px 2px rgba(157, 153, 153,.65),
                 8px 6px 10px rgba(157, 153, 153,.65);
-
-}
-#wrapper {
-  /* background-image: url("../images/mountain-lake-nature.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  font-size: 30px;
-  font-family: 'Forum', cursive;
-
-
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+/*----------GALLERY PAGE-------NUOTRAUKOS SU :hover, position:absolute/relative---------------- */
+
+/* .gallery { overflow:hidden; } */
+
+.aside {
+  padding-bottom: 5000px;
+  margin-bottom: -5000px;
 }
-
-/* NUOTRAUKOS SU :hover, position:absolute/relative*/
-
-
+/* -------GALLERY PAGE---- su hover efektu NUOTRAUKA "fall" -----------*/
 .containerImg {
   position: relative;
 }
@@ -109,7 +103,7 @@ h1{
 }
 
 
-/* su hover ant nuotraukos imageCity*/
+/* -------GALLERY PAGE---- su hover NUOTRAUKA imageCity -----------*/
 
 .containerCity {
   position: relative;
@@ -143,14 +137,13 @@ h1{
 }
 
 .textCity {
-  /* background-color: #4CAF50; */
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 
 }
 
-/*Stones nuotraukos HOVER*/
+/* -------------Stones nuotrauka su  HOVER --------------------*/
 
 .containerStones {
   position: relative;
@@ -193,7 +186,7 @@ h1{
 
 }
 
-/* landscape nuotraukos Hover*/
+/* ------------GALLERY PAGE landscape nuotrauka su Hover --------*/
 
 .containerLandscape {
   position: relative;
@@ -246,7 +239,7 @@ h1{
 }
 
 
-/* BLOG images */
+/*-------------- BLOG PAGE  images -------------- */
 .nature {
   position: absolute;
   margin-top: -50px;
@@ -258,19 +251,20 @@ h1{
 }
 
 .nature:hover	{
-		filter:drop-shadow(10px 10px 10px #ada9c8);
+		filter:drop-shadow(8px 8px 8px #ecebf6);
 	}
 
 .blog-image {
   position:relative;
   box-shadow: -4px -6px 8px 2px rgba(0,0,0,.5),
                 8px 6px 12px rgba(0,0,0,.5);
+
 }
 
 p {
   font-size: 15px;
-  padding: 50px;
   align-content: center;
+  padding-top: 15px;
 }
 
 .imageBlog:hover {
@@ -279,75 +273,159 @@ p {
 }
 
 
+
+
+
 /* --------Menu ir logo -----------*/
 
- /* nav li {
-    margin-right: 100px;
-    font-size: 15px;
-    width: 20%;
-    margin-top: 40px;
-    } */
-
     #collapsibleNavbar {
-    text-align:center;
+      text-align:center;
     }
 
     #collapsibleNavbar li {
-    display:inline;
+      display:inline;
     }
+
     #collapsibleNavbar a {
-    text-decoration:none;
-    padding:0 30px;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-size: 20px;
+        text-decoration:none;
+        padding:0 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+        font-size: 20px;
+
     }
 
-    header { margin-bottom: 100px;}
 
-      /* permatomas teksto fonas ant karuselės foto*/
+/* ------atitraukiu header nuo viršaus, nes uždėjus sticky nav bar, nesimato daug puslapių viršaus---*/
+    header {
+        margin-bottom: 100px;
 
+    }
 
+/* --- tekstą ant karuselės uždėti -----*/
 
-/*---------------------------------*/
-
-input {
-  margin-top: 20px;
-  border: none;
-  padding: 10px;
-
-}
-
-textarea {
-  border: none;
-  padding: 10px;
+  .carousel-caption {
+        position: absolute;
+        left:0;
+        width:55%;
+        top:20%;
+        margin-left:20%;
+        text-align: left;
 
 }
 
-.gallery {
-  overflow:hidden;
+.carousel-caption h5 {
+      font-size:5em;
 
 }
 
-.aside {
-  padding-bottom: 5000px;
-  margin-bottom: -5000px;
+.carousel-caption p  {
+      line-height: 2em;
+      font-size: 20px;
+      border-top:solid 5px rgba(213, 210, 204, .5);
+      border-bottom: solid 5px rgba(213, 210, 204, .5);
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-bottom:5px;
 }
+
+h5 {
+    margin-bottom: 60px;
+}
+
+.carousel-item {
+  transition: transform 2s ease, opacity .5s ease-out;
+
+}
+
 
 /*-------------------------------------*/
   footer {
-      padding-top:0px;
+      padding-top:20px;
       background-image: linear-gradient(to top, #716d6d, #d7dad7);
-      color: rgb(240, 240, 240);
+      color: rgb(87, 84, 84);
       text-align: center;
-      font-family: 'Forum', cursive;
       font-size: 15px;
 
     }
+/*--------------------------------------------*/
+
+/*--------------front page trys stulpeliai----------------------------*/
+
+    .heading {
+    line-height: 2em;
+    padding: 30px;
+    background-color:rgba(249, 249, 246, .8);
+    border-radius: 10px;
+    box-shadow: 8px 6px 10px rgba(131, 125, 125, 0.5);
+
+    }
+
+    h3 {
+
+    text-decoration-color: rgba(131, 125, 125, 0.5);
+    text-align: center;
+
+  }
+
+  .zoom {
+     /* transition: transform .2s; */
+
+    transition: .6s cubic-bezier(.645,.045,.355,1);
+
+  }
 
 
-/* ------------------------------*/
+  .zoom:hover {
+      transform: scale(1.1);
 
-button {
-  margin-bottom: 20px;
-}
+  }
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+/*-----tamsi juosta front page per visą plotį su projektų skaičiumi ir t.t. */
+
+    .darkline {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: rgb(224, 220, 220);
+      transition: transform .2s;
+    }
+
+
+/*------------------------------------------------------------------*/
+
+
+/* -------------Kontaktų puslapyje ikonoms---------*/
+        button {
+          margin-bottom: 20px;
+          color: white;
+
+        }
+
+
+        .contactIcon {
+          display: inline-block;
+          margin-left:20px;
+
+        }
+
+        input {
+          margin-top: 20px;
+          border:none;
+          padding: 10px;
+
+        }
+
+        textarea {
+          border:none;
+          padding: 10px;
+
+        }
+
+
+
+/*----------------------------------------------------*/

@@ -168,3 +168,48 @@ for (i=4; i<50; i+=5){
 }
 console.log("pakeistas su 1, 3, 1, 3, 9, 3, 1, 3, 1, 9 --- " + mas);
 // //=============bootstrap---sm-md-lg-xl (30-60m)==========
+
+
+// sukurti masyva: Jonas, Petras, Povilas, Kestas, Karolis
+
+var vardai=[];
+
+vardai[0] = "Jonas";
+vardai[1] = "Petras";
+vardai[2] = "Povilas";
+vardai[3] = "Kęstas";
+vardai[4] = "Karolis";
+
+console.log("Vardų masyvas:" , vardai);
+
+
+// ) sunaikinti pirma STALCIU VISA
+
+vardai.splice(0,1);
+console.log("Vardų masyvas po pirmo stalčiaus ištrinimo:", vardai);
+
+// ) tarp Petras ir Povilas, iterpti Marija
+
+vardai.splice(1, 0, "Marija");
+console.log("Vardų masyvas Įterpus Marija po Petro:", vardai);
+
+// ) surikiuoti Masyva
+
+
+// ) sunaikinti Marijos stalciu
+// ) sukeisti vietomis pirma ir paskutini stalciu
+// ) sukurti masyvo kojipa
+// ) kopijos masyve istrinti nuo 2 iki 4
+// ) isisvesti orginalu masyva - ir pasitikrinti ar nesugadinom jo , keisdami kopija
+// ) prijungti kopijos masyva prie orginalo masyvos galo
+
+
+
+// 6. sukurti du masyvus (skirtingus)
+// naudojant for cikla sujungti juos, kas antra elementa
+// [pirmo masyvo, antro masyvo, pirmo masyvo, antro masyvo , ...]
+
+// sunkesnis
+// susikurti masyva su prekiu pavadinimais
+// naudojant FOR  parasykite/pergrupuokite ji atvirksciai
+// ! nenaudojant "reverse"
