@@ -16,19 +16,16 @@
 
     <body>
         <h1 > Isijunk console </h1>
+        <h2></h2>
 <!--
         // uzduotis 1
         // A. susikurti meniu masyva: home, about, gallery, contact, blog
         // B. atspausdinti visus meniu punktus i HTML (su html tag'ais)
 
 
-        // uzduotis 2
-        // A. susirasti 6 nuotraukas
-        // B. susikurti nuotrauku pavadinimu masyva
-        // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
-        // <img src='./img/1.jpg' alt=''  /> -->
 
-<?php
+
+
     // $darbuotojas = ["Povilas", "Povilaitis", 1992];
     // print_r($darbuotojas);
     // echo "<br />";
@@ -44,27 +41,47 @@
     //   echo "$stalciausReiksme" . "<br/>";
     // }
 
+    //
+    // $masyvasMeniu = ["Home", "About", "Gallery", "Contact", "Blog", "WordPress"];
+    // // print_r($masyvasMeniu); testavimui
+    //
+    //
+    // <nav>
+    //   <ul>
+    //
+    //
+    //       foreach ($masyvasMeniu as $key => $value) {
+    //         echo "<li>" . $value . "</br/>";
+    //       }
 
-    $masyvasMeniu = ["Home", "About", "Gallery", "Contact", "Blog", "WordPress"];
-    // print_r($masyvasMeniu); testavimui
-?>
-
-    <nav>
-      <ul>
-          <?php
-
-          foreach ($masyvasMeniu as $key => $value) {
-            echo "<li>" . $value . "</br/>";
-          }
-
-           ?>
+    //
+    //
+    //
+    //
+    //   </ul>
+    // </nav>
 
 
-      </ul>
-    </nav>
+    // uzduotis 2
+    // A. susirasti 6 nuotraukas
+    // B. susikurti nuotrauku pavadinimu masyva
+    // C. atspausdinti visas nuotraukas su ciklu, po 3-ris i eilute
+    // <img src='./img/1.jpg' alt=''  /> -->
+
+<?php
+    $nuotraukos = ["2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.png", "balionas.png"];
+    // print_r($nuotraukos[0]);
 
 
+    foreach ($nuotraukos as $key => $value) {
+      echo "Nuotrauku masyvo stalcius:  $value  <br />";
+    }
 
+    for ($i=0; $i<count($nuotraukos); $i++) {
+      echo "<img src='images/$nuotraukos[$i]' width='400px' height='auto' />";
+
+    }
+  ?>
 
 
 
