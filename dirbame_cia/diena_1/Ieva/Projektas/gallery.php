@@ -8,16 +8,16 @@
 
 <!-- IDEA:  atsidaro pagrindinis konteineris -->
 
-      <div class="container-fluid gallery responsive">
-          <div class="row">
+  <div class="container-fluid gallery responsive">
+      <div class="row">
 
 <!-- IDEA: atsidaro kairės pusės main dalis -->
             <main class="col-md-6 mt-5">
 
             <div class="row">
 
-              <div class="containerImg col-md-7 p-0 ">
-                <img class="imageFall border border-white" src="images/falls-autumn-tree-tree-fall.jpg" alt="falls-autum" width="434px" height="100%"/>
+              <div class="containerImg col-md-7 p-0">
+                <img class="imageFall border border-white" src="images/falls-autumn-tree-tree-fall.jpg" alt="falls-autum" width="" height="100%"/>
                     <div class="overlay">
 
                         <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,7 +29,7 @@
               </div>
 
                         <div class="col-md-5  p-0">
-                          <img class="imagePossibile border border-white" src="images/impossible.jpg" alt="impossible" width="310px" height="100%" />
+                          <img class="imagePossibile border border-white" src="images/impossible.jpg" alt="impossible" width="317px" height="100%" />
                         </div>
 
                   </div>
@@ -65,7 +65,7 @@
                     <div class="col-md-6">
                       <div class="row">
                         <div class="imageClouds col-md-12 p-0">
-                          <img class="border border-white" src="images/clouds.jpg" alt="clouds" width="372px" height="461px" />
+                          <img class="border border-white" src="images/clouds.jpg" alt="clouds" width="379px" height="461px" />
                         </div>
                       </div>
 
@@ -83,7 +83,7 @@
 
                   </div>
 
-                </div>
+            </div>
 
       </aside>
 
@@ -93,7 +93,7 @@
 
 
     </div>
-
+</div>
 
 <?php
     include 'footer.php';

@@ -23,11 +23,12 @@
     </header>
 
         <nav class="container-fluid spalvaNav navbar navbar-expand-sm  mb-2 navbar-dark shadow-lg sticky-top aukstis-100">
+            <a class="" href="index.php">
             <img class="dydis" src="img/logotipas.png" alt="logotipas Smalsus snekuciai">
+            </a>
             <ul class="navbar-nav">
-                <li class="nav-item flex">
-                    <a class="" href="index.php">Home</a>
-                </li>
+
+
 
                 <li class="nav-item">
                     <a class="" href="#">Apie mus</a>
@@ -36,7 +37,7 @@
                     <a class="" href="Gallery.php">Galerija</a>
                 </li>
                 <li class="nav-item">
-                    <a class="" href="kainos.php">Kainos </a>
+                    <a class="" href="Kainos.php">Kainos </a>
                 </li>
                 <li class="nav-item">
                     <a class="" href="#">Kontaktai </a>

@@ -26,3 +26,20 @@ function  getKainos() {
     $visosKainosObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
     return $visosKainosObjektas;
 }
+function getKaina( $nr ) {
+    // apsauga - ar paduotas skaicius
+    if ( !is_numeric($nr) ) {
+        return NULL;
+    }
+    //                                           '$nr'
+    $manoSQL = "SELECT * FROM kainos   WHERE id='$nr';   ";
+    //  mysqli_query -  ivykdo SQL koda  ( grista mysql Objektas)
+    $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
+
+    // ar radome kazka lenteleje
+    if (mysqli_num_rows($rezultatai) > 0 ) {
+        // mysqli_fetch_assoc - paima sekancia eilute (ir pavercia i Array)
+        $rezultatai = mysqli_fetch_assoc($rezultatai);
+        return $rezultatai;
+    }
+}

@@ -39,3 +39,14 @@ $('.textContact').mouseenter(function(event) {
 $('.textContact').mouseleave(function(event) {
   $(this).css("color", "black");
 });
+
+
+
+$('.heading').mouseenter(function(event) {
+  $(this).css("color", "green");
+
+});
+
+$('.heading').mouseleave(function(event) {
+  $(this).css("color", "black");
+});

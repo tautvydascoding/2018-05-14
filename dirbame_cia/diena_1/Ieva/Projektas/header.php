@@ -13,6 +13,7 @@
         <!-- mano failas visada zemiau -->
         <link rel="stylesheet" href="css/master.css">
         <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 
 <!--
@@ -39,7 +40,7 @@
 <body>
       <h1> </h1>
 
-    <div class = "container-fluid">
+    <div class = "container">
 
 
 
@@ -61,19 +62,19 @@
                 <ul class="navbar-nav">
 
                   <li class="nav-item">
-                    <a class="nav-link" href="index.php">About</a>
+                    <a class="nav-link zoom" href="index.php">About</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
+                    <a class="nav-link zoom" href="gallery.php">Gallery</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Blog</a>
+                    <a class="nav-link zoom" href="blog.php">Blog</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="contacts.php">Contacts</a>
+                    <a class="nav-link zoom" href="contacts.php">Contacts</a>
                   </li>
 
                 </ul>
@@ -81,3 +82,4 @@
       </nav>
 
       </header> <!-- IDEA: užsidaro header --------------------------->
+</div>
