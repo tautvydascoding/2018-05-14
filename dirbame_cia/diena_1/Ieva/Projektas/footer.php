@@ -1,3 +1,7 @@
+
+<div class="container-fluid">
+
+
 <footer class="row mt-3">
 
               <div class="col-md-12 aukstis-100">

@@ -40,7 +40,7 @@
 <body>
       <h1> </h1>
 
-    <div class = "container-fluid">
+    <div class = "container">
 
 
 
@@ -82,3 +82,4 @@
       </nav>
 
       </header> <!-- IDEA: užsidaro header --------------------------->
+</div>
