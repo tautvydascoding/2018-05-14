@@ -6,12 +6,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="img\1.jpg">
+                        <a class="lightbox" href="img\.jpg">
                             <img class="img-fluid image scale-on-hover" src="img\1.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="img/2.jpg">
+                        <a class="lightbox" href="img/.jpg">
                             <img class="img-fluid image scale-on-hover" src="img/2.jpg">
                         </a>
                     </div>
@@ -31,22 +31,22 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="..img/6.jpg">
+                        <a class="lightbox" href="img/.jpg">
                             <img class="img-fluid image scale-on-hover" src="..img/6.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="..img/7.jpg">
+                        <a class="lightbox" href="..img/.jpg">
                             <img class="img-fluid image scale-on-hover" src="..img/7.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="..img/8.jpg">
+                        <a class="lightbox" href="..img/.jpg">
                             <img class="img-fluid image scale-on-hover" src="..img/8.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="img/9.jpg">
+                        <a class="lightbox" href="img/.jpg">
                             <img class="img-fluid image scale-on-hover" src="img/9.jpg">
                         </a>
                     </div>

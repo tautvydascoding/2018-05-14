@@ -22,20 +22,21 @@ else {
 getPrisijungimas();
 
 
-// paimam gydytojo duomenis
-function getDdarbuotoja($nr){
-$manoSQL = "SELECT * FROM darbuotojai WHERE id='$nr';";
-$rezultatai = mysqli_query(getPrisijungimas(), $manoSQL );
-//  paima sekancia eilute (ir pavercia i array)
-$rezultatai = mysqli_fetch_assoc($rezultatai);
-return $rezultatai;
-// print_r($rezultatai);
-if (mysql_num_rows($rezultatai) > 0) {
-    $rezultatai = mysqli_fetch_assoc($rezultatai);
-    return $rezultatai;
+// paimam darbuotojo duomenis
+function getDarbuotoja( $nr ) {
+    // apsauga - ar paduotas skaicius
+    if ( !is_numeric($nr) ) {
+        return NULL;
+    }
+    //                                           '$nr'
+    $manoSQL = "SELECT * FROM darbuotojai   WHERE id='$nr';   ";
+    //  mysqli_query -  ivykdo SQL koda  ( grista mysql Objektas)
+    $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
 
-}else {
-    echo "ERROR! Darbotojo nr: $nr neradome. Bandykite kita <br />" . mysqli_error($prisijungimas());
-    return NULL;
-}
+    // ar radome kazka lenteleje
+    if (mysqli_num_rows($rezultatai) > 0 ) {
+        // mysqli_fetch_assoc - paima sekancia eilute (ir pavercia i Array)
+        $rezultatai = mysqli_fetch_assoc($rezultatai);
+        return $rezultatai;
+    }
 }
