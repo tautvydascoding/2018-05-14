@@ -1,6 +1,6 @@
 <?php
-include('header.php');
 require_once('kainosDB.php');
+
 $kaina1 = getKaina(1); // array
 
 if ($kaina1 != NULL){
@@ -30,28 +30,7 @@ if ($kaina1 != NULL){
     <li class="header"><?php  echo  $kaina3['laikotarpis']; ?></li>
     <li class="grey"><?php  echo  $kaina3['kaina'] . " " . "\xE2\x82\xAc"; ?></li>
   </ul>
-</div>;
-<div class="container">
-
 </div>
-
-
-
-<?php include('footer.php'); ?>
-
-
-
-
-
-
- <!-- //     require_once('kainosDB.php');
-//     $visosKainosObjektas = getKainos();
-//      $kaina = mysqli_fetch_assoc( $visosKainosObjektas );
-//     while( $kaina ) {
-//         if ($kaina['kaina'] % 10 == 0) {
-//             echo "<h2>" . $kaina['laikotarpis'] . " " . $kaina['kaina'] . "Eurų" . "</h2>";
-//         }else {
-//             echo "<h2>" . $kaina['laikotarpis'] . " " . $kaina['kaina'] . "Eurai" . "</h2>";
-//         }
-//         $kaina = mysqli_fetch_assoc( $visosKainosObjektas );  // !!!!
-//     } -->
+<div class="container">
+<p>Valandos nuo 9 iki 18 val. Esant poreikui galime atsidaryti anksciau ir darba baigti veliau. Pries atvykstant prasome labai prasome parasyti mums zinute (i FB) arba paskambinti (bent valandele pries atvykima).</p>
+</div>
