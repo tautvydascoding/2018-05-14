@@ -8,5 +8,5 @@
 // susikurti  objektus: Monika, Tadas, Kestas
 
 // UZDUOTIS 2.1
-// Atspasudinti varsa ir ugi
+// Atspasudinti varda ir ugi
 // paleisti f-ja 'einu()'
