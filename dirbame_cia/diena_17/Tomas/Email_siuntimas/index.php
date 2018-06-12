@@ -18,7 +18,14 @@
     <body>
 
 
+<form  action="email.php" method="post">
+    <input type="text" name="vardas" placeholder="vardas">
+    <input type="email" name="pastas" placeholder="el. pastas" required >
+    <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required>
+    </textarea>
+<button type="submit" name="button">Klausti</button>
 
+</form>
 
 
 
