@@ -37,6 +37,34 @@
               break;
           }
 
+
+
+             // UZDUOTIS  "Switch"
+            // paduoti varda ir Jeigu jis lygus:
+            // "audi" - atspausdinti "Susimastykite apie variklio prieziura"
+            // "BMW" - atspausdinti "Susimastykite apie greiti ir vairavimo kultura"
+            // "opel" - atspausdinti "Susimastykite apie naujus priedus"
+
+
+            $kintamasis = "audiiii";
+            switch ($kintamasis) {
+              case 'audi':
+                echo "Susimastykite apie variklio prieziura";
+                break;
+
+                case 'BMW':
+                  echo "Susimastykite apie greiti ir vairavimo kultura";
+                  break;
+
+                  case 'OPEL':
+                    echo "Susimastykite apie naujus priedus";
+                    break;
+
+              default:
+                echo "Tokio \"$kintamasis\" nera <br />";
+                break;
+            }
+
       ?>
 
 

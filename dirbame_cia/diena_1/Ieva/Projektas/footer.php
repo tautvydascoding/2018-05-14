@@ -1,6 +1,10 @@
-<footer class="row mt-3">
 
-              <div class="col-md-12 aukstis-100">
+<div class="container-fluid">
+
+
+        <footer class="row mt-3">
+
+              <div class="col-md-12">
                   <a href="#">  <img class="footer-icon1 zoom mr-1" src="images/facebook.svg" alt="facebook icon" width="15px" height="15px" />
                   </a>
                   <a href="#">
@@ -21,8 +25,8 @@
 
           </footer>
 
-<!-- IDEA: užsidaro footer --------------------------->
-</div> <!-- IDEA: užsidaro konteneris ------------------------>
+
+</div> <!-- IDEA: užsidaro FOOTER konteineris ------------------------>
 
 
 

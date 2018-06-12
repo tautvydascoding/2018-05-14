@@ -21,21 +21,21 @@
         <?php
         //
         //
-        // $visiDarbuotojai=[];
-        // $darbuotojas1=["Jonas", "Jonaitis", 1980, "Inspektorius"];
-        // $darbuotojas2=["Ona", "Onute", 1980, "Sekretore"];
-        // $darbuotojas3=["Kestas", "Kerta", 2001, "Pavaduotojas"];
-        //
-        // $visiDarbuotojai[0]=$darbuotojas1;
-        // $visiDarbuotojai[1]=$darbuotojas2;
-        // $visiDarbuotojai[2]=$darbuotojas3;
-        //
-        // // print_r($visiDarbuotojai[0]);
-        // // echo "</br/>";
-        // // print_r($visiDarbuotojai[1]);
-        // // echo "</br/>";
-        // // print_r($visiDarbuotojai[2]);
-        // // echo "</br/>";
+        $visiDarbuotojai=[];
+        $darbuotojas1=["Jonas", "Jonaitis", 1980, "Inspektorius"];
+        $darbuotojas2=["Ona", "Onute", 1980, "Sekretore"];
+        $darbuotojas3=["Kestas", "Kerta", 2001, "Pavaduotojas"];
+
+        $visiDarbuotojai[0]=$darbuotojas1;
+        $visiDarbuotojai[1]=$darbuotojas2;
+        $visiDarbuotojai[2]=$darbuotojas3;
+
+        // print_r($visiDarbuotojai[0]);
+        // echo "</br/>";
+        // print_r($visiDarbuotojai[1]);
+        // echo "</br/>";
+        // print_r($visiDarbuotojai[2]);
+        // echo "</br/>";
         //
         //
         //
@@ -44,14 +44,14 @@
         //   echo $darbuotojas1[$i];
         // }
         //
-        // echo "</br/>";
-        // echo "1.2 uzduotis. isvesti visu darbuotoju vardus";
-        // echo "</br/>";
-        // for ($i=0; $i < count($visiDarbuotojai); $i++) {
-        //     echo $visiDarbuotojai[$i][0];
-        //     echo "</br/>";
-        //
-        //     }
+        echo "</br/>";
+        echo "1.2 uzduotis. isvesti visu darbuotoju vardus";
+        echo "</br/>";
+        for ($i=0; $i < count($visiDarbuotojai); $i++) {
+            echo $visiDarbuotojai[$i][0];
+            echo "</br/>";
+
+            }
         //
         //   echo "1.3 uzduotis. isvesti kiekvieno darbuotojo informacija";
         //   for ($i=0; $i < count($visiDarbuotojai); $i++) {
@@ -78,10 +78,10 @@
         //     }
 
 
-$visosPrekes=[];
-$preke1=["Dviratis", "", "Lorem ipsum dolor sit amet, consectetur", 99.0];
-$preke2=["Paspirtukas", "", "Lorem ipsum dolor sit amet, consectetur", 53.0];
-$preke3=["Paspirtukas", "", "Lorem ipsum dolor sit amet, consectetur", 53.0];
+// $visosPrekes=[];
+// $preke1=["Dviratis", "", "Lorem ipsum dolor sit amet, consectetur", 99.0];
+// $preke2=["Paspirtukas", "", "Lorem ipsum dolor sit amet, consectetur", 53.0];
+// $preke3=["Paspirtukas", "", "Lorem ipsum dolor sit amet, consectetur", 53.0];
 
          ?>
 

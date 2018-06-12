@@ -8,6 +8,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: rgb(0, 0, 0);
   background-image: url(../images/fonas-wood.jpg);
+
 }
 
 
@@ -59,6 +60,11 @@ h4 {
   padding-bottom: 5000px;
   margin-bottom: -5000px;
 }
+
+.mainGallery, .galleryAside {
+  margin-top: 40px;
+}
+
 /* -------GALLERY PAGE---- su hover efektu NUOTRAUKA "fall" -----------*/
 .containerImg {
   position: relative;
@@ -66,7 +72,7 @@ h4 {
 
 .imageFall {
   display: block;
-  width: 434px;
+  width: 443px;
   height: 470px;
   transition: 1s;
 }
@@ -112,7 +118,6 @@ h4 {
 .imageCity {
     opacity: 1;
     display: block;
-    width: 100%;
     height: 922px;
     transition: .5s ease;
 
@@ -137,6 +142,7 @@ h4 {
 }
 
 .textCity {
+  width:372px;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -152,7 +158,7 @@ h4 {
 .imageStones {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 379px;
     height: 461px;
     transition: .5s ease;
 
@@ -164,6 +170,7 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -182,8 +189,7 @@ h4 {
   border-radius: 10px;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
-
+  padding: 20px 20px;
 }
 
 /* ------------GALLERY PAGE landscape nuotrauka su Hover --------*/
@@ -195,7 +201,7 @@ h4 {
 .imageLandscape {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 760px;
     height: 450px;
     transition: .5s ease;
 
@@ -229,9 +235,20 @@ h4 {
 
 }
 
+.imageClouds {
+  width: 379px;
+  height: 100%;
+}
+
 .imageClouds:hover{
   filter: sepia(80%);
 }
+
+.imagePossibile {
+  width:317px;
+  height: 470px;
+}
+
 
 .imagePossibile:hover {
   filter: grayscale(80%);
@@ -261,6 +278,8 @@ h4 {
 
 }
 
+
+
 p {
   font-size: 15px;
   align-content: center;
@@ -289,12 +308,17 @@ p {
     #collapsibleNavbar a {
         text-decoration:none;
         padding:0 30px;
-        margin-right: 100px;
-        margin-left: 100px;
+
+
+        margin-left: 30px;
         font-size: 20px;
 
     }
 
+    ul.navbar-nav {
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 /* ------atitraukiu header nuo viršaus, nes uždėjus sticky nav bar, nesimato daug puslapių viršaus---*/
     header {
@@ -354,25 +378,29 @@ h5 {
 
     .heading {
     line-height: 2em;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 15px;
     background-color:rgba(249, 249, 246, .8);
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: 8px 6px 10px rgba(131, 125, 125, 0.5);
 
     }
 
-    h3 {
+    .headingMargin {
+      margin-right: 20px;
+    }
 
-    text-decoration-color: rgba(131, 125, 125, 0.5);
+    h3 {
+    border-bottom: 8px double rgba(131, 125, 125, 0.5);
     text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;:
 
   }
 
   .zoom {
-     /* transition: transform .2s; */
-
-    transition: .6s cubic-bezier(.645,.045,.355,1);
-
+     transition: transform .2s;
   }
 
 
@@ -393,6 +421,7 @@ h5 {
       padding-bottom: 50px;
       color: rgb(224, 220, 220);
       transition: transform .2s;
+      text-transform: uppercase;
     }
 
 
@@ -428,4 +457,192 @@ h5 {
 
 
 
-/*----------------------------------------------------*/
+/*----------------MEDIA------------------------------------*/
+/* ==========nuo 1024 iki 2560 px======== */
+
+@media (max-width: 2560px) {
+  .forMedia {
+      text-align: justify;
+
+  }
+
+  .imageLandscape, .imageFall, .imagePossibile, .imageStones {
+    width: 100%;
+  }
+
+
+/* =========for tablet============== */
+/* ==========nuo 0 iki 768px======== */
+@media (max-width: 768px) {
+    .forMedia {
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    .carousel-caption h5 {
+          font-size:2em;
+    }
+
+    .carousel-caption p  {
+          line-height: 20px;
+          font-size: 15px;
+    }
+
+    .darkline {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 8px;
+
+    }
+
+    .darkline img {
+      width:30px;
+    }
+
+    #collapsibleNavbar a {
+        margin-left: 10px;
+        font-size:15px;
+
+    }
+
+    .contactForMedia {
+      font-size: 14px;
+    }
+
+    main h4 {
+      font-size: 20px;
+
+    }
+
+    .mainGallery {
+      min-width: 100%;
+    }
+
+    .galleryAside {
+      min-width: 100%;
+      margin-top:0;
+    }
+
+    .imageLandscape, .imageFall, .imagePossibile, .imageStones, .imageClouds {
+      width: 100%;
+    }
+}
+/* ==========nuo 768 iki1024px======== */
+
+@media (max-width: 1024px) {
+  .forMedia {
+      text-align: justify;
+  }
+
+
+  .carousel-caption h5 {
+        font-size:50px;
+  }
+
+  .carousel-caption p  {
+        line-height: 1.1 em;
+        font-size: 15px;
+  }
+
+  .darkline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .darkline img {
+    width:20px;
+  }
+
+  .mainGallery {
+    min-width: 100%;
+  }
+
+  .galleryAside {
+    min-width: 100%;
+    margin-top:0;
+  }
+
+  .imageLandscape, .imageFall, .imagePossibile, .imageStones, imageCity {
+    width: 100%;
+  }
+
+}
+
+
+
+
+/* ===============Mobile=================  */
+@media (max-width: 426px) {
+    .forMedia {
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        text-align: justify;
+    }
+
+      footer p {
+        font-size:10px;
+    }
+
+
+    .contactForMedia{
+        font-size: 13px;
+        margin-right:0px;
+    }
+
+    .contactIcon {
+        margin-left:0px;
+        margin-rigth: 1px;
+    }
+
+    main h4 {
+        font-size:20px;
+    }
+
+
+      .carousel-indicators {
+        display: none;
+      }
+
+       .carousel-caption h5 {
+           font-size:15px;
+       }
+
+       .carousel-caption p  {
+           line-height: normal;
+           font-size: 8px;
+           padding-left:2px;
+           padding-top: 2px;
+           padding-bottom:2px;
+       }
+
+       h5 {
+            margin-bottom: 5px;
+       }
+
+       .blog-image{
+            width: 90%;
+       }
+
+       .blogH2 {
+            font-size:20px;
+       }
+
+       .imageClouds {
+         width:100%;
+       }
+
+/* sumažinu teksto dydį*/
+         .blog {
+           font-size: 12px;
+         }
+
+/* užrašo NATURE, CITIES, DESIGN ant nuotraukos dydžio sumažinimas */
+       .nature {
+         width:17%;
+         font-size: 10px;
+         margin-top: -35px;
+         padding:5px;
+       }
+}
