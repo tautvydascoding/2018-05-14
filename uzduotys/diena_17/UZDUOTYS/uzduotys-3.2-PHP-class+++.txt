@@ -7,6 +7,7 @@
 // private vardas
 // public f-ja 'manoUgis()'
 // public f-ja 'manoVardas()'
+* kintamojo paemimas f-je:    $this->vardas
 
 // UZDUOTIS 2:
 // susikurti konstruktoriu
