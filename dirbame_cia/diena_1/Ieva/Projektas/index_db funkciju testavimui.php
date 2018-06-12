@@ -18,18 +18,28 @@
     <body>
         <h1 > Isijunk console </h1>
 
-        <form action="login.php" method="get">
-          <label for="Vartotojo vardas">Vartotojo vardas</label>
-          <input type="text" name="username" maxlength="10" placeholder="Jūsų vartotojo vardas" required> </br>
-          <label for ="Slaptazodis">Jusu slaprazodis</label>
-          <input type="password" name="psw" value="" placeholder="Įveskite slaptažodį" title="" required></br>
-          <label for="Data">Data</label>
-          <input type="date" name="data1" value="" placeholder=""title="įveskite datą" required></br>
-          <input  type="hidden" name="id" value="8" placeholder=""></br>
-          <button type = "submit" name="button"> Login </button>
 
-        </form>
+      <?php
 
+              include ('db_funkcijos.php');
+
+              // $title1 = getTitle(1);
+              // print_r($title1);
+
+
+              $visasBlog =   getAllBlog();
+
+              $blogMasyvas1 = mysqli_fetch_assoc(   $visasBlog   );
+               print_r( $blogMasyvas1  );
+
+              $blogMasyvas2 = mysqli_fetch_assoc(   $visasBlog   );
+                print_r( $blogMasyvas2  );
+
+              $blogMasyvas3 = mysqli_fetch_assoc(   $visasBlog   );
+                 print_r( $blogMasyvas3  );
+
+
+       ?>
 
 
 

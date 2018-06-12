@@ -91,8 +91,8 @@ function editDoctor($nr, $name, $lname) {
       $manoSQL = "UPDATE doctors SET
                                     name = '$uzkoduotasVardas',
                                     lname = '$uzkoduotaPavarde'
-                                WHERE id = '$uzkoduotasNumeris'
-                                LIMIT 1";
+                          WHERE id = '$uzkoduotasNumeris'
+                          LIMIT 1";
       $arKeiciame = mysqli_query(getPrisijungimas(), $manoSQL);
       }
     // editDoctor(4, "Litas", "Ona");

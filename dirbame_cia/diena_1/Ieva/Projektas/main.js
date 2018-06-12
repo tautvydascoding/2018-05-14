@@ -50,3 +50,22 @@ $('.heading').mouseenter(function(event) {
 $('.heading').mouseleave(function(event) {
   $(this).css("color", "black");
 });
+
+
+$('.carousel-caption p').mouseenter(function(event) {
+  $(this).css("color", "rgb(218, 227, 217)");
+
+});
+
+$('.carousel-caption p').mouseleave(function(event) {
+  $(this).css("color", "white");
+});
+
+$('.carousel-caption h5').mouseenter(function(event) {
+  $(this).css("color", "rgb(218, 227, 217)");
+
+});
+
+$('.carousel-caption h5').mouseleave(function(event) {
+  $(this).css("color", "white");
+});

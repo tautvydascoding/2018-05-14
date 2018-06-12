@@ -8,14 +8,12 @@ define('DB_HOST', 'localhost');
 /* PRISIJUNGIMAS PRIE DUOMENŲ BAZĖS*/
 $prisijungimas = mysqli_connect(DB_HOST, DB_VARTOTOJAS, DB_SLAPTAZODIS, DB_PAVADINIMAS);
 
-mysqli_set_charset($prisijungimas, "utf8");
-
 function getPrisijungimas () {
   global $prisijungimas;
 
         if ($prisijungimas == true) {
-            // echo "Jūs prisijungėte prie DB sėkmingai.<br/>";
-            // return $prisijungimas;
+            echo "Jūs prisijungėte prie DB sėkmingai.<br/>";
+            return $prisijungimas;
 
         } else {
           echo "Klaida: nepavyko prisijungti" . mysqli_connect_error() . "</br/>";
@@ -26,38 +24,38 @@ getPrisijungimas();
 
 
 /* FUNKCIJA GAUTI BLOGO STRAIPSNIO PAVADINIMĄ TITLE */
-// function getTitle($nr) {
-//   $manoSQL = "SELECT * FROM blog WHERE id = '$nr';";
-//   $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
-//
-//
-//   if (mysqli_num_rows($rezultatai)>0) {
-//     $rezultatai = mysqli_fetch_assoc($rezultatai);
-//     return $rezultatai;
-//   }  else {
-//      echo "ERROR Straipsnio pavadinimo nr:" . $nr. "nerastas. Bandykite dar kartą <br/>". mysqli_error(getPrisijungimas());
-//      return NULL;
-//    }
-// }
-// $title1 = getTitle(1);
-// print_r($title1);
+function getTitle($nr) {
+  $manoSQL = "SELECT * FROM blog WHERE id = '$nr';";
+  $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
 
-// /* FUNKCIJA GAUTI BLOGO STRAIPSNIO TURINĮ/TEKSTĄ PAGAL ID NR */
-// function getDescription($nr) {
-//   $manoSQL = "SELECT * FROM blog WHERE id = '$nr';";
-//   $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
-//
-//
-//   if (mysqli_num_rows($rezultatai)>0) {
-//     $rezultatai = mysqli_fetch_assoc($rezultatai);
-//     return $rezultatai;
-//   }  else {
-//      echo "ERROR Straipsnio pavadinimo nr:" . $nr. "nerastas. Bandykite dar kartą <br/>". mysqli_error(getPrisijungimas());
-//      return NULL;
-//    }
-// }
-// $description1 = getDescription(1);
-// print_r($description1 = getDescription(1);
+
+  if (mysqli_num_rows($rezultatai)>0) {
+    $rezultatai = mysqli_fetch_assoc($rezultatai);
+    return $rezultatai;
+  }  else {
+     echo "ERROR Straipsnio pavadinimo nr:" . $nr. "nerastas. Bandykite dar kartą <br/>". mysqli_error(getPrisijungimas());
+     return NULL;
+   }
+}
+$title2 = getTitle(2);
+print_r($title2);
+
+/* FUNKCIJA GAUTI BLOGO STRAIPSNIO TURINĮ/TEKSTĄ PAGAL ID NR */
+function getDescription($nr) {
+  $manoSQL = "SELECT * FROM blog WHERE id = '$nr';";
+  $rezultatai = mysqli_query(getPrisijungimas(), $manoSQL);
+
+
+  if (mysqli_num_rows($rezultatai)>0) {
+    $rezultatai = mysqli_fetch_assoc($rezultatai);
+    return $rezultatai;
+  }  else {
+     echo "ERROR Straipsnio pavadinimo nr:" . $nr. "nerastas. Bandykite dar kartą <br/>". mysqli_error(getPrisijungimas());
+     return NULL;
+   }
+}
+$description1 = getDescription(1);
+
 //
 // /* FUNKCIJA GAUTI BLOGO STRAIPSNIO DATĄ*/
 // function getData($nr) {
@@ -101,21 +99,3 @@ getPrisijungimas();
 //
 // $blogNew = editBlog (1, "Nauja antraste", "Lorem ipsum incididunt ut labore et dolore magna aliqua. Ut quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
 // print_r($blogNew);
-
-function  getAllBlog() {
-    $manoSQL = "SELECT * FROM blog LIMIT 200";
-    $visiBlogObjektas = mysqli_query(getPrisijungimas() , $manoSQL);
-    return $visiBlogObjektas;
-
-  }
-
-    $visasBlog =   getAllBlog();
-
-    $blogMasyvas1 = mysqli_fetch_assoc(   $visasBlog   );
-     print_r( $blogMasyvas1  );
-
-    $blogMasyvas2 = mysqli_fetch_assoc(   $visasBlog   );
-      print_r( $blogMasyvas2  );
-
-    $blogMasyvas3 = mysqli_fetch_assoc(   $visasBlog   );
-       print_r( $blogMasyvas3  );
