@@ -19,11 +19,11 @@
         <h1 > Isijunk console </h1>
 
         <form action="login.php" method="get">
-          <label for="Vartotojo vardas"></label>
+          <label for="Vartotojo vardas">Vartotojo vardas</label>
           <input type="text" name="username" maxlength="10" placeholder="Jūsų vartotojo vardas" required> </br>
-          <label for ="Slaptazodis"></label>
+          <label for ="Slaptazodis">Jusu slaprazodis</label>
           <input type="password" name="psw" value="" placeholder="Įveskite slaptažodį" title="" required></br>
-          <label for="Data"></label>
+          <label for="Data">Data</label>
           <input type="date" name="data1" value="" placeholder=""title="įveskite datą" required></br>
           <input  type="hidden" name="id" value="8" placeholder=""></br>
           <button type = "submit" name="button"> Login </button>

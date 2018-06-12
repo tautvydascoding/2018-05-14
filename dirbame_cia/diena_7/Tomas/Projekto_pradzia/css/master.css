@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+}
 
  a {
     color: #A0CE4E;
@@ -20,14 +23,11 @@ background-color: yellow;
 }
 
 img {
-    height: 90px;
+    height: 84px;
 }
 
-body {
-background: url("../img/01.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-=======
+
+
 a {
    color: #A0CE4E;
    text-shadow: 3px 3px 6px black;
@@ -42,13 +42,36 @@ a {
 a:hover {
    color: white;
 }
+h3 {
+font-family: 'Kavoon', cursive;
+font-weight: bold;
+color: #A0CE4E;
+display: block;
+text-shadow: 3px 3px 6px black;
+}
+li {
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+    color: #A0CE4E;
+    display: block;
+    text-shadow: 3px 3px 6px black;
+font-size: 28px;
+}
+.kainos1{
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+}
 
 .spalvaNav{
 background-color: yellow;
 }
 
 .dydis {
-   height: 90px;
+   height: 84px;
+}
+.dydis2 {
+height: 100%;
+width: auto;
 }
 
 body {
@@ -95,5 +118,57 @@ background-repeat: no-repeat;
     transform: scale(1.05);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
->>>>>>> d1bdff441d2acab6001cde19bae895f4cb65a135
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.kainos {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.kainos:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.kainos .header {
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.kainos li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.kainos .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
 }

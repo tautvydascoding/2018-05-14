@@ -1,11 +1,32 @@
-<footer class="row mt-2">
-              <div class="col-md-12 aukstis-100">
-                  <p class=""> 2018 &#169; &nbsp; Copyright by nobody. All rigths reserved.</p>
-                </div>
+
+<div class="container-fluid">
+
+
+        <footer class="row mt-3">
+
+              <div class="col-md-12">
+                  <a href="#">  <img class="footer-icon1 zoom mr-1" src="images/facebook.svg" alt="facebook icon" width="15px" height="15px" />
+                  </a>
+                  <a href="#">
+                    <img class="footer-icon2 zoom mr-1"src="images/instagram.svg" alt="facebook icon" width="15px" height="15px" />
+                  </a>
+
+                  <a href="#">
+                    <img class="footer-icon3 zoom mr-1" src="images/twitter-square.svg" alt="facebook icon" width="15px" height="15px" />
+                  </a>
+
+                  <a href="#">
+                    <img class="footer-icon3 zoom mr-1" src="images/pinterest-square.svg" alt="facebook icon" width="15px" height="15px" />
+                  </a>
+
+                <p class=""> 2018 &#169; &nbsp; Copyright by nobody. All rigths reserved.</p>
+              </div>
+
+
           </footer>
 
-<!-- IDEA: užsidaro footer --------------------------->
-</div> <!-- IDEA: užsidaro konteneris ------------------------>
+
+</div> <!-- IDEA: užsidaro FOOTER konteineris ------------------------>
 
 
 

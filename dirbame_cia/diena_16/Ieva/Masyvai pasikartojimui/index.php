@@ -18,10 +18,56 @@
     <body>
         <h1 > Isijunk console </h1>
 
+        <!-- // 2) sukurti matrica:
+        // Tomas, 1981, Buhalteris
+        // Ona 1980 Programuotoja
+        // Petras, 1975, Direktorius
+        // 2.1) atspausdinti su FOR ciklu
+        // 2.2) atspausdinti su FOR FOR ciklu
+        // 2.3) atspausdinti su FOREACH -->
+
+<?php
+
+$darbuotojai=[];
+$darbuotojas1=["Tomas", 1981, "Buhalteris"];
+$darbuotojas2=["Ona", 1980, "Programuotoja"];
+$darbuotojas3=["Petras", 1975, "Direktorius"];
+
+$darbuotojai[0]=$darbuotojas1;
+$darbuotojai[1]=$darbuotojas2;
+$darbuotojai[2]=$darbuotojas3;
 
 
 
 
+for ($i=0; $i <count($darbuotojai) ; $i++) {
+  echo $darbuotojai[$i][0];
+  echo $darbuotojai[$i][1];
+  echo $darbuotojai[$i][2];
+}
+
+for ($i=0; $i<count($darbuotojai); $i++) {
+  echo "<p>". $darbuotojai[$i][0]. "</p>";
+    echo "<p>". $darbuotojai[$i][1]. "</p>";
+      echo "<p>". $darbuotojai[$i][2]. "</p>";
+}
+
+
+echo "su for for ciklu";
+for ($i=0; $i<count($darbuotojai); $i++) {
+  for($j=0; $j<count($darbuotojai); $j++) {
+    echo "<p>". $darbuotojai[$i][$j]. "</p>";
+  }
+}
+
+echo "su foreach ciklu";
+foreach ($darbuotojai as $key => $value) {
+  echo $value[0]  ."<br />";
+  echo $value[1] ."<br />";
+  echo $value[2] ."<br />";
+}
+
+ ?>
 
 
 

@@ -1,25 +1,36 @@
-
-
-
 <?php
-include('header.php');
-    require_once('kainosDB.php');
+require_once('kainosDB.php');
 
-    // print_r($visuGydytojuOjektas);
+$kaina1 = getKaina(1); // array
 
-    $visosKainosObjektas = getKainos();
-    // paimama sekanti gydytoja
-     $kaina = mysqli_fetch_assoc( $visosKainosObjektas );
-    while( $kaina ) {
-        if ($kaina['kaina'] % 10 == 0) {
+if ($kaina1 != NULL){
 
-            echo "<h2>". $kaina['laikotarpis'] . " " . $kaina['kaina'] . "Eurų" . "</h2>";
-        }else {
+}
+?>
 
-            echo "<h2>". $kaina['laikotarpis'] . " " . $kaina['kaina'] . "Eurai" . "</h2>";
-        }
+<h2 style="text-align:center">Kainos</h2>
 
-        $kaina = mysqli_fetch_assoc( $visosKainosObjektas );  // !!!!
-    }
-
-include('footer.php');
+<?php   $kaina1 = getKaina(1); // array ?>
+<div class="columns">
+  <ul class="kainos">
+    <li class="header"><?php  echo  $kaina1['laikotarpis']; ?></li>
+    <li class="grey"><?php  echo  $kaina1['kaina'] . " " . "\xE2\x82\xAc"; ?></li>
+  </ul>
+</div>
+<?php   $kaina2 = getKaina(2); // array ?>
+<div class="columns">
+  <ul class="kainos">
+    <li class="header"><?php  echo  $kaina2['laikotarpis']; ?></li>
+    <li class="grey"><?php  echo  $kaina2['kaina'] . " " . "\xE2\x82\xAc"; ?></li>
+  </ul>
+</div>
+<?php   $kaina3 = getKaina(3); // array ?>
+<div class="columns">
+  <ul class="kainos">
+    <li class="header"><?php  echo  $kaina3['laikotarpis']; ?></li>
+    <li class="grey"><?php  echo  $kaina3['kaina'] . " " . "\xE2\x82\xAc"; ?></li>
+  </ul>
+</div>
+<div class="container">
+<p>Valandos nuo 9 iki 18 val. Esant poreikui galime atsidaryti anksciau ir darba baigti veliau. Pries atvykstant prasome labai prasome parasyti mums zinute (i FB) arba paskambinti (bent valandele pries atvykima).</p>
+</div>
