@@ -15,42 +15,37 @@
 
     </head>
 
-    <body >
+    <body>
         <h1 > Isijunk console </h1>
 
+<?php
+//visu gydytoju isvedimas
+require_once('db_functions-full.php');
+
+$visiGydytojaiObjektas = getDoctors();
+
+$gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas);
+while ($gydytojas) : ?>
+
+        <h3>
+            <a href="template-doctor.php?numeris=<?php echo $gydytojas['id']; ?>">
+                <?php echo $gydytojas['name']; ?>
+            </a>
+        </h3>
+
         <?php
-           require_once('db_functions-full.php');
-
-
-  $visiGydytojaiObjektas =   getDoctors();
-  //paimama sekanti gydytoja
-  $gydytojas = mysqli_fetch_assoc(  $visiGydytojaiObjektas    );
-
-      while ( $gydytojas = mysqli_fetch_assoc(  $visiGydytojaiObjektas    )) {
-        echo "<a class='btn btn-succes' href='template-doctor.php'>" . $gydytojas['name'] . $gydytojas['lname'] . "</a>";
-        echo "<a class='btn btn-succes' href='delete-doctor.php?numeris=". $gydytojas['id']."'>TRINTI</a>";
-        $gydytojas = mysqli_fetch_assoc(  $visiGydytojaiObjektas    ); // !!!!!!!
-
-      }
+        $gydytojas = mysqli_fetch_assoc( $visiGydytojaiObjektas); // !!!!
+endwhile;
+?>
 
 
 
 
 
-   ?>
+    //
 
 
-
-
-
-
-
-
-
-
-
-
-
+ ?>
 
 
 
