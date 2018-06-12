@@ -11,4 +11,4 @@ klausimas (privalomas)
 email (privalomas)
 
 3.2) forma vartotojus nukreips i email.php
-4) susikurti emial.php faila, panaudoti PHPMailer biblioteka 
+4) susikurti emial.php faila, panaudoti PHPMailer biblioteka
