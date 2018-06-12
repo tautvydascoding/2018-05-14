@@ -7,7 +7,7 @@ body{
   background-image: url("../img/background.jpg");
 }
 .btn {
-  background-color: rgb(110, 112, 102);
+  background-color: rgba(110, 112, 102, 0.8);
 }
 
 input {
@@ -22,7 +22,7 @@ input {
   height: 55px;
 }
 .navbar, .footeris{
-  background-color: rgb(184, 186, 179);
+  background-color: rgba(184, 186, 179, 0.9);
 }
 
 .logo img{
@@ -32,9 +32,7 @@ input {
   margin-left: auto;
   margin-right: auto;
 }
-.navlogo, .logo{
-  color: rgb(104, 111, 110);
-}
+
 /* NAV END */
 
 /* INDEX */
@@ -47,11 +45,11 @@ input {
   border-radius: 10px;
 }
 .apiemus{
-  background-color: rgb(126, 134, 135);
+  background-color: rgba(126, 134, 135, 0.6);
   border-radius: 10px;
 }
 .privalumai {
-  background-color:rgb(230, 228, 224);
+  background-color:rgba(230, 228, 224, 0.8);
   border-radius: 10px;
 }
 .paslaugos{
@@ -60,7 +58,7 @@ input {
 
 }
 #ikoneles{
-  background-color: rgb(229, 235, 237);
+  background-color: rgba(229, 235, 237, 0.8);
 }
 /* INDEX END */
 
@@ -80,6 +78,7 @@ input {
   margin-top: 50px;
   padding-top: 60px;
   border: 3px solid grey;
+  background-color:rgba(245, 241, 244, 0.37);
 
 }
 .kontaktai h2,.kontaktai h5{
@@ -97,7 +96,7 @@ textarea{
 /* Paslaugos */
 
 .visosPaslaugos{
-  background-color: rgb(218, 206, 201);
+  background-color: rgba(218, 206, 201, 0.8);
 }
 
 /* Paslaugos end */
