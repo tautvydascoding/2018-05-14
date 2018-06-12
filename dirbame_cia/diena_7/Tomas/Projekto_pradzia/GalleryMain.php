@@ -2,52 +2,52 @@
         <section class="gallery-block grid-gallery">
             <div class="container">
                 <div class="heading">
-                    <h2>Grid Gallery</h2>
+                    <h2>Galerija</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="..\img\1.jpg">
-                            <img class="img-fluid image scale-on-hover" src="..\img\1.jpg">
+                        <a class="lightbox" href="img\.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img\1.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/2.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/2.jpg">
+                        <a class="lightbox" href="img/.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/2.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/3.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/3.jpg">
+                        <a class="lightbox" href="img/3.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/3.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/4.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/4.jpg">
+                        <a class="lightbox" href="img/4.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/4.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/5.jpg">
+                        <a class="lightbox" href="img/5.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/5.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/6.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/6.jpg">
+                        <a class="lightbox" href="img/.jpg">
+                            <img class="img-fluid image scale-on-hover" src="..img/6.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/7.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/7.jpg">
+                        <a class="lightbox" href="..img/.jpg">
+                            <img class="img-fluid image scale-on-hover" src="..img/7.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/8.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/8.jpg">
+                        <a class="lightbox" href="..img/.jpg">
+                            <img class="img-fluid image scale-on-hover" src="..img/8.jpg">
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4 item">
-                        <a class="lightbox" href="../img/9.jpg">
-                            <img class="img-fluid image scale-on-hover" src="../img/9.jpg">
+                        <a class="lightbox" href="img/.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/9.jpg">
                         </a>
                     </div>
                 </div>

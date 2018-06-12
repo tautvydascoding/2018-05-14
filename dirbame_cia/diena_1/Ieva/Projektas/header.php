@@ -13,6 +13,7 @@
         <!-- mano failas visada zemiau -->
         <link rel="stylesheet" href="css/master.css">
         <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 
 <!--
@@ -33,22 +34,13 @@
     5. ar tikrai programuoti i failus, kurie paleisti narsykleje?
     patikrinimas:  uzdaryti failus Atome, atsiradyti juos per nauja ir paleisti narsykleje per nauja
 -->
-<script>
-$('p').mouseenter(function(event) {
-  $(this).css("color", "pink");
-})
-$('p').mouseleave(function(event) {
-  $(this).css("color", "black");
-})
-
-</script>
 
 
     </head>
 <body>
       <h1> </h1>
 
-    <div class = "container-fluid">
+    <div class = "container">
 
 
 
@@ -60,7 +52,7 @@ $('p').mouseleave(function(event) {
 
         <nav class="navbar navbar-expand-md mx-auto bg-dark navbar-dark fixed-top text-uppercase">
             <a class="navbar-brand" href="#">
-              <img src="images/logo3.jpg" alt="logo" width="100px" height="auto" />
+              <img id="logoImage" src="images/logo3.jpg" alt="logo" width="100px" height="auto" />
             </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -70,19 +62,19 @@ $('p').mouseleave(function(event) {
                 <ul class="navbar-nav">
 
                   <li class="nav-item">
-                    <a class="nav-link" href="index.php">About</a>
+                    <a class="nav-link zoom" href="index.php">About</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
+                    <a class="nav-link zoom" href="gallery.php">Gallery</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Blog</a>
+                    <a class="nav-link zoom" href="blog.php">Blog</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="contacts.php">Contacts</a>
+                    <a class="nav-link zoom" href="contacts.php">Contacts</a>
                   </li>
 
                 </ul>
@@ -90,3 +82,4 @@ $('p').mouseleave(function(event) {
       </nav>
 
       </header> <!-- IDEA: užsidaro header --------------------------->
+</div>

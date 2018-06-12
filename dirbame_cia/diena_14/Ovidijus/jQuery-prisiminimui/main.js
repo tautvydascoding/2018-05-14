@@ -9,7 +9,7 @@ var nuotraukasVardas = "0";
 $("li").on("mouseenter", function(){
     $("img").attr("src", "img/" + nuotraukosVardas + ".jpg");
     nuotraukasVardas++;
-}) // isveda nuotraukas i index.php bet rodo tik po viena nuotrauka ir siuncia tik po viena
+}); // isveda nuotraukas i index.php bet rodo tik po viena nuotrauka ir siuncia tik po viena
 
 $("li").attr("alt", "meska sedi kaleime");
 

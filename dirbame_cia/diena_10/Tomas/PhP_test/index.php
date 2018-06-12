@@ -16,14 +16,13 @@
 
     <body>
         <h1 > Isijunk console </h1>
+<div class="">
+    <?php
+    echo "Hello World";
+     ?>
+</div>
 
-<?php
-$x = 10
-$x = 10
-$x = 10
-$x = 10
 
- ?>
 
 
 

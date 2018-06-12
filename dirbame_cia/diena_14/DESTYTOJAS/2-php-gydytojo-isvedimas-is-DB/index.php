@@ -19,7 +19,7 @@
         <h1 > Isijunk console </h1>
 
 <?php
-require_once('db_functions.php');
+require_once('KainosDB.php');
 $gydytojas1 = getDoctor(3); // array
 
 if ($gydytojas1 != NULL) {

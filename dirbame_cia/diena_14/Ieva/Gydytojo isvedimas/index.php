@@ -32,35 +32,15 @@
         echo $vardPav;
       }
 
- ?>
+     <h2> NR: <?php echo $gydytojas1['id']; ?> </h2>
+     <h3> Vardas, pavarde <?php echo $gydytojas1['name']." ". $gydytojas1['lname']; ?> </h3>
 
-<h2> NR: <?php echo $gydytojas1['id']; ?> </h2>
-<h3> Vardas, pavarde <?php echo $gydytojas1['name']." ". $gydytojas1['lname']; ?> </h3>
+    <h2> NR: <?php echo $gydytojas2['id']; ?> </h2>
+     <h3> NR: <?php echo $gydytojas2['name']." ". $gydytojas2['lname']; ?> </h3>
 
-<h2> NR: <?php echo $gydytojas2['id']; ?> </h2>
-<h3> NR: <?php echo $gydytojas2['name']." ". $gydytojas2['lname']; ?> </h3>
 
-    <!-- // sukurti funkcija pacientams ir atvaizduoti ekrane -->
 
-<?php
 
-$pacientas1 = getPatient(2);
-
-if ($pacientas1 !=NULL) {
-  echo "<h2> Paciento Nr:" . $pacientas1['id']. "</h2>";
-
-  $pacientoVardas = "<h3>" . $pacientas1['name']. " " . $pacientas1['lname'] ."</h3>";
-  echo $pacientoVardas;
-}
-
-$pacientas2 = getPatient(4);
-
-if ($pacientas2 !=NULL) {
-  echo "<h2> Paciento Nr:" . $pacientas2['id']. "</h2>";
-
-  $pacientoVardas = "<h3>" . $pacientas2['name']. " " . $pacientas2['lname'] ."</h3>";
-  echo $pacientoVardas;
-}
 
 ?>
 

@@ -1,11 +1,11 @@
 function objektas (name, age) {
     this.name = name,
     this.age = age;
-};
-var objektas = new objektas (name, age) {
+}
+var objektas = new objektas (name, age); {
     this.name = name,
     this.age = age;
-};
+}
 
 
 var zmogus = objektas ("tomas", 21);

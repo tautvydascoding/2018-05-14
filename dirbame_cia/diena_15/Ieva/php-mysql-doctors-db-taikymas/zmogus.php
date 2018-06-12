@@ -31,9 +31,11 @@
 
 
         <h2>
-            <?php  echo $nr;
-                    echo "</br>";
-                   echo $gydytojas['name'];
+            <?php  echo "Gydytojo ID ". $nr;
+                   echo "</br>";
+                   echo "Vardas ". $gydytojas['name'];
+                   echo "</br>";
+                   echo "Pavardė ". $gydytojas['lname'];
             ?>
         </h2>
 
