@@ -9,7 +9,7 @@
 <div class="container">
 
 <div class="row">
-    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto w-75">
+    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto">
 
         <a href="#">
         <img class="imageBlog img-thumbnail" src="images/forrest.jpg" alt="bridge to forrest" width="100%" height="auto" />
@@ -27,7 +27,7 @@
 </div>
 
 <div class="row">
-    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto w-75">
+    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto">
 
         <a href="#">
         <img class="imageBlog img-thumbnail" src="images/macbook-tablet-hand.jpg" alt="macbook-tablet-hand" width="100%" height="auto" />
@@ -46,7 +46,7 @@
 
 
 <div class="row">
-    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto w-75">
+    <div class="blog-image col-md-12 bg-light mt-5 p-0 mx-auto">
 
         <a href="#">
         <img class="imageBlog img-thumbnail" src="images/ny_city_2.jpg" alt="photo of the new york city" width="100%" height="auto" />
