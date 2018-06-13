@@ -1,22 +1,29 @@
 <?php
 
+include_once('gyvunas.php');
 
-// UZDUOTIS 1.0:
-// sukurti klase 'Gyvunas' su kintamaisiais:
-// public 'svoris', private 'pusryciai', protected 'ligos'
+class Vilkas extends Gyvunas {
+  public $tipas = "pilkas";
 
-// UZDUOTIS 1.1
-// sukurti klase 'Vilkas' su kintamaisiais:
-// public 'tipas',
+  public function printLigos() {
+    echo "Gyvunas serga... $this->ligos";
+  }
 
+}
 
-//1.2 klase "vilkas" paveldi klase "Gyvunas"
-
+// UZDUOTIS 1.2
+// klase 'Vilkas' paveldi klase 'Gyvunas'
  // UZDUOTIS 2.0:
 // sukurti vilko objekta ir
 // pabandyti isvesti visa info apie Vilka:
 // ugis, ligos, pusryciai
 
-// UZDUOTIS 3
-// klaseje 'Vilkas' sukurti f-jas:
-// printLigos()
+$vilkaspilkas = new Vilkas ();
+
+$vilkaspilkas-> svoris = 90; // idejimas i objekta
+$vilkaspilkas-> pusryciai = "zuikis";
+$vilkaspilkas-> printLigos("sloga");
+
+echo "<h2> Vilko svoris:  $vilkaspilkas->svoris kg </h2> <br />";
+echo "<h2> Vilko pusryciai:  $vilkaspilkas->pusryciai </h2> <br />";
+echo "<h2> Vilko tipas:  $vilkaspilkas->tipas </h2> <br />";
