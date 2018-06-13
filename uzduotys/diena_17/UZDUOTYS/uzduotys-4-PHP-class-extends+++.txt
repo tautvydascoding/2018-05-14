@@ -5,7 +5,7 @@
 
  // UZDUOTIS 1.1
  // sukurti klase 'Vilkas' su kintamaisiais:
- // public 'tipas',
+ // public 'tipas'
 
  // UZDUOTIS 1.2
  // klase 'Vilkas' paveldi klase 'Gyvunas'
@@ -13,9 +13,14 @@
   // UZDUOTIS 2.0:
  // sukurti vilko objekta ir
  // pabandyti isvesti visa info apie Vilka:
- // ugis, ligos, pusryciai
+ // ugis, ligos, pusryciai,
 
  // UZDUOTIS 3
  // klaseje 'Vilkas' sukurti f-jas:
- // printLigos()
- // printPusryciai()
+ // public printLigos()     // neveiks
+ // public printPusryciai() // neveiks
+
+ // UZDUOTIS 4
+ // klaseje 'Gyvunas' sukurti f-jas:
+ // public printLigos()
+ // public printPusryciai()
