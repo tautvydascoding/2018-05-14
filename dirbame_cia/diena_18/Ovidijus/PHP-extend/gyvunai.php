@@ -5,6 +5,10 @@ class Gyvunas
   public $svoris = 999;
   private $pusryciai = 'Maistas';
   protected $ligos = 'Infekcija';
+
+  public function printPusryciai(){
+    echo $this->pusryciai;
+  }
 }
 
 class Vilkas extends Gyvunas
@@ -20,9 +24,9 @@ class Vilkas extends Gyvunas
 }
 
 $vilkas = new Vilkas();
-echo $vilkas->svoris;
+echo $vilkas->svoris.<br />;
 // echo $vilkas->ligos;//eroras
-// echo $vilkas->pusryciai;//eroras
+echo $vilkas->printPusryciai();
 
-$vilkas->printLigos();
+$vilkas->printLigos() ;
 // $vilkas->printPusryciai();// private
