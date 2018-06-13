@@ -19,29 +19,38 @@
         <h1 > Isijunk console </h1>
 
 
-      <?php
 
-              include ('db_funkcijos.php');
+        <!-- UZDUOTIS.
+        1) susikuri gmail, yahoo account
+        2) įjungti less secure application nustatyma ON;
 
-              // $title1 = getTitle(1);
-              // print_r($title1);
+        3) sukurti forma, kuri turi ivedimo laukus:
 
+        vardas
+        klausimas (privalomas)
+        email (privalomas)
 
-              $visasBlog =   getAllBlog();
-
-              $blogMasyvas1 = mysqli_fetch_assoc(   $visasBlog   );
-               print_r( $blogMasyvas1  );
-
-              $blogMasyvas2 = mysqli_fetch_assoc(   $visasBlog   );
-                print_r( $blogMasyvas2  );
-
-              $blogMasyvas3 = mysqli_fetch_assoc(   $visasBlog   );
-                 print_r( $blogMasyvas3  );
+        4) forma vartotojus nukreips i email.php,
+        5)susikurti email.php faila, panaudoti PHPMailer biblioteka -->
 
 
-       ?>
+      <form action="email.php" method="post">
+        <div>
+          <input type="text" name="vardas"  placeholder="Jūsų vardas"/>
+
+          <input type="email" name="pastas" placeholder="Įeskite el.paštą" required/>
+        </div>
+
+        <div>
+          <textarea name="klausimas" rows="8" cols="80" placeholder="Jūsų komentaras" required></textarea>
+        </div>
+
+        <div>
+          <button type="submit" name="button"> SEND </button>
+        </div>
 
 
+      </form>
 
 
 
