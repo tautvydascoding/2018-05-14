@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+}
 
  a {
     color: #A0CE4E;
@@ -20,14 +23,11 @@ background-color: yellow;
 }
 
 img {
-    height: 90px;
+    height: 84px;
 }
 
-body {
-background: url("../img/01.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-=======
+
+
 a {
    color: #A0CE4E;
    text-shadow: 3px 3px 6px black;
@@ -55,14 +55,23 @@ li {
     color: #A0CE4E;
     display: block;
     text-shadow: 3px 3px 6px black;
-
+font-size: 28px;
 }
+.kainos1{
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+}
+
 .spalvaNav{
 background-color: yellow;
 }
 
 .dydis {
    height: 84px;
+}
+.dydis2 {
+height: 100%;
+width: auto;
 }
 
 body {
@@ -109,9 +118,6 @@ background-repeat: no-repeat;
     transform: scale(1.05);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
->>>>>>> d1bdff441d2acab6001cde19bae895f4cb65a135
-}
-
 
 * {
     box-sizing: border-box;

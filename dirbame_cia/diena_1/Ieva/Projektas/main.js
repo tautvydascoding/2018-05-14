@@ -1,6 +1,7 @@
 console.log("Labas ");
 
 
+// blog'o <p> elementų teksto spalvos kitimas
 $('.blog').mouseenter(function(event) {
   $(this).css("color", "green");
 
@@ -11,7 +12,7 @@ $('.blog').mouseleave(function(event) {
 
 
 
-
+// blog'o antraščių <h2> teksto spalvos keitimas
 $('.blogH2').mouseenter(function(event) {
   $(this).css("color", "green");
 
@@ -21,6 +22,7 @@ $('.blogH2').mouseleave(function(event) {
 });
 
 
+// menu punktų nav-bar teksto spalvų keitimas
 $('.nav-link').mouseenter(function(event) {
   $(this).css("color", "green");
 
@@ -31,7 +33,7 @@ $('.nav-link').mouseleave(function(event) {
 
 
 
-
+//contact page tekstų spalvų keitimas (<p>, <h2>)
 $('.textContact').mouseenter(function(event) {
   $(this).css("color", "green");
 
@@ -41,7 +43,7 @@ $('.textContact').mouseleave(function(event) {
 });
 
 
-
+//front page'o tekstų (trijų blokų) spalvų keitimas
 $('.heading').mouseenter(function(event) {
   $(this).css("color", "green");
 
@@ -52,6 +54,8 @@ $('.heading').mouseleave(function(event) {
 });
 
 
+
+// karuselės tekstų spalvų keitimas
 $('.carousel-caption p').mouseenter(function(event) {
   $(this).css("color", "rgb(218, 227, 217)");
 
