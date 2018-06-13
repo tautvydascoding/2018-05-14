@@ -1,21 +1,18 @@
+<?php
 
 
 
-      <?php
+include_once( 'zmogus.php' );
 
-      include_once('zmogus.php');
+// ("Monika L.",  165) - nukeliauja i konstruktoriu
+$Monika = new Zmogus("Monika L.",  165);
+$Petras = new Zmogus("Petrusevicius P.",  155);
+$Antanas = new Zmogus("Antanai tis L.",  200);
 
-      // UZDUOTIS 2:
-      // susikurti konstruktoriu
+// var_dump($Monika); // test
 
-      $Monika = new Zmogus("Monika L.", 165);
+$Monika->manoVardas();
+$Petras->manoVardas();
+$Antanas->manoVardas();
 
-      var_dump($Monika);
-
-      $Monika->manoVardas();
-
-
-          // UZDUOTIS 2.1
-          // Atspasudinti varda ir ugi naudojant
-          // f-ja 'manoUgis()'
-          // f-ja 'manoVardas()'
+echo $Monika->vardas;
