@@ -34,11 +34,11 @@
 
               <aside class="col-md-6 mt-5 d-flex">
 
-                <form action="comment.php" method="get">
+                <form action="contact-email.php" method="post">
                   <div>
                     <input class="w-100 mb-2" type="text" name="name" maxlength="15" placeholder="Your Name" required>
                     <input class="w-100 mb-3" type="email" name="email" placeholder="Your Email" pattern="a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
-                    <textarea class="w-100 mb-3" name="text" rows="5" cols="80" maxlength="100" placeholder="Your Comment" pattern="[^'\x22]+" title="Invalid input"></textarea>
+                    <textarea class="w-100 mb-3" name="comment" rows="5" cols="80" maxlength="100" placeholder="Your Comment" pattern="[^'\x22]+" title="Invalid input" required></textarea>
                   </div>
 
                   <button class="w-100 btn-dark" type="submit" name="button">Send</button>

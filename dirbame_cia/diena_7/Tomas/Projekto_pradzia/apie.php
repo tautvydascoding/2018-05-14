@@ -11,7 +11,7 @@ if ($darbuotoja1 != NULL){
 
 <h1>Mūsų tikslai</h1>
 
-<div class="row">
+<div class="container-fluid">
     <ul>
         <li>Ugdyti vaikučių asmenybę, savarankiškumą, pasitikėjimą savimi;</li>
         <li>lavinti vaizduotę, kūrybiškumą;</li>
@@ -21,7 +21,7 @@ if ($darbuotoja1 != NULL){
         <li> organizuoti vaikų ir tėvų lavinamuosius ugdomuosius užsiėmimus;</li>
     </ul>
 </div>
-<div class="row">
+<div class="container-fluid">
     <div class="card-group mx-auto">
         <div class="col-md-6">
             <div class="card" style="width: 18rem;">
