@@ -50,6 +50,8 @@ try {
     $mail->AltBody = $klientoKlausimas;
 
     $mail->send();
+
+
     echo 'Isiuntem zinute sekmingai';
 } catch (Exception $e) {
     echo 'Nepavyko issiusti. Mailer Error: ', $mail->ErrorInfo;

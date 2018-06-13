@@ -1,6 +1,5 @@
 
 
-
 // UZDUOTIS 1:
 // sukurti tris klases: zmogus ir moteris ir vyras
 // moteris paveldi zmogu ir vyras paveldi zmogu
@@ -11,6 +10,3 @@
 // UZDUOTIS 2:
 // susikurti objekta: Monika (moteris) ir Tadas (vyras)
 // issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
-
-
- 
