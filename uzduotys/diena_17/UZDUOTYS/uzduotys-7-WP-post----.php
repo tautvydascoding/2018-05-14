@@ -6,6 +6,8 @@
 // 1.0 nueiti i wordpress/content/themes
 // 1.1susikurti nauja kataloga 'mano-tema'
 //
+// 1.0 sukurti index.php
+
 // 2.0 susikurti: style.css
 /*
 Theme Name: Mano temos pavadinimas
