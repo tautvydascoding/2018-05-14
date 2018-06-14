@@ -17,22 +17,36 @@
 
 
         interface Edit {
-            public function changeName($a) {};
-            public function isLogin() {};
-            public function  getName() {}
+            public function changeName($a) { };
+            public function isLogin() { };
+            public function  getName() { }
 
         }
 
+        abstract class User {
+          public  $name ="neturi";
+                  $password="bla";
+                  $createdDate="xxx";
+                  $lastLogin ="yyy";
 
-
-
-        abstract User Edit {
-
-
-
+          abstract function Logout();
+          function clearlastLoginTime();
         }
 
+// reikia atskirame faile includinti
+
+        class Admin extends User  implements Edit {
+              function Logout() {
 
 
+              }
 
+              public function changeName () {
+
+              }
+
+              public function isLogin() {
+
+
+              }
         }
