@@ -13,4 +13,5 @@
 // issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
 
 
- 
+// UZDUOTIS 3:
+//  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
