@@ -21,11 +21,13 @@ include("navigacija.php");
     <div class="col-md-7 col-ms-12 mt-5 komunikavimas">
       <h2 class="text-center">KOMUNIKAVIMAS</h2>
       <h5 class="text-center ">Įveskite savo duomenis ir greitu metu su Jumis susisieksime.</h5>
+      <form class="" action="email.php" method="post">
       <input class="text-center mb-1 w-100" type="text" name="vardas" maxlength="15" placeholder="Jūsų vardas"><br />
       <input class="text-center mb-1 w-100" type="email" name="elpastas" placeholder="El.paštas" title="aaaaa@aaaaaa.lt" ><br />
-      <input class="text-center mb-1 w-100" type="tel" name="Tel.numeris"  placeholder="861234567" pattern="[0-9]{9}" title="Tel numeris ne maziau 9 simboliu" required><br />
-      <textarea class="w-100 text-center" name="name" rows="4" cols="80" placeholder="Įveskite tekstą"></textarea>
+      <input class="text-center mb-1 w-100" type="tel" name="numeris"  placeholder="861234567" pattern="[0-9]{9}" title="Tel numeris ne maziau 9 simboliu" required><br />
+      <textarea class="w-100 text-center" name="tekstas" rows="4" cols="80" placeholder="Įveskite tekstą"></textarea>
       <input class="siusti w-100" type="submit" name="" value="Siųsti">
+      </form>
     </div>
 
   </div>

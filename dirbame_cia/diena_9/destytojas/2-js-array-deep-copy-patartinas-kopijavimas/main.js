@@ -21,6 +21,7 @@ console.log("pries redaguojant m2:", masyvas2 );
 masyvas1[1] = "Joninessssss";
 console.log("PO -masyvas1-  redagavimo m1:", masyvas1 );
 console.log("PO -masyvas1-  redagavimo m2:", masyvas2 );
+
 // del to kad buvo nukopijuota ,,prastai" abu sie masyvai yra tas pats masyvas.
 // Keiciant vien-keisis ir kitas (nes tai tas pats masyvas)
 // !!!! kopijuoti masyvu negalima su  "=" var masyvas2 = masyvas1;
