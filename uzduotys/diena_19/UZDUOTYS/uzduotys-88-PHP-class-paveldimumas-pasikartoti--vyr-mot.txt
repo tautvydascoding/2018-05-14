@@ -1,17 +1,26 @@
 
 
-
 // UZDUOTIS 1:
-// sukurti tris klases: zmogus ir moteris ir vyras
-// moteris paveldi zmogu ir vyras paveldi zmogu
-// zmogus turi: public ugis, protected svoris, private pinigai
-// moteris papildomai turi: estrogenai
-// vyras papildomai turi: testosteronai
+// sukurti tris klases:
+class Zmogus
+class Moteris
+class Vyras
+
+// UZDUOTIS 1.2:
+// klase 'moteris' paveldi klase 'zmogus'.
+// klase  'vyras'  paveldi klase 'zmogus'
+
+// klase 'zmogus'  turi kintamuosius: public ugis, protected svoris, private pinigai
+// klase 'moteris' turi kintamaji: estrogenai = 3550
+// klase 'vyras'   turi kintamaji: testosteronai = 8600
 
 // UZDUOTIS 2:
-// susikurti objekta: Monika (moteris) ir Tadas (vyras)
-// issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
+// susikurti du objektus: Monika  ir Tadas  (vyras ir moteris, BET ne Zmogus)
 
+// UZDUOTIS 2.1:
+// issivesti Monikos ir Tado:
+// hormono skaicius, ugis, (lengva)
+//  svoris, pinigu skaicius, (sunkiau)
 
-// UZDUOTIS 3:
-//  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
+// !!!!!!
+// !!!!! atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
