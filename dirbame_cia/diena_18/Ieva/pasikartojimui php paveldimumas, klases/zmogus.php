@@ -11,8 +11,7 @@
 
 // UZDUOTIS 2:
 // susikurti objekta: Monika (moteris) ir Tadas (vyras)
-// issivesti ju: ugis, svoris, pinigu skaicius, hormono ska
-`1icius
+// issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
 
 
 // UZDUOTIS 3:
