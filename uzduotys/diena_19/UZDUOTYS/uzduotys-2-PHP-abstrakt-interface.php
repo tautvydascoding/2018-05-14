@@ -1,4 +1,4 @@
-
+<?php
     // uzduotis:
     // 1) sukurti interface "Edit" :
     //  1.1) kuri turi funkcijas: (kurios nera aprasytos (privalomos)!
@@ -10,8 +10,8 @@
         // 0) abstrakti kalse - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
         // A) sukurti kintamuosius:
             // name, password , createdDate, lastLogin
-        // B) privaloma funkcija "Loguot()"
-        // C) neprivaloma funkcija clearlastLoginTime()
+        // B) abstrakti funkcija "Loguot()"
+        // C) NE abstrakti funkcija clearlastLoginTime()
     // 3) sukurti klase Admin :
         // A)  kuri panaudoja Edit ir User ~klases (implementuoti ir paveldeti)
     // 4)
@@ -20,4 +20,4 @@
          // C) issivesti username
 
 
-     NOTE: abstrakti klase - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
+     // NOTE: abstrakti klase - NEGALI TURETI ABSTRAKCIU KINTAMUJU (BET PAPRASTUS GALI)
