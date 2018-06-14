@@ -12,6 +12,7 @@
 // DB user: root
 // DB password: root
 
+
 // WP paprasys jusu sugalvoti:
 // D1. tittle: "mano puslapis'
 // D2. Username:  admin arba koks norite
@@ -21,4 +22,3 @@
 // Prisijungimas prie WP
 // einate localhost:80/wp-admin
 // ivedate savo varda ir slaptazodi: (D2. ir D3. punktai auksiau)
-
