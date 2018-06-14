@@ -1,7 +1,7 @@
 
 
 // UZDUOTIS 1:
-// sukurti tris klases: zmogus ir moteris ir vyras
+// sukurti tris klases: ZMOGUS ir MOTERIS ir VYRAS
 // moteris paveldi zmogu ir vyras paveldi zmogu
 
 // 'zmogus'  turi: public ugis, protected svoris, private pinigai
@@ -13,5 +13,5 @@
 // issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
 
 
-// UZDUOTIS 3: 
+// UZDUOTIS 3:
 //  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
