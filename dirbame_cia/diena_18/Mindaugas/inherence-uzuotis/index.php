@@ -18,31 +18,57 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<div class="container ">
 
-</div>
+<?php
+// UZDUOTIS 1.0:
+// sukurti klase 'Gyvunas' su kintamaisiais:
+// public 'svoris', private 'pusryciai', protected 'ligos'
+ class Gyvunas {
+   public $svoris;
+   private $pusryciai; //nepaveldima
+   protected $ligos;
+   public function __construct($x, $y, $z)
+   {
+     $this->svoris = $x;
+     $this->pusryciai = $y;
+     $this->ligos = $z;
+   }
+ }
+// UZDUOTIS 1.1
+// sukurti klase 'Vilkas' su kintamaisiais:
+// public 'tipas',
+class Vilkas extends Gyvunas {
+  public $tipas;
+  public function __construct($x)
+  {
+    $this->tipas = $x;
+  }
+}
+
+
+ // UZDUOTIS 2.0:
+// sukurti vilko objekta ir
+// pabandyti isvesti visa info apie Vilka:
+// ugis, ligos, pusryciai
+$Vilkas = new Gyvunas(60, "kiskis", "raupai");
+var_dump($Vilkas);
+
+echo "Vilko svoris: $Vilkas->svoris <br />";
+// UZDUOTIS 3
+// klaseje 'Vilkas' sukurti f-jas:
+// printLigos()
+
+
+
+$StepiuVilkas = new Vilkas("stepiu vilkas");
+var_dump($StepiuVilkas)
+
+
+ ?>
 
 
 
 
-
-
-
-
-
-        <h3>My Google Maps Demo 1s</h3>
-            <!--The div element for the map -->
-            <div id="map"></div>
-
-
-
-
-
-
-
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH75LLjLcOxDy2LcRLisAwIOUm-flMdB0&callback=initMap">
-            </script>
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js" type="text/javascript"> </script>
@@ -51,8 +77,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <!-- MANO JS failas pats zemiausias -->
         <script type="text/javascript" src="main.js" >  </script>
-
-
 
     </body>
 </html>

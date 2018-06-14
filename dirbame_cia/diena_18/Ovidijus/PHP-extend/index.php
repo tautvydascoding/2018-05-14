@@ -18,21 +18,12 @@
     <body>
         <h1 > Isijunk console </h1>
 
-<div class="container ">
+        <?php
 
-</div>
-
-
+        include('gyvunai.php');
 
 
-
-
-
-
-
-        <h3>My Google Maps Demo 1s</h3>
-            <!--The div element for the map -->
-            <div id="map"></div>
+         ?>
 
 
 
@@ -40,9 +31,6 @@
 
 
 
-            <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH75LLjLcOxDy2LcRLisAwIOUm-flMdB0&callback=initMap">
-            </script>
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js" type="text/javascript"> </script>
@@ -51,8 +39,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <!-- MANO JS failas pats zemiausias -->
         <script type="text/javascript" src="main.js" >  </script>
-
-
 
     </body>
 </html>
