@@ -1,45 +1,51 @@
 <?php
 // UZDUOTIS 1:
-// sukurti tris klases: zmogus ir moteris ir vyras
-// moteris paveldi zmogu ir vyras paveldi zmogu
-
-// 'zmogus'  turi: public ugis, protected svoris, private pinigai
-// 'moteris' papildomai turi: estrogenai
-// 'vyras'   papildomai turi: testosteronai
+// sukurti interface 'Z'
+// kuris turi f-jas:
+//   setSvoris($x)
+//   getSvoris()
 
 // UZDUOTIS 2:
-// susikurti objekta: Monika (moteris) ir Tadas (vyras)
-// issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
+// sukurti klase 'A'
+// kuri turi kintamaji:  svoris =100
 
+// UZDUOTIS 2.2:
+//   klase 'A' turi panaudoti interface 'Z'
 
 // UZDUOTIS 3:
-//  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
+// susikurti objekta klases A
+
+// UZDUOTIS 3.2:
+// 1. atspausdinti svori
+// 2. pakeisti svori i 90
+// 3. atspausdinti svori
+
+    /**
+     *
+     */
+     include_once('A.php');
+
+     $Petras = new A();
+
+     echo  "Svoris: " .  $Petras->getSvoris();
+
+     $Petras->setSvoris(120);
+     echo  "Svoris: " .  $Petras->getSvoris();
 
 
-include_once('vyras.php');
-include_once('moteris.php');
-
-$Tadas = new vyras();
-$Monika = new moteris();
-//echo $Tadas->ugis   . "<br />";
-//echo $Tadas->svoris   . "<br />";
-//echo $Tadas->testosteronai   . "<br />";
-$Tadas->setSvoris("80");
-$Tadas->setUgis("1.90");
-$Tadas->setTestosteronai("999");
-
-$Tadas->printSvoris();
-$Tadas->printUgis();
-$Tadas->printTestosteronai();
 
 
-//echo $Monika->ugis   . "<br />";
-//echo $Monika->svoris   . "<br />";
-//echo $Monika->estrogenai   . "<br />";
-$Monika->setSvoris("120");
-$Monika->setUgis("1.50");
-$Monika->setEstrogenai("100");
 
-$Monika->printSvoris();
-$Monika->printUgis();
-$Monika->printEstrogenai();
+
+
+
+
+
+
+
+
+
+
+
+
+     // ble
