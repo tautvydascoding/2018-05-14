@@ -21,7 +21,7 @@
 <?php
 
 function daugVardu() {
-  static  $nr = 0; //vygdys tik viena karta 
+  static  $nr = 0; //vygdys tik viena karta
   $nr++; // vyks maziau vienu kartu
   if ($nr < 5 ) {
     daugVardu();
@@ -29,6 +29,7 @@ function daugVardu() {
   echo "Tadas:" . $nr;
 }
 daugVardu();
+
  ?>
 
 
