@@ -1,7 +1,8 @@
 
       <?php
       include 'header.php';
-
+      // inluce func
+      // $gydyt = getDocotr()
        ?>
 
 
@@ -17,6 +18,7 @@
 
         <div class="nature p-1 text-center">
           <a> NATURE </a>
+          <!-- <a> echo $gydyt[name] </a> -->
         </div>
 
         <h2 class="blogH2 text-center"> Something I need to tell you </h2>

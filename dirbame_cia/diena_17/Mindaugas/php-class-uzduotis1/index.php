@@ -77,7 +77,22 @@
           echo "<br />";
           $Ona->manoVardas();
 
+ // pasikartojimas namuose
+          class auto {
+            private $marke;
+            private $metai;
+            public function spaudinimas(){
+              echo "apie masina: $this->marke $this->metai <br />"; //po rodykles nededame dolerio, net nezinau kodel
+            }
+            public function __construct($x, $y){
+              $this->marke = $x;
+              $this->metai = $y;
+            }
+          }
 
+          $BMW = new auto("BMW", 2014);
+
+          $BMW->spaudinimas(); //funkciju iskvietime reikia nuroduti is kokio objekto imama funkcija
          ?>
 
 

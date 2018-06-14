@@ -22,3 +22,4 @@
 // Prisijungimas prie WP
 // einate localhost:80/wp-admin
 // ivedate savo varda ir slaptazodi: (D2. ir D3. punktai auksiau)
+ 
