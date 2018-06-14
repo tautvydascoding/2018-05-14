@@ -8,7 +8,9 @@ class Vyras  extends Zmogus {
     private $testosteronas = 6122;
 }
 
-//
+// UZDUOTIS 0.
+// susikurti objekta VYRAS
+
 // UZDUOTIS 1.
 // susikurti f-jas kurios :
 // 1. pakeicia 'testosterono' kieki

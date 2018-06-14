@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>scope</title>
+        <title>Email</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,14 +16,33 @@
     </head>
 
     <body>
-        <h1 > Isijunk console </h1>
 
-        <?php
+<?php
 
-        include('zmogus.php');
+include_once('moteris.php');
+
+$Rita = new Moteris();
+echo "estrogenai: $Rita->estrogenai <br/>";
+echo "ugis: $Rita->ugis <br/>";
+//sunkesnis
+// $Rita->svoris; // ERRRO protected nepaiekiamos
+$Rita->printSvoris();
+$Rita->test();
+$Rita->setSvoris(-5);
+$Rita->printSvoris();
+echo "svoris ritos: " . $Rita->getSvoris() . " <br />";
+//sunkaiusias
+$Rita->printPinigai();
 
 
-         ?>
+
+ ?>
+
+
+
+
+
+
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js" type="text/javascript"> </script>
 
