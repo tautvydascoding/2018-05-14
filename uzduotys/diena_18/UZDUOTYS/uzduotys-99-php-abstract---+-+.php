@@ -10,6 +10,6 @@
         // A) kuri turi neprivalomus kintamuosius:
             // name, password , createdDate, lastLogin
         // B) privaloma funkcija "Loguot()"
-        // C) neprivaloma funkcija clearlastLoginTime()
+        // C) neprivaloma funkcija
     // 3) sukurti klase Admin :
         // A)  kuri panaudoja Edit ir User ~klases (implementuoti ir paveldeti)
