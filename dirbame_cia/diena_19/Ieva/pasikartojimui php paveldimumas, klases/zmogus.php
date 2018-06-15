@@ -1,4 +1,4 @@
-
+<!--
 <?php
 
 // UZDUOTIS 1:
@@ -18,39 +18,39 @@
 //  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
 
 
-class Zmogus {
-      public $ugis="999";
-      protected $svoris="-1";
-      private $pinigai="999";
-
-      public function printPinigai() {
-          echo $this->pinigai;
-    }
-
-}
-
-class Moteris extends Zmogus {
-    public $estrogenai="999";
-
-    public function keiciuSvoris($x) {
-      $this->svoris+=$x;
-    }
-
-    public function getSvoris() {
-        return " $this->svoris";
-    }
-
-
-}
-
-
-class Vyras extends Zmogus {
-    public $testosteronai="999";
-
-    public function keiciuSvoris($x) {
-      $this->svoris+=$x;
-}
-    public function getSvoris() {
-        return "$this->svoris";
-    }
-}
+// class Zmogus {
+//       // public $ugis="999";
+//       protected $svoris="-1";
+//       private $pinigai="999";
+//
+//       public function printPinigai() {
+//           echo $this->pinigai;
+//     }
+//
+// }
+//
+// class Moteris extends Zmogus {
+//     public $estrogenai="999";
+//
+//     public function keiciuSvoris($x) {
+//       $this->svoris+=$x;
+//     }
+//
+//     public function getSvoris() {
+//         return " $this->svoris";
+//     }
+// 
+//
+// }
+//
+//
+// class Vyras extends Zmogus {
+//     public $testosteronai="999";
+//
+//     public function keiciuSvoris($x) {
+//       $this->svoris+=$x;
+// }
+//     public function getSvoris() {
+//         return "$this->svoris";
+//     }
+// } -->
