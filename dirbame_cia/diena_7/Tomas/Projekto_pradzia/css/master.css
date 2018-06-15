@@ -8,40 +8,24 @@
     text-shadow: 3px 3px 6px black;
     font-weight: bold;
     font-family: 'Kavoon', cursive;
-    font-size: 25px;
+    font-size: 30px;
     height: 100px;
     display: block;
     padding: 16px;
     text-decoration: none;
 }
-a:hover {
-    color: white;
-}
 
 .spalvaNav{
 background-color: yellow;
+}
+a:hover {
+    color: black;
 }
 
 img {
     height: 84px;
 }
 
-
-
-a {
-   color: #A0CE4E;
-   text-shadow: 3px 3px 6px black;
-   font-weight: bold;
-   font-family: 'Kavoon', cursive;
-   font-size: 25px;
-   height: 100px;
-   display: block;
-   padding: 16px;
-   text-decoration: none;
-}
-a:hover {
-   color: white;
-}
 h3 {
 font-family: 'Kavoon', cursive;
 font-weight: bold;
@@ -57,7 +41,7 @@ li {
     text-shadow: 3px 3px 6px black;
 font-size: 28px;
 }
-.kainos1{
+/* .kainos1{ */
     font-family: 'Kavivanar', cursive;
     font-weight: bold;
 }
@@ -79,6 +63,28 @@ background: url("../img/01.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+/* body, html {
+    height: 100%;
+} */
+
+/* .parallax { */
+    /* The image used */
+    /* background-image: url("../img/01.jpg"); */
+
+    /* Full height */
+    /* height: 100%; */
+
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+
 
 
 .gallery-block.grid-gallery{
@@ -171,4 +177,40 @@ background-repeat: no-repeat;
     .columns {
         width: 100%;
     }
+}
+
+.ml11 {
+  font-weight: 900;
+  font-family: 'Kavivanar', cursive;
+  font-weight: bold;
+  color: #A0CE4E;
+  font-size: 28px;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
