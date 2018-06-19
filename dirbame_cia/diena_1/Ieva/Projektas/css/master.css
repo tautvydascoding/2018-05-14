@@ -90,6 +90,7 @@
 
     }
 
+/*uždeda overlay foną su tekstu užvedus su pele ant nuotraukos*/
     .containerImg:hover .overlay {
       opacity: 1;
     }
@@ -129,19 +130,20 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        color: grey;
-        line-height: 30px;
-        font-size: 18px;
         transform: translate(-50%, -50%);
         text-align: center;
+
     }
+
+
 
     .containerCity:hover .imageCity {
         opacity: 0.3;
     }
 
+/*uždeda overlay foną su tekstu užvedus su pele ant nuotraukos*/
     .containerCity:hover .overlayCity {
-        opacity: 1; // uždeda overlay foną su tekstu užvedus su pele ant nuotraukos
+        opacity: 1;
     }
 
     /* -------------Stones nuotrauka su  HOVER --------------------*/
@@ -165,7 +167,6 @@
       position: absolute;
       top: 50%;
       left: 50%;
-
       transform: translate(-50%, -50%);
       text-align: center;
     }
@@ -174,6 +175,7 @@
       opacity: 0.3;
     }
 
+/*uždeda overlay foną su tekstu užvedus su pele ant nuotraukos*/
     .containerStones:hover .overlayStones {
       opacity: 1;
     }
@@ -303,8 +305,6 @@
         #collapsibleNavbar a {
             text-decoration:none;
             padding:0 30px;
-
-
             margin-left: 30px;
             font-size: 20px;
 
@@ -349,11 +349,11 @@
     }
 
     h5 {
-        margin-bottom: 60px;
+          margin-bottom: 60px;
     }
 
     .carousel-item {
-      transition: transform 2s ease, opacity .5s ease-out;
+          transition: transform 2s ease, opacity .5s ease-out;
 
     }
 
@@ -417,13 +417,12 @@
 
 
 
-    /*-----tamsi juosta front page per visą plotį su projektų skaičiumi ir t.t. */
+    /*-----tamsi juosta front page'e per visą plotį su projektų skaičiumi ir t.t. */
 
         .darkline {
           padding-top: 50px;
           padding-bottom: 50px;
           color: rgb(224, 220, 220);
-          transition: transform .2s;
           text-transform: uppercase;
         }
 
@@ -589,7 +588,7 @@
         }
 
 
-        .contactForMedia{
+        .contactForMedia {
             font-size: 13px;
             margin-right:0px;
         }
@@ -621,7 +620,7 @@
            }
 
            h5 {
-                margin-bottom: 5px;
+              margin-bottom: 5px;
            }
 
            .blog-image{

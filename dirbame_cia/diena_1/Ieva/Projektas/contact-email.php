@@ -69,7 +69,7 @@ try {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
 
-        /* Redirect to a different page in the current directory that was requested */
+        /* Redirect to a the same page in the current directory that was requested */
         $host  = $_SERVER['HTTP_HOST'];
         $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
         $extra = 'contacts.php';

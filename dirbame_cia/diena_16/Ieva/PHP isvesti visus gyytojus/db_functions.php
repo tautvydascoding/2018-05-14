@@ -111,10 +111,10 @@ function editDoctor($nr, $name, $lname) {
 
 
 
-        $allDoctors =   getDoctors();
+        // $allDoctors =   getDoctors();
         // is objekte laikomų visų gydytojų paimame VIENĄ sekantį gydytoją ir paverčiame jo duomenis masyvu
-        $gydytojas1=mysqli_fetch_assoc($allDoctors);
-        print_r($gydytojas1);
-
-        $gydytojas1=mysqli_fetch_assoc($allDoctors);
-        print_r($gydytojas1);
+        // $gydytojas1=mysqli_fetch_assoc($allDoctors);
+        // print_r($gydytojas1);
+        //
+        // $gydytojas1=mysqli_fetch_assoc($allDoctors);
+        // print_r($gydytojas1);
