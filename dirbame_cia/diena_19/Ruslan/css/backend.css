@@ -1,0 +1,8 @@
+.mdl-cell, .mdl-data-table {
+    min-width: 100%;
+}
+
+.mdl-button, .mdl-button--fab {
+    max-width: 50px!important;
+    height: 50px!important;
+}
