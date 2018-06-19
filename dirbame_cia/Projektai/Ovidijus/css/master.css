@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cuprum', sans-serif;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgba(110, 112, 102, 0.8);
+}
+
+input {
+  background-color: rgb(218, 221, 226);
+}
+
+.tPilkPermFonas {
+  background-color: rgba(126, 134, 135, 0.6);
+  border-radius: 10px;
+}
+.ikonos:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* BENDRAS END */
+
+/* NAV */
+
+.navbar img {
+  width: 55px;
+  height: 55px;
+}
+
+.navbar, .footeris {
+  background-color: rgba(184, 186, 179, 0.9);
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAV END */
+
+/* INDEX */
+
+.carousel-inner img {
+  width: 1349px;
+  height: 550px;
+}
+
+.carousel-inner {
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.privalumai {
+  background-color: rgba(230, 228, 224, 0.8);
+  border-radius: 10px;
+}
+
+.paslaugos {
+  width: 100%;
+  background-color: rgb(229, 235, 237);
+}
+
+#ikoneles {
+  background-color: rgba(229, 235, 237, 0.8);
+}
+
+/* INDEX END */
+
+/* GALERIJA */
+
+body .galerija {
+  font-size: 1.2rem;
+  line-height: 1.45;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galerija {
+  box-sizing: border-box;
+}
+
+.main-content {
+  padding: 2%;
+  flex: 1 1 80%;
+  min-height: 100vh;
+}
+
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.portfolio-item {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-position: top left;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  z-index: 10;
+}
+
+.small {
+  grid-row: span 10;
+  grid-column: span 1;
+}
+
+.medium {
+  grid-row: span 20;
+  grid-column: span 2;
+}
+
+.large {
+  grid-row: span 30;
+  grid-column: span 3;
+}
+
+.tall {
+  grid-row: span 30;
+  grid-column: span 2;
+}
+
+.wide {
+  grid-row: span 20;
+  grid-column: span 3;
+}
+.fotobtn {
+  width: 200px;
+}
+.one {
+  background-image: url("../img/architecture.jpg");
+}
+.two {
+  background-image: url("../img/dining-room.jpg");
+}
+.three {
+  background-image: url("../img/bathroom.jpg");
+}
+
+.four {
+  background-image: url("../img/chairs.jpg");
+}
+
+.five {
+  background-image: url("../img/kitchen.jpg");
+}
+
+.six {
+  background-image: url("../img/bathroom2.jpg");
+}
+
+.seven {
+  background-image: url("../img/wall.jpg");
+}
+.eight {
+  background-image: url("../img/1interior.jpg");
+}
+
+/* GALERIJA BAIGIASI */
+
+/* KONTAKTAI */
+
+.kontaktai {
+  margin-top: 50px;
+  padding-top: 60px;
+  border: 5px solid black;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+
+.kontaktai h2, .kontaktai h5 {
+  font-weight: bold;
+}
+
+textarea {
+  background-color: rgb(218, 221, 226);
+}
+/* KONTAKTAI END */
+
+/* Paslaugos */
+
+/* Paslaugos end */
+
+/* Straipsniai */
+.str{
+  margin-left: 30px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+
+/* STRAIPSNIS */
+.strA{
+  padding: 10px;
+  font-style: italic;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+.strT{
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+
+.strbtn{
+  color: white;
+}
+
+/* Straipsniai all end */
