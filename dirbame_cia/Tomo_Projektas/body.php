@@ -26,13 +26,12 @@
 
 
 
-<h3 style="text-align:center">Smalsiuose šnekučiuose rasite:</h3>
+<h3 class="mt-4"style="text-align:center">Smalsiuose šnekučiuose rasite:</h3>
 <div class="">
-
     <ul style="text-align:center">
-        <li>Žaidimų erdvę.</li>
-        <li>Mini darželį (valandinį).</li>
-        <li>Įvairių būrelių.</li>
+        <li>Žaidimų erdvę;</li>
+        <li>Mini darželį (valandinį);</li>
+        <li>Įvairių būrelių;</li>
         <li>Gimtadienio erdvę!</li>
     </ul>
 </div>

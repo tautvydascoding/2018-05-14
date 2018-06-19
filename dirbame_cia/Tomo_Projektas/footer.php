@@ -1,12 +1,11 @@
 
-<div class="container-fluid bg-info">
-<div class="row">
+<div class="container-fluid spalvaG ">
+<div class="row spalvaG ">
 <div class="col-md-2">
     <a target="_blanc" href="https://www.facebook.com/smalsusSnekuciai/">
         <img class="dydis" src="img\facebook.png" alt="Facebook icon">
     </a>
-    <a target="_blanc" href="https://www.instagram.com/smalsus_snekuciai/"><i class="fab fa-instagram"></i></a>
-
+    <a target="_blanc" href="https://www.instagram.com/smalsus_snekuciai/"><i class="fab fa-instagram "></i></a>
 </div>
 <div class="col-md-2">
     <h5>VšĮ "Smalsūs šnekučiai"
@@ -28,16 +27,17 @@ Vaikų ir tėvelių laisvalaikio ir užimtumo studija</h6>
 </div>
 </div>
 </div>
+<div class="row-fluid bg-info" >
+    <p style="margin-bottom: 0px;">&#9400; 2018 Smalsūs Šnekučiai </p>
+</div>
 
 <script src="libs/jquery-3.2.1.min.js" type="text/javascript"> </script>
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<!-- <script src="C:\Users\user\Documents\GitHub\2018-05-14\dirbame_cia\diena_7\Tomas\Projekto_pradzia\libs\anime-master\documentation\assets\js\anime.2.0.1.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
 <!-- MANO JS failas pats zemiausias -->
 <script type="text/javascript" src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 
 </body>
 
