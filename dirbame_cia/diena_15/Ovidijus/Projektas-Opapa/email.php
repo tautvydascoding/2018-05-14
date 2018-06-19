@@ -43,10 +43,10 @@ try {
     $mail->AltBody = $klientoTekstas;
 
     $mail->send();
-    header('Location: kontaktai.php');
+    header('Location: issiunte.php');
 
 } catch (Exception $e) {
     echo 'Zinute nesisiusta: ', $mail->ErrorInfo;
-    header('Location: kontaktai.php');
+    header('Location: neissiunte.php');
 
 }

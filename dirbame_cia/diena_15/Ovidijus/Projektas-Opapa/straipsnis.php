@@ -20,18 +20,18 @@ include("navigacija.php");
 <!-- Navigacijos pabaiga -->
 <!-- STRAIPSNIAI -->
 
-<div class="container straipsniufonas mt-4 pt-2">
+<div class="container tPilkPermFonas mt-4 pt-2">
 
-  <h3 class="text-center ">
+  <h3 class="text-center strA ">
     <?php echo $data['article_title']; ?> -
     <small>
-      Įkelta: <?php echo date('l jS', $data['article_timestamp']); ?>
+      Įkelta: <?php echo date('l jS'); ?>
     </small>
   </h3>
-  <p class="mt-3">
+  <p class="mt-3 strT">
     <?php echo $data['article_content']; ?>
   </p>
-  <button class="mb-3 " type="button" name="button"><a href="straipsniai.php">&larr; Atgal</a></button>
+  <button class="mb-3 btn" type="button" name="button"><a class="strbtn" href="straipsniai.php">Atgal</a></button>
 </div>
 
 <!-- Straipsniai pabaiga -->

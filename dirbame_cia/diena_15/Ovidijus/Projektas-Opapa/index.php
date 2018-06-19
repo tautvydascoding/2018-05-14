@@ -3,13 +3,11 @@ include("header.php");
  ?>
 <body>
 
-
-
 <!-- NAVIGACIJA -->
-  <?php
-  include("navigacija.php");
-   ?>
-   <div class="container mb-1 ">
+<?php
+include("navigacija.php");
+?>
+<div class="container mb-1 ">
 <!-- Karuseles -->
 <div id="slides" class="carousel slide mt-4" data-ride="carousel">
 
@@ -25,7 +23,7 @@ include("header.php");
       <img src="img/1interior.jpg" alt="">
       <div class="carousel-caption">
         <h1 class="display-5  text-muted">Kreipkitės į mus !</h1>
-        <a href="kontaktai.php"><button type="button" class="btn btn-lg" title="Paspauskite ir Jus nukreipsime į kontaktų skiltį"href="kontaktai.php">Kontaktai</button></a>
+        <a href="kontaktai.php"><button type="button" class="btn btnsz btn-lg" title="Paspauskite ir Jus nukreipsime į kontaktų skiltį"href="kontaktai.php">Kontaktai</button></a>
 
       </div>
     </div>
@@ -43,24 +41,24 @@ include("header.php");
 <!-- karuseles pabaiga -->
 
 <!-- Apie mus pradzia -->
-<div class="container-fluid  mt-4">
+<div class="ml-3 mr-3 mt-4">
   <div class="row">
-  <div class="col-md-6 col-ms-12 apiemus mr-2" title="Aprašymas apie mūsų įmonės veiką">
+  <div class="col-md-6 col-ms-12 tPilkPermFonas mr-2" title="Aprašymas apie mūsų įmonės veiką">
     <h2 class="text-center">APIE MUS</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p class=" tx">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
   <div class="col-md col-ms privalumai" title="Mūsų įmonės privalumai">
-<h6 class="mt-2">Patikimumas</h6>
-<h8>Komanda</h8>
-<p class="text-muted">Ut enim ad minim veniam, quis nostrud exercitation </p>
+<h6 class="mt-2 tx">Patikimumas</h6>
+<h8 class="rd" >Komanda</h8>
+<p class=" tx">Ut enim ad minim veniam, quis nostrud exercitation </p>
 
-<h6>Kokybe</h6>
-<h8>Patirtis</h8>
-<p class="text-muted">Duis aute irure dolor in reprehenderit in </p>
+<h6 class=" tx">Kokybe</h6>
+<h8 class="rd">Patirtis</h8>
+<p class="tx">Duis aute irure dolor in reprehenderit in </p>
 
-<h6>Inovativumas</h6>
-<h8>Tobulinimasis</h8>
-<p class="text-muted">Lorem ipsum dolor sit amet, consectetur </p>
+<h6 class=" tx">Inovativumas</h6>
+<h8 class="rd">Tobulinimasis</h8>
+<p class="tx">Lorem ipsum dolor sit amet, consectetur </p>
   </div>
   </div>
 </div>
@@ -93,7 +91,7 @@ include("header.php");
       </div>
 
       <div class="col-sm-6 col-md-3 mt-2 mb-2">
-        <a href="paslaugos.php"><img class="ikonos" src="img/plyteles.png" ></a>
+        <a href="paslaugos.php"><img class="ikonos" value="shake" src="img/plyteles.png" ></a>
         <h6>Plytelių klyjavimas</h6>
       </div>
 

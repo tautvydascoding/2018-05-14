@@ -43,10 +43,10 @@ try {
     $mail->AltBody = $klientoTelefonas;
 
     $mail->send();
-    header('Location: index.php');
+    header('Location: issiunte.php');
 
 } catch (Exception $e) {
     echo 'Zinute nesisiusta: ', $mail->ErrorInfo;
-    header('Location: index.php');
+    header('Location: neissiunte.php');
 
 }

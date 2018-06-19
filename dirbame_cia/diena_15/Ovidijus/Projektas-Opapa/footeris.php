@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-4 text-center mt-5">
       <h2>Kontaktai</h2>
-      <h5>Tel: 860852852</h5>
+      <h5 class="rd">Tel: 860852852</h5>
       <h5>El.paštas: darbai@darbai.lt</h5>
       <div class="col-4 social padding">
         <a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -20,7 +20,7 @@
         </form>
     </div>
 
-    <div class="col-md-4 logo">
+    <div class="col-md-4 ikonos logo">
       <img src="img/logo.png" alt="">
     </div>
 

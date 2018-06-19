@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Cuprum', sans-serif;
 }
 
 body {
   background-image: url("../img/background.jpg");
+  padding: 10px;
 }
 
 .btn {
@@ -13,6 +15,29 @@ body {
 
 input {
   background-color: rgb(218, 221, 226);
+}
+
+.tPilkPermFonas {
+  background-color: rgba(126, 134, 135, 0.6);
+  border-radius: 10px;
+}
+.ikonos:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 /* BENDRAS END */
@@ -26,6 +51,7 @@ input {
 
 .navbar, .footeris {
   background-color: rgba(184, 186, 179, 0.9);
+  border-radius: 10px;
 }
 
 .logo img {
@@ -50,11 +76,6 @@ input {
   border-radius: 10px;
 }
 
-.apiemus {
-  background-color: rgba(126, 134, 135, 0.6);
-  border-radius: 10px;
-}
-
 .privalumai {
   background-color: rgba(230, 228, 224, 0.8);
   border-radius: 10px;
@@ -73,17 +94,6 @@ input {
 
 /* GALERIJA */
 
-/* .img-fluid{
-  width: 255px;
-  height: 151px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 2px solid white;
-} */
-.galerijosfonas{
-  background-color: rgba(126, 134, 135, 0.6);
-  border-radius: 10px;
-}
 body .galerija {
   font-size: 1.2rem;
   line-height: 1.45;
@@ -110,6 +120,7 @@ body .galerija {
 }
 
 .portfolio-item {
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,17 +156,11 @@ body .galerija {
   grid-row: span 20;
   grid-column: span 3;
 }
-
-.portfolio-item:hover {
-  color: white;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.85);
-}
-
-.one {
-  background-image: url("../img/architecture.jpg");
-}
 .fotobtn {
   width: 200px;
+}
+.one {
+  background-image: url("../img/architecture.jpg");
 }
 .two {
   background-image: url("../img/dining-room.jpg");
@@ -183,7 +188,6 @@ body .galerija {
   background-image: url("../img/1interior.jpg");
 }
 
-
 /* GALERIJA BAIGIASI */
 
 /* KONTAKTAI */
@@ -191,7 +195,7 @@ body .galerija {
 .kontaktai {
   margin-top: 50px;
   padding-top: 60px;
-  border: 3px solid grey;
+  border: 5px solid black;
   background-color: rgba(245, 241, 244, 0.37);
 }
 
@@ -202,27 +206,39 @@ body .galerija {
 textarea {
   background-color: rgb(218, 221, 226);
 }
-
-.siusti {
-  background-color: grey;
-}
-
 /* KONTAKTAI END */
 
 /* Paslaugos */
 
-.visosPaslaugos {
-  background-color: rgba(126, 134, 135, 0.6);
-  border-radius: 10px;
-}
-
 /* Paslaugos end */
+
 /* Straipsniai */
-
-.straipsniufonas {
-  background-color: rgba(126, 134, 135, 0.6);
+.str{
+  margin-left: 30px;
+  border: 3px solid lightblue;
   border-radius: 10px;
-
+  background-color: rgba(245, 241, 244, 0.37);
 }
 
-/* Straipsniai end */
+/* STRAIPSNIS */
+.strA{
+  padding: 10px;
+  font-style: italic;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+.strT{
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  background-color: rgba(245, 241, 244, 0.37);
+}
+
+.strbtn{
+  color: white;
+}
+
+/* Straipsniai all end */

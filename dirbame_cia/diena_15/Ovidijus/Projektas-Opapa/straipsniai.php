@@ -19,11 +19,11 @@ include("navigacija.php");
 <!-- Navigacijos pabaiga -->
 <!-- STRAIPSNIAI -->
 
-<div class="container straipsniufonas">
-  <h1 class="mb-5 mt-4 pt-2 text-center"><strong>SUSIJĘ STRAIPSNIAI</strong></h1>
-  <div class=" pt-3 pb-3">
+<div class="container tPilkPermFonas">
+  <h2 class="mb-5 mt-4 pt-2 text-center"><strong>SUSIJĘ STRAIPSNIAI</strong></h2>
+  <div class=" pt-3 pb-3 ">
     <?php foreach ($articles as $article) {  ?>
-    <h3 class="mb-5 ml-5">
+    <h3 class="mb-5 p-3 str w-75">
       <a href="straipsnis.php?id=<?php echo $article['article_id'];?>">
         <?php echo $article['article_title']; ?>
       </a>
@@ -37,11 +37,10 @@ include("navigacija.php");
 
 <!-- Straipsniai pabaiga -->
 <!-- Footeris pradzia -->
-<div class="fixed-bottom">
 <?php
 include("footeris.php");
 ?>
-</div>
+
 <!-- Footerio pabaiga -->
 
 <!--\/ linkai \/  -->

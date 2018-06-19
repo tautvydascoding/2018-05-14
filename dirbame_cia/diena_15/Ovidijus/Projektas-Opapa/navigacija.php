@@ -1,8 +1,8 @@
 
 <nav class="container-fluid navbar navbar-expand-md navbar-dark shadow-lg sticky-top">
 
-  <a class="navbar-brand navlogo " href="index.php">  <img src="img/logo.png" width= ""  alt="">  </a>
-  <h3><strong>APDAILOS DARBAI</strong></h3>
+  <a class="navbar-brand navlogo ikonos" href="index.php">  <img src="img/logo.png" width= ""  alt="">  </a>
+  <h4><strong>APDAILOS DARBAI</strong></h4>
 
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
     <span class="navbar-toggler-icon"></span>
