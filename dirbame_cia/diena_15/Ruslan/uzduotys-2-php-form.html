@@ -1,0 +1,31 @@
+<!-- 1. sukurti form'a naudojant metoda (GET) ir  su ivedimo laukais:
+ vardas, pavarde, telefonas, mygtukas 'registruotis'
+
+2. kai paspaudzia 'registruotis', vartotoja perkelti i registracija.php faila
+
+3. registracija.php faile pasinaudojant globaliu PHP masyvu $_GET atspausdinti vartotojo ivestu duomenis
+pvz.: print_r( $_GET)
+
+// PASIBANDYTI PAPILDOMAI
+pvz.: print_r( $GLOBALS) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="registracija.php" method="GET">
+        <input type="text" name="Vardas" value="" placeholder="Vardas" required>
+        <input type="text" name="Pavarde" value="" placeholder="Pavarde" required>
+        <input type="text" name="Telefonas" value="" placeholder="869999999" pattern="[0-9]{9}">
+        <button type="submit">REGISTRACIJA</button>
+    </form>
+</body>
+</html>
+
+
+
