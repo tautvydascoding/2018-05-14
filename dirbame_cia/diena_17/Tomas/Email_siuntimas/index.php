@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Email</title>
+        <title>scope</title>
          <!--  kad ant ivairiu irenginiu media veiktu   -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,16 +16,20 @@
     </head>
 
     <body>
+        <h1 > Isijunk console </h1>
 
+<form   action="email.php" method="post">
+    <input type="text" name="vardas"  placeholder="vardas" >
+    <input type="email" name="pastas" placeholder="el. pastas"   required>
+    <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas"  required>  </textarea>
 
-<form  action="email.php" method="post">
-    <input type="text" name="vardas" placeholder="vardas">
-    <input type="email" name="pastas" placeholder="el. pastas" required >
-    <textarea name="klausimas" rows="8" cols="80" placeholder="Jusu klausimas" required>
-    </textarea>
-<button type="submit" name="button">Klausti</button>
-
+    <button type="submit" name="button" >
+        Klausti
+    </button>
 </form>
+
+
+<!--      pasitestavimas:  email.php faile   print_r(  $_POST );     -->
 
 
 

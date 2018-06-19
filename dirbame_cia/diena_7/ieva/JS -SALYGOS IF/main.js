@@ -184,3 +184,16 @@ if (klientas === vardas1) {
 //
 
 console.log("3 uzduotis");
+
+tipas1 = "bronze";
+tipas2 = "silver";
+tipas3 = "gold";
+var klientoTipas = "gold";
+
+if (klientoTipas == tipas1) {
+  console.log ("Jums priklauso 15% nuolaida!");
+} else if (klientoTipas == tipas2) {
+  console.log ("Jums priklauso 30% nuolaida!");
+} else  {
+  console.log ("Jums priklauso 5% nuolaida!");
+}

@@ -1,0 +1,40 @@
+/* .drum::first-letter {
+    color: red;
+}
+
+.drum::before {
+    content: "aa";
+    
+} */
+
+.aukstis-100 {
+    height: 100px;
+}
+
+.aukstis-200 {
+    height: 200px;
+}
+
+.aukstis-300 {
+    height: 300px;
+}
+
+.aukstis-400 {
+    height: 400px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+aside {
+    color: white;
+}
+
+.ekranas {
+    min-height: 100vh;
+}

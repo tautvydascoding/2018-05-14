@@ -1,0 +1,260 @@
+.aukstis-100 {
+    height: 100px;
+}
+
+.aukstis-200 {
+    height: 200px;
+}
+
+.aukstis-300 {
+    height: 300px;
+}
+
+.aukstis-400 {
+    height: 400px;
+}
+
+.aukstis-500 {
+    height: 500px;
+}
+
+a {
+    color: #A0CE4E;
+    text-shadow: 3px 3px 6px black;
+    font-weight: bold;
+    font-family: 'Kavoon', cursive;
+    font-size: 30px;
+    height: 100px;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+h3 {
+    font-family: 'Kavoon', cursive;
+    font-weight: bold;
+    color: #A0CE4E;
+    display: block;
+    text-shadow: 3px 3px 6px black;
+    font-size:2.5vw
+}
+
+li {
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+    color: #A0CE4E;
+    display: block;
+    text-shadow: 3px 3px 6px black;
+    font-size: 28px;
+}
+
+/* .kainos1{ */
+
+/* font-family: 'Kavivanar', cursive;
+font-weight: bold; */
+
+/* } */
+
+.spalvaNav {
+    background-color: #FFFF00;
+}
+
+.dydis {
+    height: 70px;
+}
+
+.dydis2 {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    background: url("../img/01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+    color: #A0CE4E;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+
+.kol {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+
+.kainos {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+
+.kainos:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* Pricing header */
+
+.kainos .header {
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+
+.kainos li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+
+.kainos .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.ml16 {
+    font-family: 'Kavivanar', cursive;
+    color: #A0CE4E;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 28px, text-transform: uppercase;
+    /* font-family: 'Kavivanar', cursive; */
+    overflow: hidden;
+}
+
+.ml16 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.spalvaG {
+    background-color: #FFFF00;
+}
+
+.kont {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.regisFrm input[type="text"], .regisFrm input[type="email"], .regisFrm input[type="password"] {
+    width: 94.5%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.send-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.send-button input[type="submit"] {
+    padding: 10px 0;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.send-button input[type="submit"]:hover {
+    background-color: #055d54;
+}
+
+a.logout {
+    float: right;
+}
+
+p.success {
+    color: #34A853;
+}
+
+p.error {
+    color: #EA4335;
+}
+
+.respo{
+    width: 50vw;
+    border-style: outset;
+    background-color: #fff;
+    padding: 30px;
+    border-color: lightblue;
+    border-width: 1vw
+}
+
+p{
+font-family: 'Kavivanar', cursive;
+
+}
+
+input{
+padding: 0px 20px;
+width: 300px;
+height: 40px;
+font-size: 22px;
+}
+button{
+
+width: 100px;
+height: 44px;
+font-size: 22px;
+}
