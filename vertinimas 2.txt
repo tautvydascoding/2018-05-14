@@ -1,4 +1,4 @@
-﻿(trecioji savaite) Tartpinis testas 5% (html, css) 
+﻿(trecioji savaite) Tartpinis testas 5% (html, css)
 (ketritoji savaite) Tarpinis atsiskaitymas 20% (programavimo pagrindai: Ciklai, f-jos)
 (antroji-trecioji savaite) Tarpinis atsiskaitymas 10% (js, jquery)
 (trecioji savaite - antradienis) Tarpinis atsiskaitymas 5% (js scopes: local ir global varible skirtumai)
@@ -8,7 +8,7 @@ Baigiamasis projektas 50%
 Baigiamasis:
 //——————Front End  (css, js, libs)———
 0.4 slider / bg-video (responsive)
-0.7 responsive visas puslapis 
+0.7 responsive visas puslapis
 -0.5 BOOTSTRAP (jei bent 10 klasiunepanaudosi)
 0.5 MDL (bent 10 klasiu, is ju bet 3 pagrindines grido)
 0.3 scss / sass / less - (kintamieji bent 5x, nesting bend 2x, hover)
@@ -16,8 +16,8 @@ Baigiamasis:
 0.2 vector icons
 0.3 js efektai (max. 1.5)
 
- iki 0.8 js formos tikrinimas )validator)  
- 
+ iki 0.8 js formos tikrinimas )validator)
+
 //——————Back End  (PHP)——————————————————
 0.5 ajax (gauti duomenis, pvz: “Load more”) !naudojant jQuery ! Nenaudjant Load f-jos
 0.5 ajax (siusti duomenis) !naudojant jQuery ! Nenaudjant Load f-jos
@@ -25,15 +25,12 @@ iki 0.5 Email siuntimas, redirect i page, isvesti zinute
 0.3 PHP include (bent 4x)
 3x 0.5  PHP duomenu isvedimas (max 3 skirtingos lenteles,)
 3x 0.5 PHP duomenu ivedimas   (max 3 skirtingos lenteles) (User Registracija nesiskaito)
-0.7 PHP  Registracija + Login + PHP sesion (ir bent vienas session kintamaasis)
+0.7 PHP  Registracija + Login + PHP sesion (ir bent vienas session kintamasis)
 0.2  MYGTUKAI DELETE (google “CRUD”)
-0.5  MYGTUKAS EDIT   
+0.5  MYGTUKAS EDIT
  php paieska
  php puslapevimas (puslapiu numeriai ir ant ju paspaudus uzkrauna sekanti puslapi/prekes kuriso netilpo pirmajame puslapyje)
 
 
 //-------------
 1 jeigu savo projekto (viena page) paleisi ant wordpress pvz: kontaktai arba  about arba gallery ...
- 
-
- 

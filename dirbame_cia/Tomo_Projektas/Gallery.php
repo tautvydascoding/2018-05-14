@@ -1,5 +1,4 @@
 <?php
 include("header.php");
-include("apie.php");
+include("GalleryMain.php");
 include("footer.php");
- ?>
