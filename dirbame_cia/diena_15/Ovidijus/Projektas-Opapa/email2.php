@@ -43,7 +43,10 @@ try {
     $mail->AltBody = $klientoTelefonas;
 
     $mail->send();
-    echo 'Issiunteme zinute sekmingai';
+    header('Location: index.php');
+
 } catch (Exception $e) {
     echo 'Zinute nesisiusta: ', $mail->ErrorInfo;
+    header('Location: index.php');
+
 }

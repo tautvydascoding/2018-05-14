@@ -2,6 +2,7 @@
 <nav class="container-fluid navbar navbar-expand-md navbar-dark shadow-lg sticky-top">
 
   <a class="navbar-brand navlogo " href="index.php">  <img src="img/logo.png" width= ""  alt="">  </a>
+  <h3><strong>APDAILOS DARBAI</strong></h3>
 
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
     <span class="navbar-toggler-icon"></span>
@@ -21,6 +22,10 @@
 
       <li class="nav-item mr-5">
         <a class="nav-link" href="galerija.php">GALERIJA</a>
+      </li>
+
+      <li class="nav-item mr-5">
+        <a class="nav-link" href="straipsniai.php">STRAIPSNIAI</a>
       </li>
 
       <li class="nav-item mr-5">

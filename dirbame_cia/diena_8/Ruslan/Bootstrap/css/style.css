@@ -1,0 +1,21 @@
+article {
+    min-height: 300px;
+}
+
+.registration {
+    background: url("../img/reg_back.jpg");
+    background-size: cover;
+    min-height: 30vh;
+}
+/* 
+button {
+position: absolute;
+top: 50%;
+left: 50%;
+
+} */
+
+.navbar-brand {
+    /* padding: 8px; */
+    height: 24px;
+}

@@ -9,8 +9,8 @@ include("navigacija.php");
 ?>
 <!-- Navigacijos pabaiga -->
 <!-- PASLAUGOS -->
-<div class="container visosPaslaugos mt-4">
-<h1 class="text-center">MŪSŲ TEIKIAMOS PASLAUGOS</h1>
+<div class="container visosPaslaugos mt-4 pt-2">
+<h1 class="text-center display-5"><strong>MŪSŲ TEIKIAMOS PASLAUGOS</strong></h1>
 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
 
 <div class="container">
@@ -19,10 +19,10 @@ include("navigacija.php");
     <div class="vp col-sm-6 col-md-3 mt-2">
       <!-- Trigger the modal with a button -->
        <img class="ikonos" src="img/baldai.png" ><br/>
-      <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Baldų surinkimas</button>
+      <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#baldai">Baldų surinkimas</button>
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal fade" id="baldai" role="dialog">
         <div class="modal-dialog">
           <!-- Modal content-->
           <div class="modal-content">
@@ -42,10 +42,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-2">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/dazymas.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Dažymo darbai</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#dazymas">Dažymo darbai</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="dazymas" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -65,10 +65,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-2">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/grindys.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Grindų klojimas</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#grindys">Grindų klojimas</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="grindys" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -88,10 +88,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-2">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/muras.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Mūro darbai</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#muras">Mūro darbai</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="muras" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -111,10 +111,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-5">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/plyteles.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Plytelių klyjavimas</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#plyteles">Plytelių klyjavimas</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="plyteles" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -134,10 +134,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-5">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/siltinimas.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Sienų šiltinimas</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#siltinimas">Sienų šiltinimas</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="siltinimas" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -157,10 +157,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-5">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/tinkavimas.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Tinkavimo darbai</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#tinkavimas">Tinkavimo darbai</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="tinkavimas" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -180,10 +180,10 @@ include("navigacija.php");
         <div class="vp col-sm-6 col-md-3 mt-5">
           <!-- Trigger the modal with a button -->
            <img class="ikonos" src="img/kita.png" ><br/>
-          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#myModal">Kiti smulkūs darbai</button>
+          <button type="button" class="btn mt-1 btn-sm" data-toggle="modal" data-target="#kita">Kiti smulkūs darbai</button>
           </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="kita" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -210,9 +210,11 @@ include("navigacija.php");
 
 <!-- Paslaugos pabaiga -->
 <!-- Footeris pradzia -->
+<div class="fixed-bottom">
 <?php
 include("footeris.php");
 ?>
+</div>
 <!-- Footerio pabaiga -->
 
 <!--\/ linkai \/  -->

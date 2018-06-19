@@ -9,7 +9,7 @@ include("header.php");
   <?php
   include("navigacija.php");
    ?>
-   <div class="container ">
+   <div class="container mb-1 ">
 <!-- Karuseles -->
 <div id="slides" class="carousel slide mt-4" data-ride="carousel">
 
