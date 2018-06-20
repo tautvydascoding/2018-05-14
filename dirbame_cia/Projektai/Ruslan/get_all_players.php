@@ -24,7 +24,7 @@ function printAllplayers(){
 
 echo ("
 
-        <table class='mdl-data-table mdl-js-data-table mdl-shadow--2dp'>");
+        <table class='mdl-data-table mdl-js-data-table mdl-shadow--2dp all-table'>");
 echo ('
 
     <thead>
