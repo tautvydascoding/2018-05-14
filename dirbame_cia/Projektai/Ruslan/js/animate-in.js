@@ -1,12 +1,4 @@
-/**
- * animate-in.js 1.0.0
- * Animate elements on entrance
- * 
- * Usage:
- *
- * Make sure to add this to the <head> of your page to avoid flickering on load 
- * Based on https://andycaygill.github.io/scroll-entrance/
- */
+
 (function() {
 
 	//Set up defaults

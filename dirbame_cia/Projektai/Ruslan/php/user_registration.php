@@ -195,7 +195,8 @@ function updatePlayerData (){
 
     // print $name;
 
-    $playerUpdate = "UPDATE dalyviai SET vardas = '$name', lname = '$lname', gimimo_data = '$gimimo_data', gps_id = $gps_id, points = '$points', email = '$email', phone = '$phone' WHERE uid = $uid";
+    $playerUpdate = "UPDATE dalyviai SET vardas = '$name', lname = '$lname', gimimo_data = '$gimimo_data', gps_id = '$gps_id', points = '$points', email = '$email', phone = '$phone' WHERE uid = $uid";
+    print ($playerUpdate);
     // print $playerUpdate;
     // print_r ($_POST);
                                         
