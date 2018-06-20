@@ -18,8 +18,64 @@
     <body>
         <h1 > Isijunk console </h1>
 
+<?php
+//UZDUOTIS 1:
+// sukurti tris klases: zmogus ir moteris ir vyras
+// moteris paveldi zmogu ir vyras paveldi zmogu
 
+// 'zmogus'  turi: public ugis, protected svoris, private pinigai
+// 'moteris' papildomai turi: estrogenai
+// 'vyras'   papildomai turi: testosteronai
 
+// UZDUOTIS 2:
+// susikurti objekta: Monika (moteris) ir Tadas (vyras)
+// issivesti ju: ugis, svoris, pinigu skaicius, hormono skaicius
+include_once('vyras.php');
+include_once('moteris.php');
+
+$Monika = new moteris();
+var_dump($Monika);
+echo "<br />";
+
+$Tadas = new vyras();
+var_dump($Tadas);
+echo "<br />";
+
+echo "Monikos ugis: $Monika->ugis <br />";
+// echo "Monikos svoris: $Monika->svoris <br />"; negalima preiti, nes protected
+// echo "Monikos pinigai: $Monika->pinigai <br />"; negalima prieiti, nes private
+echo "Monikos estrogenai: $Monika->estrogenai <br />";
+
+echo "Tado ugis: $Tadas->ugis <br />";
+// echo "Tado svoris: $Tadas->svoris <br />"; negalima preiti, nes protected
+// echo "Tado pinigai: $Tadas->pinigai <br />"; negalima prieiti, nes private
+echo "Tado testoseronai: $Tadas->testosteronai <br />";
+// UZDUOTIS 3:
+//  atspausdinti visus kintamuosius (NEnaudojant/nesikurti "zmogus"  objekto
+
+?>
+<div class="container d-flex justify-content-center">
+
+<div class="row">
+
+  <div class="col-md-4 bg-info m-2 p-2">
+
+<h2>Monikos statistika </h2>
+ <?php
+$Monika->printStats();
+$Monika->printPinigai();
+?>
+</div>
+<div class="col-md-4 bg-info m-2">
+
+ <h2> Tado statistika</h2> <?php
+$Tadas->printStats();
+$Tadas->printPinigai();
+ ?>
+</div>
+</div>
+
+</div>
 
 
 

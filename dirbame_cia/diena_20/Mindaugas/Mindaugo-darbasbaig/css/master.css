@@ -1,3 +1,6 @@
+body {
+  content: url(http://placehold.it/350x150);
+}
 h1 {
     color: red;
 }
@@ -22,3 +25,7 @@ h1 {
   height: 600px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
  }
+
+h2 {
+  text-align: center;
+}

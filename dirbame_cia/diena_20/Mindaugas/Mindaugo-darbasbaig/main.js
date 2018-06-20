@@ -1,7 +1,3 @@
-console.log("Labas ar esi");
-
-
-$('h1').hide(1000);
 
 function initMap() {
 
