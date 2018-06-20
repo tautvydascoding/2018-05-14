@@ -1,0 +1,114 @@
+body {
+        font-family:  'Pacifico';
+      color: black;
+
+     }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+
+
+
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.nav {
+font-size: 25px;
+text-shadow: 4px 4px 4px #aaa;
+color: black;
+
+}
+
+
+.jumbotron {
+font-size: 50px;
+background-image: url("../nuotraukos/bigstock-Abstract-d-white-geometric-ba-62092823.jpg");
+
+}
+
+a {
+  color: black;
+}
+
+
+.fab {
+  font-size: 30px;
+  float: right;
+  margin: 10px;
+
+
+}
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.carousel-inner {
+    height: auto;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  border-collapse: collapse;
+  width: 100;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+
+}
+
+h3 {
+  text-align: center;
+}

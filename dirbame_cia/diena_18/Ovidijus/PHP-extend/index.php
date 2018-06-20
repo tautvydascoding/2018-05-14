@@ -20,18 +20,10 @@
 
         <?php
 
-        include('gyvunai.php');
+        include('zmogus.php');
 
 
          ?>
-
-
-
-
-
-
-
-
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
         <script src="libs/jquery-3.2.1.min.js" type="text/javascript"> </script>
 

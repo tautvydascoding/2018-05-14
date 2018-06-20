@@ -2,6 +2,11 @@
 
     <?php
 
-      include_once('gyvunas.php');
+      include_once('vilkas.php');
 
-        //visa info nukeliauja i konstruktoriu.
+        $vilkas = new Vilkas();
+        echo $vilkas->svoris . "<br />";
+        // echo $vilkas->pusryciai . "<br />";
+        // echo $vilkas->ligos . "<br />";
+        $vilkas-> printLigos();
+        $vilkas-> printPusryciai();
