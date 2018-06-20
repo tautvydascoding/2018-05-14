@@ -1,3 +1,6 @@
+Labas
+
+
 function toDay() {
   var dayName = new Array ("Sekmadienis", "Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienido", "Penktadienis", "Šeštadienis");
 

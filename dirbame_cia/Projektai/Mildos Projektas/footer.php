@@ -16,7 +16,7 @@
 </div>
 
 <script src="main.js">
- toDay()
+ toDay();
 </script>
 
 
