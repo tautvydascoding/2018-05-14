@@ -44,7 +44,7 @@
         <div class="col-12 mt-5 align-items-center">
           <h1 class="display-4"><?php global $pranesimas; echo $pranesimas ?></h1>
           <p class="lead"></p>
-          <a href="Islikimas3.php" class="btn btn-lg mt-4 btn-primary shadowed">Grižti į puslapį</a>
+          <a href="index.php" class="btn btn-lg mt-4 btn-primary shadowed">Grižti į puslapį</a>
           <!-- <i class="d-block fa fa-angle-down pt-5 fa-3x"></i> -->
         </div>
       </div>
